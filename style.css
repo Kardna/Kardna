@@ -1,0 +1,173 @@
+@font-face {
+  font-family: Main;
+  src: url(./a.otf);
+}
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Main";
+}
+.main-nav{
+  transform: translateY(15px);
+}
+.main{
+  zoom: 1.2;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 0 1px 0 rgba(24, 94, 224, 0.15), 0 6px 12px 0 rgba(24, 94, 224, 0.15);
+  width: 95%;
+  height: 50px;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  left: 2.5%;
+}
+
+.main h1{
+  position: absolute;
+ left: 1.5%;
+  bottom: 28%;
+  font-family: "Main";
+  font-size: 24px;
+}
+.main h1:hover{
+  animation-name: backgroundColorPalette;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+#iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  border: none;
+}
+
+.a{
+  color: inherit;
+  text-decoration: none;
+  position: absolute;
+  right: 2%;
+  bottom: 34%;
+  font-family: "Main";
+  font-size: 18px;
+}
+.a :hover{
+  color: inherit;
+  text-decoration: none;
+  animation-name: backgroundColorPalette;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.ab{
+  color: inherit;
+  text-decoration: none;
+  position: absolute;
+  right: 5.5%;
+  bottom: 34%;
+  font-family: "Main";
+  font-size: 18px;
+}
+.b{
+  color: inherit;
+  text-decoration: line-through;
+  position: absolute;
+  right: 6.5%;
+  bottom: 34%;
+  font-family: "Main";
+  font-size: 18px;
+  color: #6c6c6c;
+}
+.b :hover{
+  color: inherit;
+  text-decoration: line-through;
+  color: #6c6c6c;
+  
+}
+.bc{
+  color: inherit;
+  text-decoration: none;
+  position: absolute;
+  right: 12.5%;
+  bottom: 34%;
+  font-family: "Main";
+  font-size: 18px;
+}
+.c{
+  color: inherit;
+  text-decoration: none;
+  position: absolute;
+  right: 13.5%;
+  bottom: 34%;
+  font-family: "Main";
+  font-size: 18px;
+}
+.c :hover{
+  color: inherit;
+  text-decoration: none;
+  animation-name: kardna;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  color: #6c6c6c;
+}
+
+@keyframes kardna {
+  0% {
+    color: #000000;
+  }
+  25% {
+    color: #181818;
+  }
+  50% {
+    color: #3a3a3a;
+  }
+  75% {
+    color: #606060;
+  }
+  100% {
+    color: #6c6c6c;
+  }
+}
+@keyframes bye {
+  0% {
+  opacity: 1;
+  }
+  25% {
+    opacity: 0.75;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.25;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes backgroundColorPalette {
+  0% {
+    color: #ee6055;
+  }
+  25% {
+    color: #60d394;
+  }
+  50% {
+    color: #aaf683;
+  }
+  75% {
+    color: #ffd97d;
+  }
+  100% {
+    color: #ff9b85;
+  }
+}

@@ -1,0 +1,80 @@
+body{
+    background-color: white;
+    animation: fade 2s 1s forwards;
+    opacity: 0;
+}
+.nav{
+position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;
+transform: translateY(15px);
+}
+.bg-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -3;
+}
+.bg-1-img{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 100%;
+    height: 25%;
+    z-index: -2;
+}
+.bg-1-img2{
+    height: 75px;
+    width: 627px;
+    transform: translateY(20ch);
+    opacity: 0;
+}
+.bg-1-img3{
+    height: 75px;
+    width: 627px;
+    transform: translateY(20ch);
+    opacity: 0;
+}
+.bg-3{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -3;
+}
+.bg-3 iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    border: none;
+}
+.bg-2{
+    position: absolute;
+    top: 200%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -3;
+}
+.bg-2 iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    border: none;
+}
+@keyframes fade{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
