@@ -160,7 +160,7 @@ body input, body h1, body h3, body a, body span {
   z-index: 1;
 }
 #app #app-background #app-background-image {
-  background-image: url("./photo-1483728642387-6c3bdd6c93e5.png");
+  background-image: url("./bg.png");
   height: 100%;
   transition: filter 250ms, transform 250ms;
   width: 100%;
@@ -495,8 +495,10 @@ body input, body h1, body h3, body a, body span {
   color: whitesmoke;
   font-size: 2em;
 }
+
 #app #movies-section .menu-section-content {
   display: flex;
+  filter: blur(1.5rem);
   gap: 1em;
 }
 #app #movies-section .menu-section-content #movie-card-1 .movie-card-content {

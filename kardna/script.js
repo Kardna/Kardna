@@ -104,7 +104,7 @@ const Reminder = () => {
         React.createElement("div", { className: "reminder-icon" },
             React.createElement("i", { className: "fa-regular fa-bell" })),
         React.createElement("span", { className: "reminder-text" },
-            "Kardna V3 Beta ",
+            "Kardna V4 Beta ",
             React.createElement("span", { className: "reminder-time" }, ""))));
 };
 const Time = () => {
@@ -293,22 +293,23 @@ const Tools = () => {
 const Restaurants = () => {
     const getRestaurants = () => {
         return [{
-                desc: "",
+                desc: "A 100 Player Battle Royale!",
                 id: 1,
                 image: "./imgs/fn.jpg",
-                title: "Fortnite"
+                title: "Fortnite",
+               
             }, {
-                desc: "",
+                desc: "A global platform. ",
                 id: 2,
                 image: "./imgs/R.png",
                 title: "Roblox"
             }, {
-                desc: "",
+                desc: "Create and break apart various kinds of blocks.",
                 id: 3,
                 image: "./imgs/m.jpg",
                 title: "Minecraft"
             }, {
-                desc: "",
+                desc: "Roll down the slope.",
                 id: 4,
                 image: "./imgs/s.jpg",
                 title: "Slope"
@@ -319,7 +320,7 @@ const Restaurants = () => {
             return (React.createElement("div", { key: restaurant.id, className: "restaurant-card background-image", style: styles },
                 React.createElement("div", { className: "restaurant-card-content" },
                     React.createElement("div", { className: "restaurant-card-content-items" },
-                        React.createElement("span", { className: "restaurant-card-title" }, restaurant.title),
+                        React.createElement("span", { className: "restaurant-card-title"}, restaurant.title),
                         React.createElement("span", { className: "restaurant-card-desc" }, restaurant.desc)))));
         });
     };
@@ -364,7 +365,7 @@ const Movies = () => {
                     React.createElement("i", { className: movie.icon }))));
         });
     };
-    return (React.createElement(MenuSection, { icon: "fa-solid fa-movie", id: "movies-section", scrollable: true, title: "Popular Shows" }, getMovies()));
+    return (React.createElement(MenuSection, { icon: "fa-solid fa-movie", id: "movies-section", scrollable: true, title: "Next Update" }, getMovies()));
 };
 const UserStatusButton = (props) => {
     const { userStatus, setUserStatusTo } = React.useContext(AppContext);
