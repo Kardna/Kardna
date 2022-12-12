@@ -23,7 +23,7 @@ var buttonArr21 = [
 
 "name": "Krunker.io",
 "url": url +"/uv.html#" + krunker,
-"img": "thumbnails/img65",
+"img": "thumbnails/img65.png",
 }, 
 {
 "name": "BasketBall Stars",
@@ -1155,7 +1155,7 @@ var buttonArr21 = [
     },
     {   "name": "Papas Burgeria",
         "url": "gfiles/gfiles/flash/waflash/papas-burgeria/index.html",
-        "img": "thumbnails/img64",
+        "img": "thumbnails/img64.png",
     },
     {   "name": "Papas HotDoggeria",
         "url": "gfiles/gfiles/flash/waflash/papas-hot-doggeria/index.html",
@@ -2630,7 +2630,7 @@ var buttonArr21 = [
 {
  "name": "Bob The Robber",
  "url": "https://play.gamemonetize.co/axjqhwihwo843nmu8hb30fqil40alqtu/",
- "img": "thumbnails/img63",
+ "img": "thumbnails/img63.png",
 },
 {
  "name": "Driving in the City",
@@ -2785,7 +2785,7 @@ var buttonArr21 = [
  
  "name": "Block Combat Swat",
  "url": "https://html5.gamemonetize.co/z4ajge69b989gm67dq59mkgv20ed6zg6/",
- "img": "thumbnails/img62",
+ "img": "thumbnails/img62.png",
 },
 
 {
@@ -3979,7 +3979,7 @@ var buttonArr21 = [
      },
      {   "name": "Papas Burgeria",
          "url": "https://feetbig.pages.dev/g/gfiles/gfiles/flash/waflash/papas-burgeria/index.html",
-         "img": "thumbnails/img64",
+         "img": "thumbnails/.png",
      },
      {   "name": "Papas HotDoggeria",
          "url": "https://feetbig.pages.dev/g/gfiles/gfiles/flash/waflash/papas-hot-doggeria/index.html",
@@ -5465,7 +5465,7 @@ var buttonArr21 = [
 {
 "name": "Bob The Robber",
 "url": "https://play.gamemonetize.co/axjqhwihwo843nmu8hb30fqil40alqtu/",
-"img": "thumbnails/img63",
+"img": "thumbnails/img63.png",
 },
 {
 "name": "Driving in the City",
@@ -5620,7 +5620,7 @@ var buttonArr21 = [
 
 "name": "Block Combat Swat",
 "url": "https://html5.gamemonetize.co/z4ajge69b989gm67dq59mkgv20ed6zg6/",
-"img": "thumbnails/img62",
+"img": "thumbnails/img62.png",
 },
 
 {
