@@ -2415,37 +2415,16 @@ var buttonArr21 = [
 },
 //end gfiles
 {
- "name": "Roblox (FIXED)",
- "url": "https://154f-24-0-34-192.ngrok.io/service/hvtrs8%2F-nmw%2Cge%2Frlcy-rmbnoz-aoppmrctkol%2F7369-rmbnoz",
- "img": "thumbnails/img59.png",
-},
-{
-
- "name": "Krunker.io",
- "url": "https://schooliskool.feetarebig.repl.co",
- "img": "thumbnails/img65",
-}, 
-{
  "name": "Temple Run 2",
  "url": "https://bigfoot9999.github.io/html5-games/games/templerun2/",
  "img": "thumbnails/img58.png",
 }, 
-{
- "name": "Football Master",
- "url": "https://football-master-1.bigfootgaming99.repl.co/",
- "img": "thumbnails/soccer-master.png",
-},
 {
  
  "name": "Burrito Bison",
  "url": "https://grandcanyonshuttles.com/uploads/5/5/6/7/5567194/custom_themes/607721921917323670/burrito-bison-ll.html",
  
  "img": "thumbnails/img4.jpg",
-},
-{
- "name": "SubSurfers Huston",
- "url": "https://more-school.bigfootgaming99.repl.co/",
- "img": "thumbnails/HoustonSS",
 },
 {
  
@@ -2582,11 +2561,6 @@ var buttonArr21 = [
  "url": "https://headless.gg/",
  
  "img": "thumbnails/img27.png",
-},
-{
- "name": "Amoug Us",
- "url": "https://school.bigfootgaming99.repl.co/",
- "img": "thumbnails/img223",
 },
 {
  
@@ -2815,12 +2789,6 @@ var buttonArr21 = [
 },
 
 {
- 
- "name": "Mini Royale 2",
- "url": "https://miniroyale.clambam10.repl.co/",
- "img": "thumbnails/img66",
-},
-{
  "name": "MooMoo.io",
  "url": "https://1a29-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly9tb29tb28uaW8v",
  "img": "thumbnails/img219",
@@ -2848,11 +2816,6 @@ var buttonArr21 = [
      "name": "Doomz.io",
      "url": "https://kardna-v2.herokuapp.com/KardnaV2/hvtrs8%2F-dmooz%2Cim%2F",
      "img": "thumbnails/doomz-io.png",
-    },
-    {
-     "name": "Stickman Hook",
-     "url": "https://magictricks.milkysdad.repl.co/gamefiles/stickmanhook/",
-     "img": "thumbnails/stickman.jpg",
     },
     {
      "name": "JustFall.LOL",
@@ -5292,21 +5255,11 @@ var buttonArr21 = [
 "img": "thumbnails/img58.png",
 }, 
 {
-"name": "Football Master",
-"url": "https://football-master-1.bigfootgaming99.repl.co/",
-"img": "thumbnails/soccer-master.png",
-},
-{
 
 "name": "Burrito Bison",
 "url": "https://grandcanyonshuttles.com/uploads/5/5/6/7/5567194/custom_themes/607721921917323670/burrito-bison-ll.html",
 
 "img": "thumbnails/img4.jpg",
-},
-{
-"name": "SubSurfers Huston",
-"url": "https://more-school.bigfootgaming99.repl.co/",
-"img": "thumbnails/HoustonSS",
 },
 {
 
@@ -5443,11 +5396,6 @@ var buttonArr21 = [
 "url": "https://headless.gg/",
 
 "img": "thumbnails/img27.png",
-},
-{
-"name": "Amoug Us",
-"url": "https://school.bigfootgaming99.repl.co/",
-"img": "thumbnails/img223",
 },
 {
 
@@ -5676,12 +5624,6 @@ var buttonArr21 = [
 },
 
 {
-
-"name": "Mini Royale 2",
-"url": "https://miniroyale.clambam10.repl.co/",
-"img": "thumbnails/img66",
-},
-{
 "name": "MooMoo.io",
 "url": "https://1a29-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly9tb29tb28uaW8v",
 "img": "thumbnails/img219",
@@ -5710,11 +5652,11 @@ var buttonArr21 = [
     "url": "https://kardna-v2.herokuapp.com/KardnaV2/hvtrs8%2F-dmooz%2Cim%2F",
     "img": "thumbnails/doomz-io.png",
    },
-   {
-    "name": "Stickman Hook",
-    "url": "https://magictricks.milkysdad.repl.co/gamefiles/stickmanhook/",
-    "img": "thumbnails/stickman.jpg",
-   },
+//   {
+  //  "name": "Stickman Hook",
+    //"url": "https://magictricks.milkysdad.repl.co/gamefiles/stickmanhook/",
+    //"img": "thumbnails/stickman.jpg",
+   //},
    {
     "name": "JustFall.LOL",
     "url": "https://stars-delta.vercel.app/play/justfall-lol/index.html",
@@ -7095,13 +7037,7 @@ var randomlinks= [
  "link":"gfiles/gfiles/lanucher/index.html?link=https://bigfoot9999.github.io/html5-games/games/templerun2/",
 },
 {
- "link":"gfiles/gfiles/lanucher/index.html?link=https://football-master-1.bigfootgaming99.repl.co/",
-},
-{
  "link":"gfiles/gfiles/lanucher/index.html?link=https://grandcanyonshuttles.com/uploads/5/5/6/7/5567194/custom_themes/607721921917323670/burrito-bison-ll.html",
-},
-{
- "link":"gfiles/gfiles/lanucher/index.html?link=https://more-school.bigfootgaming99.repl.co/",
 },
 {
  "link":"gfiles/gfiles/lanucher/index.html?link=https://bigfoot9999.github.io/html5-games/games/google-kitsune/",
@@ -7165,9 +7101,6 @@ var randomlinks= [
 },
 {
  "link":"gfiles/gfiles/lanucher/index.html?link=https://headless.gg/",
-},
-{
- "link":"gfiles/gfiles/lanucher/index.html?link=https://school.bigfootgaming99.repl.co/",
 },
 {
  "category":"Action",
@@ -7289,9 +7222,6 @@ var randomlinks= [
  "link":"gfiles/gfiles/lanucher/index.html?link=https://html5.gamemonetize.co/z4ajge69b989gm67dq59mkgv20ed6zg6/",
 },
 {
- "link":"gfiles/gfiles/lanucher/index.html?link=https://miniroyale.clambam10.repl.co/",
-},
-{
  "link":"gfiles/gfiles/lanucher/index.html?link=https://1a29-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly9tb29tb28uaW8v",
 },
 {
@@ -7305,9 +7235,6 @@ var randomlinks= [
 },
 {
  "link":"gfiles/gfiles/lanucher/index.html?link=https://kardna-v2.herokuapp.com/KardnaV2/hvtrs8%2F-dmooz%2Cim%2F",
-},
-{
- "link":"gfiles/gfiles/lanucher/index.html?link=https://magictricks.milkysdad.repl.co/gamefiles/stickmanhook/",
 },
 {
  "link":"gfiles/gfiles/lanucher/index.html?link=https://stars-delta.vercel.app/play/justfall-lol/index.html",
