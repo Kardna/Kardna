@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Main;
+    src: url(./a.otf);
+  }
+
 body{
     background-color: white;
     animation: fade 2s 1s forwards;
