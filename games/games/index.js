@@ -1,4 +1,4 @@
-var backend = "aHR0cHM6Ly8xYTI5LTI0LTAtMzQtMTkyLm5ncm9rLmlv";
+var backend = "aHR0cHM6Ly84N2Y3LTI0LTAtMzQtMTkyLm5ncm9rLmlv";
 var url = atob(backend);
 var roblox = "aHR0cHM6Ly9ub3cuZ2cvcGxheS9yb2Jsb3gtY29ycG9yYXRpb24vNTM0OS9yb2Jsb3g=";
 var krunker = "aHR0cHM6Ly9icm93c2VyZnBzLmNvbS8=";
@@ -5239,15 +5239,9 @@ var buttonArr21 = [
 },
 //end gfiles
 {
-"name": "Roblox (FIXED)",
-"url": "https://154f-24-0-34-192.ngrok.io/service/hvtrs8%2F-nmw%2Cge%2Frlcy-rmbnoz-aoppmrctkol%2F7369-rmbnoz",
-"img": "thumbnails/img59.png",
-},
-{
-
 "name": "Krunker.io",
-"url": "https://schooliskool.feetarebig.repl.co",
-"img": "thumbnails/img65",
+"url": url +"/uv.html#" + krunker,
+"img": "thumbnails/img65.png",
 }, 
 {
 "name": "Temple Run 2",
