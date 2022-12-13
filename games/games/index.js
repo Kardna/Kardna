@@ -1,4 +1,4 @@
-var backend = "aHR0cHM6Ly84N2Y3LTI0LTAtMzQtMTkyLm5ncm9rLmlv";
+var backend = "aHR0cHM6Ly83NmUyLTI0LTAtMzQtMTkyLm5ncm9rLmlv";
 var url = atob(backend);
 var roblox = "aHR0cHM6Ly9ub3cuZ2cvcGxheS9yb2Jsb3gtY29ycG9yYXRpb24vNTM0OS9yb2Jsb3g=";
 var krunker = "aHR0cHM6Ly9icm93c2VyZnBzLmNvbS8=";
