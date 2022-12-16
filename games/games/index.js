@@ -1,4 +1,4 @@
-var backend = "aHR0cHM6Ly83NmUyLTI0LTAtMzQtMTkyLm5ncm9rLmlv";
+var backend = "aHR0cHM6Ly9kNmUxLTI0LTAtMzQtMTkyLm5ncm9rLmlv";
 var url = atob(backend);
 var roblox = "aHR0cHM6Ly9ub3cuZ2cvcGxheS9yb2Jsb3gtY29ycG9yYXRpb24vNTM0OS9yb2Jsb3g=";
 var krunker = "aHR0cHM6Ly9icm93c2VyZnBzLmNvbS8=";
@@ -6,7 +6,7 @@ var BBstars = "aHR0cHM6Ly8za2gwLmdpdGh1Yi5pby9wcm9qZWN0cy9iYXNrZXRiYWxsLXN0YXJzL
 var pk = "aHR0cHM6Ly9zdGF0aWMuYXJjYWRlc3BvdC5jb20vcmV0cm9lbXVsYXRvci5waHA/c3lzdGVtPWdiYyZnYW1lPTIwMTYvMDcvcG9rZW1vbi1zaWx2ZXIuemlw";
 var diep = "aHR0cHM6Ly9kaWVwLmlvCg==";
 var ss = "aHR0cHM6Ly9oYXZhbmEuYXBwbGljYXRpb24wOC5yZXBsLmNvLw==";
-var fortnite = "aHR0cHM6Ly93d3cubnZpZGlhLmNvbS9lbi11cy9nZWZvcmNlLW5vdy9mb3J0bml0ZS1tb2JpbGUvICA=";
+var fortnite = "aHR0cHM6Ly9wbGF5LmdlZm9yY2Vub3cuY29tL2dhbWVzP2dhbWUtaWQ9NDZiZmFiMDYtZDg2NC00NjVkLTllNTYtMmQ5ZTQ1Y2RlZTBhJmxhbmc9ZW5fVVMmYXNzZXQtaWQ9MDFfMTU0OTRhYjYtZWZkZC00MjgwLWFjYmMtYzc0MDY3M2YxN2I0";
 var moo = "aHR0cHM6Ly9tb29tb28uaW8v";
 var doomz = "aHR0cHM6Ly9kb29tei5pby8=";
 var stumble = "aHR0cHM6Ly9ub3cuZ2cvcGxheS9raXRrYS1nYW1lcy83OTk5L3N0dW1ibGUtZ3V5cy8=";
