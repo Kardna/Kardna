@@ -3,7 +3,7 @@ var url = atob(backend);
 var roblox = "aHR0cHM6Ly9ub3cuZ2cvcGxheS9yb2Jsb3gtY29ycG9yYXRpb24vNTM0OS9yb2Jsb3g=";
 var krunker = "aHR0cHM6Ly9icm93c2VyZnBzLmNvbS8=";
 var BBstars = "aHR0cHM6Ly8za2gwLmdpdGh1Yi5pby9wcm9qZWN0cy9iYXNrZXRiYWxsLXN0YXJzL2luZGV4Lmh0bWw=";
-var pk = "aHR0cHM6Ly9zdGF0aWMuYXJjYWRlc3BvdC5jb20vcmV0cm9lbXVsYXRvci5waHA/c3lzdGVtPWdiYyZnYW1lPTIwMTYvMDcvcG9rZW1vbi1zaWx2ZXIuemlw";
+var pk = "./gfiles/gfiles/em/gbc/index.html#p-silver";
 var diep = "aHR0cHM6Ly9kaWVwLmlvCg==";
 var ss = "aHR0cHM6Ly9oYXZhbmEuYXBwbGljYXRpb24wOC5yZXBsLmNvLw==";
 var fortnite = "aHR0cHM6Ly9wbGF5LmdlZm9yY2Vub3cuY29tL2dhbWVzP2dhbWUtaWQ9NDZiZmFiMDYtZDg2NC00NjVkLTllNTYtMmQ5ZTQ1Y2RlZTBhJmxhbmc9ZW5fVVMmYXNzZXQtaWQ9MDFfMTU0OTRhYjYtZWZkZC00MjgwLWFjYmMtYzc0MDY3M2YxN2I0";
@@ -76,7 +76,7 @@ var buttonArr21 = [
 },
 {
 "name": "Pokemon Silver",
-"url": url +"/uv.html#" + pk,
+"url": pk,
 "img": "thumbnails/img217",
 },
     {
