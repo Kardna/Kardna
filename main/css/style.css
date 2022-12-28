@@ -4,43 +4,43 @@
   src: url(./a.otf);
 }
 .bg-turbo-yellow {
-  background-color: #ffcc19;
+  background-color: #e73700;
 }
 
 .bg-turbo-yellow-10 {
-  background-color: #fff9e5;
+  background-color: #e73700;
 }
 
 .bg-turbo-yellow-20 {
-  background-color: #ffeeb2;
+  background-color: #e73700;
 }
 
 .bg-turbo-yellow-30 {
-  background-color: #ffe37f;
+  background-color:  #e73700;
 }
 
 .bg-turbo-yellow-40 {
-  background-color: #ffd74c;
+  background-color:  #e73700;
 }
 
 .bg-turbo-yellow-50 {
-  background-color: #ffcc19;
+  background-color:  #e73700;
 }
 
 .bg-turbo-yellow-60 {
-  background-color: #e5b200;
+  background-color:  #e73700;
 }
 
 .bg-turbo-yellow-70 {
-  background-color: #b28b00;
+  background-color:  #e73700;
 }
 
 .bg-turbo-yellow-80 {
-  background-color: #7f6300;
+  background-color:  #e73700;
 }
 
 .bg-turbo-yellow-90 {
-  background-color: #4c3b00;
+  background-color: #e73700;
 }
 
 body {
@@ -118,7 +118,7 @@ a:focus {
 
 #sidebar ul.components {
   padding: 20px 0;
-  border-bottom: 1px solid #b28b00;
+  border-bottom: 1px solid  #e73700;
 }
 
 #sidebar ul p {
@@ -157,7 +157,7 @@ a[data-toggle=collapse] {
 ul ul a {
   font-size: 0.9em !important;
   padding-left: 30px !important;
-  background: #e5b200;
+  background:  #e73700;
 }
 
 ul.CTAs {

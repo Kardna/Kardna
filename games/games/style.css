@@ -19,12 +19,13 @@ html {
  background-repeat: no-repeat;
  transition: all 0.2s ease-in-out;
  background-size: cover;
-background-color: #f8f9fa;
+background-color: #ffffff;
 -ms-overflow-style: none;  /* IE and Edge */
 
 }
 body::-webkit-scrollbar {
   display: none;
+  text-align: center;
 }
 p {
   font-family: A;
@@ -34,6 +35,7 @@ p3{
   color: rgb(0, 0, 0);
   font-size: 8px;
   font-family: A;
+  text-align: center;
 }
 .ri-computer-line:before {
   padding-left: 20px;
@@ -219,9 +221,7 @@ background-color: #3ba55c;
     display: block!important;
 }
 }
-h3 {
-  padding-top: 45px
-}
+
 /*Start Switch code*/
 /* The switch - the box around the slider */
 .switch {

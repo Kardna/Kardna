@@ -156,18 +156,18 @@ body {
 }
 @keyframes backgroundColorPalette {
   0% {
-    color: #ee6055;
+    color: #ff0000;
   }
   25% {
-    color: #60d394;
+    color: #55ff00;
   }
   50% {
-    color: #aaf683;
+    color: #ff1100;
   }
   75% {
-    color: #ffd97d;
+    color: #55ff00;
   }
   100% {
-    color: #ff9b85;
+    color: #ff1100;
   }
 }

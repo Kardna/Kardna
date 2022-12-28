@@ -1,3 +1,5 @@
+//Created By ZenfyDev & Bigfoot9999
+//vars
 var backend = "aHR0cHM6Ly9kNmUxLTI0LTAtMzQtMTkyLm5ncm9rLmlv";
 var url = atob(backend);
 var roblox = "aHR0cHM6Ly9ub3cuZ2cvcGxheS9yb2Jsb3gtY29ycG9yYXRpb24vNTM0OS9yb2Jsb3g=";
@@ -12,6 +14,81 @@ var doomz = "aHR0cHM6Ly9kb29tei5pby8=";
 var stumble = "aHR0cHM6Ly9ub3cuZ2cvcGxheS9raXRrYS1nYW1lcy83OTk5L3N0dW1ibGUtZ3V5cy8=";
 var amongus= "aHR0cHM6Ly9ub3cuZ2cvcGxheS9pbm5lcnNsb3RoLWxsYy80MDQ3L2Ftb25nLXVz";
 var territorial= "aHR0cHM6Ly90ZXJyaXRvcmlhbC5pby8=";
+var google = "aHR0cHM6Ly9nb29nbGUuY29t";
+
+//search page id = main-iframe-google-please-work
+document.getElementById('main-iframe-google-please-work'.src = url +"/uv.html#" + google);
+//video on hover img trending
+
+//fortnite
+function mouseoverfortnite(){
+    setTimeout(() => 
+    { var elem =- document.getElementById(f);
+        console.log(elem)
+     }
+    , 1500);
+};
+function mouseoutfortnite(){
+
+};
+//roblox
+function  mouseoverroblox(){
+};
+function mouseoutroblox(){
+
+};
+//krunker
+function mouseoverkrunker(){
+    setTimeout(() => 
+    { console.log("World!"); }
+    , 1500);
+};
+function mouseoutkrunker(){
+
+};
+//basketball stars
+function mouseoverbbstars(){
+    setTimeout(() => 
+    { console.log("World!"); }
+    , 1500);
+};
+function mouseoutbbstars(){
+
+};
+//amongUs
+function mouseoveramongus(){
+    setTimeout(() => 
+    { console.log("World!"); }
+    , 1500);
+};
+function mouseoutamongus(){
+
+};
+
+
+//trending game buttons
+function Fortnite_Trending(){
+    var temp_fortnite = url +"/uv.html#" + fortnite;
+    window.location.replace(temp_fortnite);
+}
+
+function Roblox_Trending(){
+    var temp_roblox = url +"/uv.html#" + roblox;
+    window.location.replace(temp_roblox);
+}
+
+function Krunker_Trending(){
+    var temp_krunker = url +"/uv.html#" + krunker;
+    window.location.replace(temp_krunker);
+}
+function BBStars_Trending(){
+    var temp_trending = url +"/uv.html#" + BBstars;
+    window.location.replace(temp_trending);
+}
+function Amongus_Trending(){
+    var temp_amongus = url +"/uv.html#" + amongus;
+    window.location.replace(temp_amongus);
+}
 //start game code
 var buttonArr21 = [
    {
@@ -7247,7 +7324,7 @@ buttonArr21.forEach(function(arrayItem21) {
     //searchArr.push(arrayItem.name);
     let link2 = arrayItem21.url;
     let name2 = arrayItem21.name;
-    document.getElementById('buttonDiv').innerHTML += `<div style="width: 150px;"class="span1 animals"><div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card"><a href="${arrayItem21.url}"><img style="border-radius: 25px;" src="${arrayItem21.img}" class="lazy" style="width:100%"></a><p3 style="text-transform: uppercase;">${arrayItem21.name}</p3></div></div>`;
+    document.getElementById('buttonDiv').innerHTML += `<div style="width: 150px;"class="span1 animals"><div style="padding-top: 5px;border-radius: 25px 25px 25px 25px;" class="card"><a href="${arrayItem21.url}"><img style="border-radius: 15px;" src="${arrayItem21.img}" class="lazy" style="width:100%"></a><p3 style="text-transform: uppercase;">${arrayItem21.name}</p3></div></div>`;
 
 
     
