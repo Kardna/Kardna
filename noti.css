@@ -2,7 +2,7 @@
 .notifications {
   position: absolute;
   bottom: 10px;
-  left: 20px;
+  right: 20px;
 }
 
 .notify {

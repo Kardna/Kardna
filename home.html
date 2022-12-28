@@ -2,7 +2,7 @@
     <head>
         <link href="./index.css" rel="stylesheet">  </head>
     <body>
-        <div class="confetti"><iframe src="./confetti/index.html"></iframe></div>
+        <div style="display: none;" id="confetti"><iframe src="./confetti/index.html"></iframe></div>
         <video class="bg-1" id="vid"src="./Clay.mp4" muted loop autoplay></video>
         <div class="bg-2"><iframe src="./kardna-text/index.html"></iframe></div>
         <div class="bg-3"><iframe src="./kardna-mountian/index.html"></iframe></div>
@@ -10,6 +10,18 @@
         <script src="uv/uv.bundle.js"></script>
         <script src="uv/uv.config.js"></script>
         <script src="index.js"></script>
+        <script>
+            var x = document.getElementById("confetti");
+            const d = new Date();
+            const year = d.getFullYear();
+            if (year == "2023"){
+                console.log("Happy New Year")  
+                x.style.display = "block"; 
+            }
+            else{
+                console.log("It's not 2023... its " + year + " Stupid ;)")
+            }
+        </script>
     </body>
 
 </html>
