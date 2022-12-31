@@ -5,7 +5,7 @@ var url = atob(backend);
 var roblox = "aHR0cHM6Ly9reGQuZm0vcm9ibG94";
 var krunker = "aHR0cHM6Ly9icm93c2VyZnBzLmNvbS8=";
 var BBstars = "aHR0cHM6Ly9odG1sNS5nYW1lZGlzdHJpYnV0aW9uLmNvbS9ydnZBU01pTS82OWQ3OGQwNzFmNzA0ZmExODNkNzViNDExNGFlNDBlYy9pbmRleC5odG1sP2dkX3Nka19yZWZlcnJlcl91cmw9aHR0cHMlM0ElMkYlMkZiYXNrZXRiYWxsLXN0YXJzLmNvJTJGYmFza2V0YmFsbC1zdGFycyZnZF96b25lX2NvbmZpZz1leUp3WVhKbGJuUlZVa3dpT2lKb2RIUndjem92TDJKaGMydGxkR0poYkd3dGMzUmhjbk11WTI4dlltRnphMlYwWW1Gc2JDMXpkR0Z5Y3lJc0luQmhjbVZ1ZEVSdmJXRnBiaUk2SW1KaGMydGxkR0poYkd3dGMzUmhjbk11WTI4aUxDSjBiM0JFYjIxaGFXNGlPaUppWVhOclpYUmlZV3hzTFhOMFlYSnpMbU52SWl3aWFHRnpTVzF3Y21WemMybHZiaUk2Wm1Gc2MyVXNJbXh2WVdSbGNrVnVZV0pzWldRaU9uUnlkV1VzSW1odmMzUWlPaUpvZEcxc05TNW5ZVzFsWkdsemRISnBZblYwYVc5dUxtTnZiU0lzSW5abGNuTnBiMjRpT2lJeExqVXVNVFlpZlElMjUzRCUyNTNE";
-var pk = "./gfiles/gfiles/em/gbc/index.html#p-silver";
+var pk = "Li9nZmlsZXMvZ2ZpbGVzL2VtL3Bva2Vtb25zaWx2ZXIvaW5kZXguaHRtbA==";
 var diep = "aHR0cHM6Ly9kaWVwLmlvCg==";
 var ss = "aHR0cHM6Ly9oYXZhbmEuYXBwbGljYXRpb24wOC5yZXBsLmNvLw==";
 var fortnite = "aHR0cHM6Ly9wbGF5LmdlZm9yY2Vub3cuY29tL2dhbWVzP2dhbWUtaWQ9NDZiZmFiMDYtZDg2NC00NjVkLTllNTYtMmQ5ZTQ1Y2RlZTBhJmxhbmc9ZW5fVVMmYXNzZXQtaWQ9MDFfMTU0OTRhYjYtZWZkZC00MjgwLWFjYmMtYzc0MDY3M2YxN2I0";
@@ -157,7 +157,7 @@ var buttonArr21 = [{
     },
     {
         "name": "Pokemon Silver",
-        "url": pk,
+        "url": atob(pk),
         "img": "thumbnails/img217",
     },
     {
@@ -2788,17 +2788,6 @@ var buttonArr21 = [{
 
         "img": "thumbnails/img113",
     },
-    /*
-{
- "name": "Eagler Server 2",
- "url": "https://1a29-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly9pbnRlZ3JhbHNvbHZlci5sb2wvbWMvP3NlcnZlcj13c3M6Ly9tYy5pbnRlZ3JhbHNvbHZlci5sb2w=",
- "img": "../images/grass.png",
-},*/
-    {
-        "name": "Arch MC Server",
-        "url": "https://web.arch.lol/?",
-        "img": "../images/archmc",
-    },
     {
         "name": "Piano Master",
         "url": "https://play.gamemonetize.co/q0mrnyr9ucvgdqgooq9cq0y7fntuwzjj/",
@@ -2826,7 +2815,7 @@ var buttonArr21 = [{
     },
     {
         "name": "Pokemon Silver",
-        "url": "https://1a29-24-0-34-192.ngrok.io/uv.html#aHR0cHM6Ly9zdGF0aWMuYXJjYWRlc3BvdC5jb20vcmV0cm9lbXVsYXRvci5waHA/c3lzdGVtPWdiYyZnYW1lPTIwMTYvMDcvcG9rZW1vbi1zaWx2ZXIuemlw",
+        "url": "atob(pk)",
         "img": "thumbnails/img217",
     },
     {
