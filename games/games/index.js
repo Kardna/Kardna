@@ -14,7 +14,7 @@ var doomz = "aHR0cHM6Ly9kb29tei5pby8=";
 var stumble = "aHR0cHM6Ly9ub3cuZ2cvcGxheS9raXRrYS1nYW1lcy83OTk5L3N0dW1ibGUtZ3V5cy8=";
 var amongus = "aHR0cHM6Ly9ub3cuZ2cvcGxheS9pbm5lcnNsb3RoLWxsYy80MDQ3L2Ftb25nLXVz";
 var territorial = "aHR0cHM6Ly90ZXJyaXRvcmlhbC5pby8=";
-var google = "aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8=";
+var google = "aHR0cHM6Ly82NjlmLTY5LTI0OC0yMjctMTMxLm5ncm9rLmlvLw==";
 
 //search page id = main-iframe-google-please-work
 document.getElementById('main-iframe-google-please-work'.src = url + "/uv.html#" + google);
