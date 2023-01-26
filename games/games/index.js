@@ -28,7 +28,7 @@ function getCurrentURL () {
 }
 
 //search page id = main-iframe-google-please-work
-document.getElementById('main-iframe-google-please-work'.src = url + "/uv.html#" + google);
+document.getElementById('main-iframe-google-please-work'.src = "https://" + url + "/uv.html#" + google);
 //video on hover img trending
 fetch(url, {
     method: "get",
@@ -90,88 +90,88 @@ function mouseoutamongus() {
 
 //trending game buttons
 function Fortnite_Trending() {
-    var temp_fortnite = url + "/uv.html#" + fortnite;
+    var temp_fortnite = "https://" + url + "/uv.html#" + fortnite;
     window.location.replace(temp_fortnite);
 }
 
 function Roblox_Trending() {
-    var temp_roblox = url + "/uv.html#" + roblox;
+    var temp_roblox = "https://" + url + "/uv.html#" + roblox;
     window.location.replace(temp_roblox);
 }
 
 function Krunker_Trending() {
-    var temp_krunker = url + "/uv.html#" + krunker;
+    var temp_krunker = "https://" + url + "/uv.html#" + krunker;
     window.location.replace(temp_krunker);
 }
 
 function BBStars_Trending() {
-    var temp_trending = url + "/uv.html#" + BBstars;
+    var temp_trending = "https://" + url + "/uv.html#" + BBstars;
     window.location.replace(temp_trending);
 }
 
 function Amongus_Trending() {
-    var temp_amongus = url + "/uv.html#" + amongus;
+    var temp_amongus = "https://" + url + "/uv.html#" + amongus;
     window.location.replace(temp_amongus);
 }
 //start game code
 var buttonArr21 = [{
         "name": "Roblox",
-        "url": url + "/uv.html#" + roblox,
+        "url": "https://" + "https://" + url + "/uv.html#" + roblox,
         "img": "thumbnails/img59.png",
     },
     {
 
         "name": "Krunker.io",
-        "url": url + "/uv.html#" + krunker,
+        "url": "https://" + url + "/uv.html#" + krunker,
         "img": "thumbnails/img65.png",
     },
     {
         "name": "BasketBall Stars",
-        "url": url + "/uv.html#" + BBstars,
+        "url": "https://" + url + "/uv.html#" + BBstars,
         "img": "thumbnails/img215",
     },
     {
 
         "name": "Fortnite",
-        "url": url + "/uv.html#" + fortnite,
+        "url": "https://" + url + "/uv.html#" + fortnite,
         "img": "thumbnails/img220",
     },
     {
 
         "name": "Territorial.io",
-        "url": url + "/uv.html#" + territorial,
+        "url": "https://" + url + "/uv.html#" + territorial,
         "img": "thumbnails/img225.png",
     },
     {
         "name": "Among Us",
-        "url": url + "/uv.html#" + amongus,
+        "url": "https://" + url + "/uv.html#" + amongus,
         "img": "thumbnails/among-us.jpg",
     },
 
 
     {
         "name": "Stuble Guys Online",
-        "url": url + "/uv.html#" + stumble,
+        "url": "https://" + url + "/uv.html#" + stumble,
         "img": "thumbnails/img214",
     },
     {
         "name": "Doomz.io",
-        "url": url + "/uv.html#" + doomz,
+        "url": "https://" + url + "/uv.html#" + doomz,
         "img": "thumbnails/doomz-io.png",
     },
     {
         "name": "Diep.io",
-        "url": url + "/uv.html#" + diep,
+        "url": "https://" + url + "/uv.html#" + diep,
         "img": "thumbnails/img218",
     },
     {
         "name": "Subway Surfers",
-        "url": url + "/uv.html#" + ss,
+        "url": "https://" + url + "/uv.html#" + ss,
         "img": "thumbnails/img221",
     },
     {
         "name": "MooMoo.io",
-        "url": url + "/uv.html#" + moo,
+        "url": "https://" + url + "/uv.html#" + moo,
         "img": "thumbnails/img219",
     },
     {
