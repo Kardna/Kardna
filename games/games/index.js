@@ -19,7 +19,7 @@ var url = 'bg' + '.' + name;
 
 //Other Stuff
 console.log(url);
-window.location.replace("https://" + url)
+//window.location.replace("https://" + url)
 
 
 function getCurrentURL () {
