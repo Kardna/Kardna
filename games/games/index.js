@@ -19,7 +19,15 @@ var google = "aHR0cHM6Ly84YTI4LTY5LTI0OC0yMjctMTMxLm5ncm9rLmlv";
 //search page id = main-iframe-google-please-work
 document.getElementById('main-iframe-google-please-work'.src = url + "/uv.html#" + google);
 //video on hover img trending
-
+fetch(url, {
+    method: "get",
+    headers: new Headers({
+      "ngrok-skip-browser-warning": "kardna",
+    }),
+  })
+    .then((response) => response.json())
+    .then((data) => console.log(data))
+    .catch((err) => console.log(err));
 //fortnite
 function mouseoverfortnite() {
     setTimeout(() => {
