@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" crossorigin="anonymous">
+        <title>Kardna | Ultraviolet</title>
+        <link href="nav.css" rel="stylesheet">
+        <script href="./index.js"></script>
+        <script>
+            document.onkeydown = function(e) {
+            if(event.keyCode == 123) {
+            return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+            return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+            return false;
+            }
+            if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+            return false;
+            }
+            }
+            </script>
+    </head>
+    <div id="particles-js"></div>
+    <body>
+        <nav class="ka-boom">
+            <ul class="nav">
+                  <li><a href="./index.html">Home</a></li>
+                  <li><a href="./choice.html">Search</a></li>
+                  <li><a href="./games.html">Games</a></li>
+                  <li><a href="./movies.html">Movies</a></li>
+                  <li><a href="./music.html">Music</a></li>
+                  <li><a onclick="settings();" style="color: #FFF;">Settings</a></li>
+            </ul>
+        </nav>
+        <iframe id="iframe_frame" src=""></iframe>
+        <main>
+            <div class="proHead">
+                <h>Ultraviolet</h>
+            </div>
+            <div class="proBar">
+                <form id="uvForm">
+                    <input type="text" autocomplete="off" name="url" id="uvurl" placeholder="Search freely!">
+                    <button class="proButton" type="submit"><i class="fa fa-search"></i></button>
+                    <button class="proButton" type="button" onclick="uvStealth()"><i class="fa fa-eye-slash"></i></button>
+                </form>
+            </div>
+        </main>
+        <script src="uv/uv.bundle.js"></script>
+        <script src="uv/uv.config.js"></script>
+        <script src="scripts/index.js"></script>
+        <script src="particles.js"></script>
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    </body>
+</html>

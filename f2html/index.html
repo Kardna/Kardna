@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Set initial styles */
+    .dropdown-content {
+      opacity: 0;
+      max-height: 0;
+      overflow: hidden;
+      transition: all 0.3s ease-out;
+    }
+
+    /* Show dropdown content on hover */
+    .dropdown:hover .dropdown-content {
+      opacity: 1;
+      max-height: 200px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    /* Rotate arrow icon on hover */
+    .dropdown:hover .dropdown-btn {
+      transform: rotate(180deg);
+    }
+
+    /* Style the arrow icon */
+    .dropdown-btn::after {
+      content: "▼";
+      display: inline-block;
+      margin-left: 5px;
+      transition: all 0.3s ease-out;
+    }
+
+    /* Rotate the arrow icon */
+    .dropdown-btn:hover::after {
+      transform: rotate(180deg);
+    }
+  </style>
+</head>
+<body>
+  <div class="dropdown">
+    <div class="dropdown-btn">Click me!</div>
+    <div class="dropdown-content">
+      <p>Content goes here...</p>
+    </div>
+  </div>
+</body>
+</html>

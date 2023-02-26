@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to Kardna!</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body  id="main">
+<!-- partial:index.partial.html -->
+<main>
+  <h1>Kardna V4</h1>
+  <p style="display: none;">Kardna offers a wide variety of games that run on the Ultraviolet. Some of the popular games are available on Kardna include Roblox, Fortnite, and many more. </p>
+  <button onclick="btnclick();" class="button-40" role="button">Start Playing Now!</button>
+</main>
+<!-- partial -->
+  <script  src="./script.js"></script>
+  <script>
+    function btnclick(){
+     document.getElementById('main').id = 'main2'; 
+      setTimeout('Redirect();', 1050);
+  
+    };
+    function Redirect(){
+        location.href = '/v4/pages/loading/';
+      }
+  </script>
+</body>
+</html>

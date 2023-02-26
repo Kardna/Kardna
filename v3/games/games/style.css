@@ -1,6 +1,6 @@
 @font-face {
-  font-family: A;
-  src: url(/v3/a.otf);
+  font-family: Main;
+  src: url(a.otf);
 }
 
 button {
@@ -13,7 +13,7 @@ button {
   border: 3px;
 }
 html {
-  font-family: A;
+  font-family: Main;
   overflow-x: hidden;
  background-attachment: fixed;
  background-repeat: no-repeat;
@@ -28,13 +28,13 @@ body::-webkit-scrollbar {
   text-align: center;
 }
 p {
-  font-family: A;
+  font-family: Main;
   color: white;
 }
 p3{
   color: rgb(0, 0, 0);
   font-size: 8px;
-  font-family: A;
+  font-family: Main;
   text-align: center;
 }
 .ri-computer-line:before {
@@ -59,18 +59,18 @@ margin-top: 40px;
   
   color: #ffffff;
   background-color: #ffffff; /* Black background */
-  font-family: A;
+  font-family: Main;
   width: 100vw;
   padding-top: 20px;
   padding-bottom: 40px;
 }
 h {
   font-size: 15px;
-  font-family: A;
+  font-family: Main;
   
 }
 h1 {
-  font-family: A;
+  font-family: Main;
 font-size: 2vh;
 
 }
@@ -81,7 +81,7 @@ h2 {
     -webkit-text-stroke-color: rgb(255, 255, 255);    
 }
 .textjs {
-  font-family: A;
+  font-family: Main;
 }
 a:link {
   color: rgb(0, 0, 0);
