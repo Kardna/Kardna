@@ -65,6 +65,22 @@
             >Kardna Menu
             </h1>
         </div>
+        <script>
+            var site = getCurrentURL();
+    var name = new URL(site).host;
+    var url = 'bg' + '.' + name;
+    
+    //Other Stuff
+    console.log(url);
+    //window.location.replace(url)
+    
+    
+    function getCurrentURL () {
+            return window.location.href
+    }
+    window.location.replace("https://" + url + "/uv.html#aHR0cHM6Ly9iZW11c2ljLjEudmVidG8uY29tLw==");
+    
+        </script>
         
         </div>
         <br>        <br>        <br>        <br>        <br>        <br>        <br>        <br>        <br>        <br>        <br>        <br>
