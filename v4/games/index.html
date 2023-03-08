@@ -2,13 +2,27 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Animated game launcher cards</title>
+  <title>game</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel='stylesheet' href='https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css'><link rel="stylesheet" href="./style.css">
+<script>
+    // Start Get Proxy Url //
+
+let site = getCurrentURL();
+var name = new URL(site).host;
+var url = 'bg' + '.' + name;
+console.log(url);
+function getCurrentURL () {
+return window.location.href
+}
+
+// End Get Proxy Url //
+</script>
 <script src="./files/cloud/app.js"></script>
 
 </head>
 <body>
+    <h1>Ga<vbr></vbr>mes</h1>
 <!-- partial:index.partial.html -->
 <ul class="game-cards">
 	<li> <!-- krunker -->
@@ -25,8 +39,7 @@
 			<div class="game-card__back">
 				<div class="game-card__content">
 					<div class="game-card__metadata">
-						<i class="fa fa-clock" aria-hidden="true"></i>
-						164 hrs
+						Krunker is a Multiplayer Online Game.
 					</div>
 					<div class="game-card__buttons">
 						<button onclick="krunker();"class="game-card__button -play">
