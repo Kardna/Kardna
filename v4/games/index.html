@@ -20,104 +20,147 @@ return window.location.href
 </script>
 <script src="./files/cloud/app.js"></script>
 
+<script>
+    krunker();
+    function krunker(){
+
+	var currentherf = getCurrentURL()
+	console.log(currentherf)
+
+	var $url = getCurrentURL();
+
+	console.log($url.protocol); // http://
+	console.log($url.host); // www.mymainsite.com
+	console.log($url.path); // /path/path/needthispath/somepath
+
+	}
+
+	function getCurrentURL () {
+  return window.location.href
+	}
+
+	function url($url) {
+	var url = $url.split( '//' );
+	if (url[0] === "http:" || url[0] === "https:") {
+		var protocol = url[0] + "//";
+		var host = url[1].split( '/' )[0];
+		url = protocol + host;
+		var path = $url.split(url)[1];
+		return {
+		protocol: protocol,
+		host: host,
+		path: path
+		};
+	}
+	}
+
+
+</script>
+
+
+
+
+
 </head>
 <body>
-    <h1>Ga<vbr></vbr>mes</h1>
-<!-- partial:index.partial.html -->
-<ul class="game-cards">
-	<li> <!-- krunker -->
-		<div class="game-card">
-			<div class="game-card__front">
-				<div class="game-card__header">
-					<div class="game-card__cover">
-						<img src="./krunker.png">
-					</div>
-					<div class="game-card__title">Krunker</div>
-				</div>
-			</div>
-
-			<div class="game-card__back">
-				<div class="game-card__content">
-					<div class="game-card__metadata">
-						Krunker is a Multiplayer Online Game.
-					</div>
-					<div class="game-card__buttons">
-						<button onclick="krunker();"class="game-card__button -play">
-							<i class="fa fa-play" aria-hidden="true"></i>
-							Play
-						</button>
-						<button class="game-card__button" aria-label="More">
-							<i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-						</button>
+<div>
+	<h1>ALL Ga<vbr></vbr>mes</h1>
+	<!-- partial:index.partial.html -->
+	<ul class="game-cards">
+		<li> <!-- krunker -->
+			<div class="game-card">
+				<div class="game-card__front">
+					<div class="game-card__header">
+						<div class="game-card__cover">
+							<img src="./krunker.png">
+						</div>
+						<div class="game-card__title">Krunker</div>
 					</div>
 				</div>
-			</div>
-		</div>
-	</li>
-	<li> <!-- krunker -->
-		<div class="game-card">
-			<div class="game-card__front">
-				<div class="game-card__header">
-					<div class="game-card__cover">
-						<div class="game-card__image-placeholder two"></div>
-					</div>
-					<div class="game-card__title">Fortnite</div>
-					<button class="game-card__touch-target" aria-label="Expand"></button>
-				</div>
-			</div>
-
-			<div class="game-card__back">
-				<div class="game-card__content">
-					<div class="game-card__metadata">
-						<i class="fa fa-clock" aria-hidden="true"></i>
-						40 hrs
-					</div>
-					<div class="game-card__buttons">
-						<button onclick="alert('I have cancer')"class="game-card__button -play">
-							<i class="fa fa-play" aria-hidden="true"></i>
-							Play
-						</button>
-						<button class="game-card__button" aria-label="More">
-							<i class="fa fa-ellipsis-h" aria-hiddden="true"></i>
-						</button>
+	
+				<div class="game-card__back">
+					<div class="game-card__content">
+						<div class="game-card__metadata">
+							Krunker is a Multiplayer Online Game.
+						</div>
+						<div class="game-card__buttons">
+							<button onclick="krunker();"class="game-card__button -play">
+								<i class="fa fa-play" aria-hidden="true"></i>
+								Play
+							</button>
+							<button class="game-card__button" aria-label="More">
+								<i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+							</button>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</li>
-	<li>
-		<div class="game-card">
-			<div class="game-card__front">
-				<div class="game-card__header">
-					<div class="game-card__cover">
-						<div class="game-card__image-placeholder"></div>
-						<span class="game-card__cover-badge new" aria-hiddden="true">New</span>
-					</div>
-					<div class="game-card__title">Awesome Game 2</div>
-					<button class="game-card__touch-target" aria-label="expand"></button>
-				</div>
-			</div>
-
-			<div class="game-card__back">
-				<div class="game-card__content">
-					<div class="game-card__metadata">
-						<i class="fa fa-clock" aria-hidden="true"></i>
-						Never
-					</div>
-					<div class="game-card__buttons">
-						<button class="game-card__button -download">
-							<i class="fa fa-download" aria-hidden="true"></i>
-							Install
-						</button>
-						<button class="game-card__button" aria-label="More">
-							<i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-						</button>
+		</li>
+		<li> <!-- krunker -->
+			<div class="game-card">
+				<div class="game-card__front">
+					<div class="game-card__header">
+						<div class="game-card__cover">
+							<div class="game-card__image-placeholder two"></div>
+						</div>
+						<div class="game-card__title">Fortnite</div>
+						<button class="game-card__touch-target" aria-label="Expand"></button>
 					</div>
 				</div>
+	
+				<div class="game-card__back">
+					<div class="game-card__content">
+						<div class="game-card__metadata">
+							<i class="fa fa-clock" aria-hidden="true"></i>
+							40 hrs
+						</div>
+						<div class="game-card__buttons">
+							<button onclick="fortnite();"class="game-card__button -play">
+								<i class="fa fa-play" aria-hidden="true"></i>
+								Play
+							</button>
+							<button class="game-card__button" aria-label="More">
+								<i class="fa fa-ellipsis-h" aria-hiddden="true"></i>
+							</button>
+						</div>
+					</div>
+				</div>
 			</div>
-		</div>
-	</li>
-</ul>
+		</li>
+		<li>
+			<div class="game-card">
+				<div class="game-card__front">
+					<div class="game-card__header">
+						<div class="game-card__cover">
+							<div class="game-card__image-placeholder"></div>
+							<span class="game-card__cover-badge new" aria-hiddden="true">New</span>
+						</div>
+						<div class="game-card__title">Awesome Game 2</div>
+						<button class="game-card__touch-target" aria-label="expand"></button>
+					</div>
+				</div>
+	
+				<div class="game-card__back">
+					<div class="game-card__content">
+						<div class="game-card__metadata">
+							<i class="fa fa-clock" aria-hidden="true"></i>
+							Never
+						</div>
+						<div class="game-card__buttons">
+							<button class="game-card__button -download">
+								<i class="fa fa-download" aria-hidden="true"></i>
+								Install
+							</button>
+							<button class="game-card__button" aria-label="More">
+								<i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</li>
+	</ul>
+</div>
 <!-- partial -->
   
 </body>
