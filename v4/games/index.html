@@ -20,42 +20,6 @@ return window.location.href
 </script>
 <script src="./files/cloud/app.js"></script>
 
-<script>
-    krunker();
-    function krunker(){
-
-	var currentherf = getCurrentURL()
-	console.log(currentherf)
-
-	var $url = getCurrentURL();
-
-	console.log($url.protocol); // http://
-	console.log($url.host); // www.mymainsite.com
-	console.log($url.path); // /path/path/needthispath/somepath
-
-	}
-
-	function getCurrentURL () {
-  return window.location.href
-	}
-
-	function url($url) {
-	var url = $url.split( '//' );
-	if (url[0] === "http:" || url[0] === "https:") {
-		var protocol = url[0] + "//";
-		var host = url[1].split( '/' )[0];
-		url = protocol + host;
-		var path = $url.split(url)[1];
-		return {
-		protocol: protocol,
-		host: host,
-		path: path
-		};
-	}
-	}
-
-
-</script>
 
 
 
