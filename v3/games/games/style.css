@@ -37,6 +37,9 @@ p3{
   font-family: Main;
   text-align: center;
 }
+h3{
+  font-family: Main;
+}
 .ri-computer-line:before {
   padding-left: 20px;
 }

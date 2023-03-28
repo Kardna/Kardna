@@ -1,8 +1,8 @@
 function Games(){
-    document.getElementById("gameframe").src="/games/";
+    document.getElementById("gameframe").src="/v3/games/";
     }
 function Search(){
-    var google = "/games/games/google.html"
+    var google = "/v3/games/games/google.html"
      document.getElementById("gameframe").src = google;
     //getting iframed elemenet (OLD)
     //const iframe = document.getElementById("gameframe");
