@@ -101,7 +101,6 @@ setTimeout(function(){
                 "desc": "",
             },
         ]
-        
         cardArr.sort(function(a, b) {
             const nameA = a.name.toUpperCase(); // ignore upper and lowercase
             const nameB = b.name.toUpperCase(); // ignore upper and lowercase
@@ -129,8 +128,6 @@ setTimeout(function(){
                 let name2 = arrayItem.name;
                 document.getElementById("all").innerHTML += `<li><div class='game-card'><div class='game-card__front'><div class='game-card__header'><div class='game-card__cover'><div class='game-card__image-placeholder two'></div><span class='game-card__cover-badge new' aria-hiddden='true'>New</span></div><div class='game-card__title'>${arrayItem.name}</div></div></div><div class='game-card__back'><div class='game-card__content'><div class='game-card__metadata'>${arrayItem.desc}</div><div class='game-card__buttons'><button onclick='${arrayItem.url}'class='game-card__button -play'><i class='fa fa-play' aria-hidden='true'></i>Play</button></div></div></div></div></li> `;
             } );
-    
-    
     }
     //Hot
     function hot(){
@@ -175,11 +172,6 @@ setTimeout(function(){
                    let name2 = arrayItem.name;
                    document.getElementById("hot").innerHTML += `<li><div class='game-card'><div class='game-card__front'><div class='game-card__header'><div class='game-card__cover'><div class='game-card__image-placeholder two'></div><span class='game-card__cover-badge new' aria-hiddden='true'>Hot 🔥</span></div><div class='game-card__title'>${arrayItem.name}</div></div></div><div class='game-card__back'><div class='game-card__content'><div class='game-card__metadata'>${arrayItem.desc}</div><div class='game-card__buttons'><button onclick='${arrayItem.url}'class='game-card__button -play'><i class='fa fa-play' aria-hidden='true'></i>Play</button></div></div></div></div></li> `;  
                } );
-        cardArr2.forEach(function(arrayItem){
-            let link2 = arrayItem.url;
-            let name2 = arrayItem.name;
-            document.getElementById("all").innerHTML += `<li><div class='game-card'><div class='game-card__front'><div class='game-card__header'><div class='game-card__cover'><div class='game-card__image-placeholder two'></div><span class='game-card__cover-badge new' aria-hiddden='true'>Hot 🔥</span></div><div class='game-card__title'>${arrayItem.name}</div></div></div><div class='game-card__back'><div class='game-card__content'><div class='game-card__metadata'>${arrayItem.desc}</div><div class='game-card__buttons'><button onclick='${arrayItem.url}'class='game-card__button -play'><i class='fa fa-play' aria-hidden='true'></i>Play</button></div></div></div></div></li> `;  
-        });
     }
     function all(){
         var cardArr3 = []
