@@ -4,6 +4,8 @@
 // Thanks!
 // -Zenfy
 // Start of Cards //
+
+
 setTimeout(function(){
     var id = document.getElementById("divbreo");
     if (id !== null && typeof id === "object") {
@@ -173,11 +175,6 @@ setTimeout(function(){
     }
     function all(){
         var cardArr3 = [
-            {
-                "name": "Krunker",
-                "url": "https://krunker.io",
-                "desc": "Krunker is a Multiplayer Online Game.",
-            }
         ]
         cardArr3.sort(function(a, b) {
             const nameA = a.name.toUpperCase(); // ignore upper and lowercase
@@ -193,16 +190,9 @@ setTimeout(function(){
             return 0;
           });
           cardArr3.forEach(function(arrayItem) {
-                    function verysecret(){
-                        let url2 = arrayItem.url;
-                        let win = window.open('./plyr/')
-                        let temp_url2 = btoa(url2);
-                        let src = "https://" + url + "/uv.html#" + temp_url2
-                        setTimeout(function(){let iframe = win.document.createElement('iframe'); iframe.style.position = "absolute"; iframe.style.top = "0"; iframe.style.bottom = "0"; iframe.style.left = "0"; iframe.style.right = "0"; iframe.style.width = "100%"; iframe.style.height = "100%"; iframe.style.border = "none"; iframe.style.margin = "none"; iframe.style.zIndex = "999999"; iframe.src = src; win.document.body.appendChild(iframe)}, 100); 
 
-                    }
                    //cardArr.push(arrayItem.name);
-                   let link2 = arrayItem.url;
+                   var shhh = arrayItem.url;
                    let name2 = arrayItem.name;
                    let check = arrayItem.extra;
                    if (check = "undefined"){
@@ -211,8 +201,10 @@ setTimeout(function(){
                    else{
                     console.log(arrayItem.extra)
                    }
-                   document.getElementById("all").innerHTML += `<li><div class='game-card'><div class='game-card__front'><div class='game-card__header'><div class='game-card__cover'><div class='game-card__image-placeholder two'></div><span class='game-card__cover-badge new' aria-hiddden='true'>${arrayItem.extra}</span></div><div class='game-card__title'>${arrayItem.name}</div></div></div><div class='game-card__back'><div class='game-card__content'><div class='game-card__metadata'>${arrayItem.desc}</div><div class='game-card__buttons'><button onclick='verysecret();'class='game-card__button -play'><i class='fa fa-play' aria-hidden='true'></i>Play</button></div></div></div></div></li> `;
-               } );
+                   document.getElementById("all").innerHTML += `<li><div class='game-card'><div class='game-card__front'><div class='game-card__header'><div class='game-card__cover'><div class='game-card__image-placeholder two'></div><span class='game-card__cover-badge new' aria-hiddden='true'>${arrayItem.extra}</span></div><div class='game-card__title'>${arrayItem.name}</div></div></div><div class='game-card__back'><div class='game-card__content'><div class='game-card__metadata'>${arrayItem.desc}</div><div class='game-card__buttons'><button onclick='let url2 ='${arrayItem.url}'; let win = window.open('./plyr/'); let temp_url2 = btoa(url2); let src = 'https://' + url + '/uv.html#' + temp_url2; setTimeout(function(){let iframe = win.document.createElement('iframe'); iframe.style.position = 'absolute'; iframe.style.top = '0'; iframe.style.bottom = '0'; iframe.style.left = '0'; iframe.style.right = '0'; iframe.style.width = '100%'; iframe.style.height = '100%'; iframe.style.border = 'none'; iframe.style.margin = 'none'; iframe.style.zIndex = '999999'; iframe.src = src; win.document.body.appendChild(iframe)}, 100);' class='game-card__button -play'><i class='fa fa-play' aria-hidden='true'></i>Play</button></div></div></div></div></li> `;
+                } );
     }
     }, .0000000000000000000000000000000000000000000000000000000000000000000000000000000000000001);
-// End Of Cards //
+
+    // End Of Cards //
+
