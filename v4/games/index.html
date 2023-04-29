@@ -6,16 +6,25 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel='stylesheet' href='https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css'><link rel="stylesheet" href="./style.css">
 <script>
-let site = getCurrentURL();
-var name = new URL(site).host;
-var url = 'bg' + '.' + name;
-console.log("Backend Url Is: " + url);
+let site1 = getCurrentURL();
+var name = new URL(site1).host;
+console.log(name);
+const encodedData = "WyJrYXJkbmE0bGlmZS5jZiIsImthcmRuYTRsaWZlLmdhIiwia2FyZG5hNGxpZmUuZ3EiLCJrYXJkbmE0bGlmZS5tbCIsImthcmRuYTRsaWZlLnRrIiwia2FyZG5hLmNmIiwia2FyZG5hLm1sIiwia2FyZG5hLnh5eiIsInJpcGthcmRuYS5jZiIsInJpcGthcmRuYS5tbCIsInJpcGthcmRuYS50ayIsInJpcGthcmRuYS5ncSIsInJpcGthcmRuYS5nYSIsInJpcHJpcGthcmRuYS5nYSIsInJpcHJpcGthcmRuYS5ncSIsInJpcHJpcGthcmRuYS50ayIsInJpcHJpcGthcmRuYS5tbCIsInJpcHJpcGthcmRuYS5jZiIsInRleGFzZmVldC5nYSJd"; // Encoded data
+const decodedString = atob(encodedData); // Decode the Base64 string
+const myArray = JSON.parse(decodedString); // Convert the JSON string to an array
+const myVariable = name;
+if (myArray.includes(myVariable)) {
+	var url = 'bg.' + name;
+} else {
+	console.log("Its working!!!")
+	var url = 'bg.mc-kardna.cf';
+}
+console.log(url);
 function getCurrentURL () {
 return window.location.href
-};
+}
 </script>
 <script>
-
 
 </script>
 <script src="app.js"></script>
@@ -23,8 +32,17 @@ return window.location.href
 
 </head>
 <body>
+	<h1>Welcome To Ka<vbr>rdna</vbr> Ga<wbr>mes</h1>
+	<br>
+	<h3> Open Games In New Tab</h3>
+	<label class="switch">
+		<input type="checkbox" id="mySwitch"><span class="slider round"></span>
+	</label>
+	<br>	
+	<br>
+	<br>
 <div>
-	<h1>Top 5  Ga<vbr></vbr>mes</h1>
+	<h1>Top 3  Ga<vbr></vbr>mes</h1>
 	<ul id="hot"class="game-cards"></ul>
 	<br>
 	<h1>New G<vbr>a</vbr>mes</h1>
