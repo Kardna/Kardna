@@ -1,28 +1,102 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Welcome to Kardna!</title>
-  <link rel="stylesheet" href="./style.css">
+	<meta charset="UTF-8">
+	<title>Slider with iframes</title>
+	<style>
+        body{
+            margin: 0;
+        }
+		#container {
+			position: relative;
+            height: 100vh;
+             width: 100vw;
+             border: 0;
+		}
+		
+		#container iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			display: none;
+            margin: 0;
+            border: 0;
+		}
+		
+		#container iframe:first-of-type {
+			display: block;
+		}
+		
+
+		
+        #left-arrow, #right-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 2em;
+        font-weight: bold;
+        color: rgb(117, 117, 117);
+        cursor: pointer;
+        user-select: none;
+        z-index: 1;
+        transition: transform 0.2s;
+        }
+
+        #left-arrow:hover, #right-arrow:hover {
+            transform: translateY(-50%) scale(1.2);
+        }
+		
+		#left-arrow {
+			left: 20px;
+		}
+		
+		#right-arrow {
+			right: 20px;
+		}
+	</style>
 </head>
-<body  id="main">
-<!-- partial:index.partial.html -->
-<main>
-  <h1>Kardna</h1>
-  <p style="display: none;">Kardna offers a wide variety of games that run on the Ultraviolet. Some of the popular games are available on Kardna include Roblox, Fortnite, and many more. </p>
-  <button onclick="btnclick();" class="button-40" role="button">Start Playing Now!</button>
-</main>
-<!-- partial -->
-  <script  src="./script.js"></script>
-  <script>
-    function btnclick(){
-     document.getElementById('main').id = 'main2'; 
-      setTimeout('Redirect();', 1050);
-  
-    };
-    function Redirect(){
-        location.href = '/v4/pages/loading/';
-      }
-  </script>
+<body>
+	<div id="container">
+		<iframe src="./iframe1/"></iframe>
+		<iframe src="./iframe2/"></iframe>
+		<iframe src="./iframe3/"></iframe>
+		<div id="left-arrow">&lt;</div>
+		<div id="right-arrow">&gt;</div>
+	</div>
+	<script>
+		const container = document.getElementById("container");
+		const iframes = container.getElementsByTagName("iframe");
+		const slider = document.getElementById("slider");
+		const iframeWidth = container.offsetWidth / iframes.length;
+		let currentFrameIndex = 0;
+		
+		function showFrame(index) {
+			for (let i = 0; i < iframes.length; i++) {
+				iframes[i].style.display = "none";
+			}
+			iframes[index].style.display = "block";
+			currentFrameIndex = index;
+			slider.value = index * iframeWidth;
+		}
+		
+		document.getElementById("left-arrow").addEventListener("click", function() {
+			let newIndex = currentFrameIndex - 1;
+			if (newIndex < 0) {
+				newIndex = iframes.length - 1;
+			}
+			showFrame(newIndex);
+		});
+		
+		document.getElementById("right-arrow").addEventListener("click", function() {
+			let newIndex = currentFrameIndex + 1;
+			if (newIndex >= iframes.length) {
+				newIndex = 0;
+			}
+			showFrame(newIndex);
+		});
+		
+	</script>
 </body>
 </html>
