@@ -55,7 +55,66 @@ setTimeout(function(){
     //New
     function newer(){
         var cardArr = [
-
+            {
+                "name": "Roblox",
+                "url": "https://now.gg/play/roblox-corporation/5349/roblox",
+                "desc": "An online game platform and game creation system.",
+            }, 
+            {
+                "name": "Minecraft",
+                "url": "https://now.gg/play/mojang/2534/minecraft-trial",
+                "desc": "Build blocks!",
+            }, 
+            {
+                "name": "Fifa Mobile",
+                "url": "https://now.gg/play/electronic-arts/1353/fifa-soccer",
+                "desc": "Play Soccer!",
+            }, 
+            {
+                "name": "Rocket League",
+                "url": "https://now.gg/play/psyonix-studios/4656/rocket-league",
+                "desc": "Sideswipe",
+            },
+            {
+                "name": "Rocket League Desktop",
+                "url": "https://play.geforcenow.com/games?game-id=9bcbf5b4-c460-4091-931c-a5a2a1fd9cc2&lang=en_US&asset-id=01_fbb8002b-3a9d-49e9-bd64-9a929c5ae55f",
+                "desc": "Desktop - GFN Account Required",
+            },
+            {
+                "name": "Fortnite",
+                "url": "https://play.geforcenow.com/games?game-id=46bfab06-d864-465d-9e56-2d9e45cdee0a&lang=en_US&asset-id=01_febf2f3d-9ba1-4d44-a777-f8261b05e498",
+                "desc": "GFN Account Required",
+            },
+            {
+                "name": "Subway Surfers",
+                "url": "https://now.gg/play/sybo-games/4875/subway-surfers",
+                "desc": "",
+            },
+            {
+                "name": "Retro Bowl",
+                "url": "https://now.gg/play/new-star/6391/retro-bowl",
+                "desc": "",
+            },
+            {
+                "name": "T$^#@ Race 3d",
+                "url": "https://html5.gamedistribution.com/rvvASMiM/ee9d0aca859145178e7bc19530b0518b/index.html",
+                "desc": "ok duud",
+            },
+            {
+                "name": "Hole.io",
+                "url": "https://hole-io.com/",
+                "desc": "",
+            },
+            {
+                "name": "Tallman Run",
+                "url": "https://html5.gamedistribution.com/rvvASMiM/7980c23fbbae4af6851e01052fce3cce/index.html?gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL2h0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tLzc5ODBjMjNmYmJhZTRhZjY4NTFlMDEwNTJmY2UzY2NlLyIsInBhcmVudERvbWFpbiI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidG9wRG9tYWluIjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJoYXNJbXByZXNzaW9uIjpmYWxzZSwibG9hZGVyRW5hYmxlZCI6dHJ1ZSwiaG9zdCI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidmVyc2lvbiI6IjEuNS4xNiJ9",
+                "desc": "",
+            },
+            {
+                "name": "Doodle God",
+                "url": "https://html5.gamedistribution.com/rvvASMiM/cd33ecc7b752408ab44036d0c8c1b91f/index.html?gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL2h0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tL2NkMzNlY2M3Yjc1MjQwOGFiNDQwMzZkMGM4YzFiOTFmLyIsInBhcmVudERvbWFpbiI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidG9wRG9tYWluIjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJoYXNJbXByZXNzaW9uIjpmYWxzZSwibG9hZGVyRW5hYmxlZCI6dHJ1ZSwiaG9zdCI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidmVyc2lvbiI6IjEuNS4xNiJ9",
+                "desc": "",
+            },
         ]
         cardArr.sort(function(a, b) {
             const nameA = a.name.toUpperCase(); // ignore upper and lowercase
@@ -90,20 +149,20 @@ setTimeout(function(){
     
         var cardArr2 = [
             {
-                "name": "Moto x3m",
-                "url": "https://www.coolmathgames.com/0-moto-x3m/play",
-                "desc": "Run, skate and jump through a brand new galaxy!",
+                "name": "Roblox",
+                "url": "https://now.gg/play/roblox-corporation/5349/roblox",
+                "desc": "An online game platform and game creation system.",
             }, 
             {
-                "name": "Krunker",
-                "url": "https://krunker.io",
-                "desc": "Krunker is a Multiplayer Online Game.",
-            },
+                "name": "Minecraft",
+                "url": "https://now.gg/play/mojang/2534/minecraft-trial",
+                "desc": "Build blocks!",
+            }, 
             {
-                "name": "Run 3",
-                "url": "https://www.coolmathgames.com/0-run-3/play",
-                "desc": "Run, skate and jump through a brand new galaxy!",
-            },
+                "name": "Fifa Mobile",
+                "url": "https://now.gg/play/electronic-arts/1353/fifa-soccer",
+                "desc": "Play Soccer!",
+            }, 
         ]
         cardArr2.sort(function(a, b) {
             const nameA = a.name.toUpperCase(); // ignore upper and lowercase
