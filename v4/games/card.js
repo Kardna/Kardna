@@ -29,13 +29,21 @@ function gamelaunch(name){
     }
     else{
         let temp_url2 = btoa(name);
-        let src = "https://" + url + "/uv.html#" + temp_url2
+            if (name.startsWith('http')) {
+                var src = "https://" + url + "/uv.html#" + temp_url2
+            } else {
+                var src = name
+            }
         window.open(src,"_self")
     }
     function verycoolfuntion(){
         let win = window.open('./plyr/')
         let temp_url2 = btoa(name);
-        let src = "https://" + url + "/uv.html#" + temp_url2
+        if (name.startsWith('http')) {
+            var src = "https://" + url + "/uv.html#" + temp_url2
+        } else {
+            var src = name
+        }
         setTimeout(function(){let iframe = win.document.createElement('iframe'); iframe.style.position = "absolute"; iframe.style.top = "0"; iframe.style.bottom = "0"; iframe.style.left = "0"; iframe.style.right = "0"; iframe.style.width = "100%"; iframe.style.height = "100%"; iframe.style.border = "none"; iframe.style.margin = "none"; iframe.style.zIndex = "999999"; iframe.src = src; win.document.body.appendChild(iframe)}, 100); 
     }
     };
@@ -54,67 +62,141 @@ setTimeout(function(){
     all();
     //New
     function newer(){
-        var cardArr = [
-            {
-                "name": "Roblox",
-                "url": "https://now.gg/play/roblox-corporation/5349/roblox",
-                "desc": "An online game platform and game creation system.",
-            }, 
-            {
-                "name": "Minecraft",
-                "url": "https://now.gg/play/mojang/2534/minecraft-trial",
-                "desc": "Build blocks!",
-            }, 
-            {
-                "name": "Fifa Mobile",
-                "url": "https://now.gg/play/electronic-arts/1353/fifa-soccer",
-                "desc": "Play Soccer!",
-            }, 
-            {
-                "name": "Rocket League",
-                "url": "https://now.gg/play/psyonix-studios/4656/rocket-league",
-                "desc": "Sideswipe",
-            },
-            {
-                "name": "Rocket League Desktop",
-                "url": "https://play.geforcenow.com/games?game-id=9bcbf5b4-c460-4091-931c-a5a2a1fd9cc2&lang=en_US&asset-id=01_fbb8002b-3a9d-49e9-bd64-9a929c5ae55f",
-                "desc": "Desktop - GFN Account Required",
-            },
-            {
-                "name": "Fortnite",
-                "url": "https://play.geforcenow.com/games?game-id=46bfab06-d864-465d-9e56-2d9e45cdee0a&lang=en_US&asset-id=01_febf2f3d-9ba1-4d44-a777-f8261b05e498",
-                "desc": "GFN Account Required",
-            },
-            {
-                "name": "Subway Surfers",
-                "url": "https://now.gg/play/sybo-games/4875/subway-surfers",
-                "desc": "",
-            },
-            {
-                "name": "Retro Bowl",
-                "url": "https://now.gg/play/new-star/6391/retro-bowl",
-                "desc": "",
-            },
-            {
-                "name": "T$^#@ Race 3d",
-                "url": "https://html5.gamedistribution.com/rvvASMiM/ee9d0aca859145178e7bc19530b0518b/index.html",
-                "desc": "ok duud",
-            },
-            {
-                "name": "Hole.io",
-                "url": "https://hole-io.com/",
-                "desc": "",
-            },
-            {
-                "name": "Tallman Run",
-                "url": "https://html5.gamedistribution.com/rvvASMiM/7980c23fbbae4af6851e01052fce3cce/index.html?gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL2h0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tLzc5ODBjMjNmYmJhZTRhZjY4NTFlMDEwNTJmY2UzY2NlLyIsInBhcmVudERvbWFpbiI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidG9wRG9tYWluIjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJoYXNJbXByZXNzaW9uIjpmYWxzZSwibG9hZGVyRW5hYmxlZCI6dHJ1ZSwiaG9zdCI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidmVyc2lvbiI6IjEuNS4xNiJ9",
-                "desc": "",
-            },
-            {
-                "name": "Doodle God",
-                "url": "https://html5.gamedistribution.com/rvvASMiM/cd33ecc7b752408ab44036d0c8c1b91f/index.html?gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL2h0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tL2NkMzNlY2M3Yjc1MjQwOGFiNDQwMzZkMGM4YzFiOTFmLyIsInBhcmVudERvbWFpbiI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidG9wRG9tYWluIjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJoYXNJbXByZXNzaW9uIjpmYWxzZSwibG9hZGVyRW5hYmxlZCI6dHJ1ZSwiaG9zdCI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidmVyc2lvbiI6IjEuNS4xNiJ9",
-                "desc": "",
-            },
+    var cardArr = [
+        {
+            "name": "2048",
+            "url": "/games/2048",
+            "desc": "",
+        },            {
+            "name": "Astray",
+            "url": "/games/astray",
+            "desc": "",
+        },            {
+            "name": "Breaklock",
+            "url": "/games/breaklock",
+            "desc": "",
+        },            {
+            "name": "btd4",
+            "url": "/games/btd4",
+            "desc": "",
+        },
+        {
+            "name": "Chroma",
+            "url": "/games/chroma",
+            "desc": "",
+        },            {
+            "name": "Cookie Clicker",
+            "url": "/games/cookie",
+            "desc": "",
+        },            {
+            "name": "Cubefield",
+            "url": "/games/cubefield",
+            "desc": "",
+        },            {
+            "name": "Dinosour Game",
+            "url": "/games/dinosaur",
+            "desc": "",
+        },            {
+            "name": "Doodle Jump",
+            "url": "/games/doodle-jump",
+            "desc": "",
+        },            {
+            "name": "Ducklife",
+            "url": "/games/ducklife",
+            "desc": "",
+        },            {
+            "name": "Ducklife 2",
+            "url": "/games/ducklife2",
+            "desc": "",
+        },
+        {
+            "name": "Ducklife 3",
+            "url": "/games/ducklife3",
+            "desc": "",
+        },  
+        {
+            "name": "Ducklife 4",
+            "url": "/games/ducklife4",
+            "desc": "",
+        },    {
+            "name": "2048 Flappy",
+            "url": "/games/flappy-2048",
+            "desc": "",
+        },            {
+            "name": "Flappy Bird",
+            "url": "/games/flappybird",
+            "desc": "",
+        },            {
+            "name": "Geometry Dash",
+            "url": "/games/geometry",
+            "desc": "Scratch",
+        },            {
+            "name": "Gopher Kart",
+            "url": "/games/gopher-kart",
+            "desc": "",
+        },            {
+            "name": "HexGL",
+            "url": "/games/hexgl",
+            "desc": "",
+        },            {
+            "name": "Minecraft Classic",
+            "url": "/games/mc-classic",
+            "desc": "",
+        },
+        {
+            "name": "Microft Flight Sim",
+            "url": "/games/microsoft-flight-simulator",
+            "desc": "HTML",
+        },            {
+            "name": "Pacman",
+            "url": "/games/pacman",
+            "desc": "",
+        },            {
+            "name": "Radius Raid",
+            "url": "/games/radius-raid",
+            "desc": "",
+        },            {
+            "name": "Retro Bowl",
+            "url": "/games/retro-bowl",
+            "desc": "HTML5",
+        },            {
+            "name": "Ritz",
+            "url": "/games/ritz",
+            "desc": "",
+        },            {
+            "name": "Slope",
+            "url": "/games/slope",
+            "desc": "",
+        },            {
+            "name": "SM64",
+            "url": "/games/sm64",
+            "desc": "",
+        },
+        {
+            "name": "Space Invaders",
+            "url": "/games/spaceinvaders",
+            "desc": "",
+        },            {
+            "name": "1v1 Soccer",
+            "url": "/games/swfs/gp.html#1on1soccer",
+            "desc": "",
+        },            {
+            "name": "Portal 2d",
+            "url": "/games/swfs/gp.html#portal2d",
+            "desc": "",
+        },            {
+            "name": "Vex3",
+            "url": "/games/vex3",
+            "desc": "",
+        },            {
+            "name": "Vex4",
+            "url": "/games/vex4",
+            "desc": "",
+        },            {
+            "name": "Vex5",
+            "url": "/games/vex5",
+            "desc": "",
+        },
         ]
         cardArr.sort(function(a, b) {
             const nameA = a.name.toUpperCase(); // ignore upper and lowercase
@@ -137,12 +219,6 @@ setTimeout(function(){
                    let name2 = arrayItem.name;
                    document.getElementById("new").innerHTML += `<li><div class='game-card'><div class='game-card__front'><div class='game-card__header'><div class='game-card__cover'><div class='game-card__image-placeholder two'></div><span class='game-card__cover-badge new' aria-hiddden='true'>New</span></div><div class='game-card__title'>${arrayItem.name}</div></div></div><div class='game-card__back'><div class='game-card__content'><div class='game-card__metadata'>${arrayItem.desc}</div><div class='game-card__buttons'><button onclick="var url2 = '${shhh}';gamelaunch(url2);"class='game-card__button -play'><i class='fa fa-play' aria-hidden='true'></i>Play</button></div></div></div></div></li> `;  
                 } );
-               cardArr.forEach(function(arrayItem) {
-                var shhh = arrayItem.url; 
-                let link2 = arrayItem.url;
-                let name2 = arrayItem.name;
-                document.getElementById("all").innerHTML += `<li><div class='game-card'><div class='game-card__front'><div class='game-card__header'><div class='game-card__cover'><div class='game-card__image-placeholder two'></div><span class='game-card__cover-badge new' aria-hiddden='true'>New</span></div><div class='game-card__title'>${arrayItem.name}</div></div></div><div class='game-card__back'><div class='game-card__content'><div class='game-card__metadata'>${arrayItem.desc}</div><div class='game-card__buttons'><button onclick="var url2 = '${shhh}';gamelaunch(url2);"class='game-card__button -play'><i class='fa fa-play' aria-hidden='true'></i>Play</button></div></div></div></div></li> `;  
-            } );
     }
     //Hot
     function hot(){
@@ -264,7 +340,67 @@ setTimeout(function(){
                 "name": "shellshock.io",
                 "url": "https://shellshock.io/;",
                 "desc": "",
-            }
+            },
+            {
+                "name": "Roblox",
+                "url": "https://now.gg/play/roblox-corporation/5349/roblox",
+                "desc": "An online game platform and game creation system.",
+            }, 
+            {
+                "name": "Minecraft",
+                "url": "https://now.gg/play/mojang/2534/minecraft-trial",
+                "desc": "Build blocks!",
+            }, 
+            {
+                "name": "Fifa Mobile",
+                "url": "https://now.gg/play/electronic-arts/1353/fifa-soccer",
+                "desc": "Play Soccer!",
+            }, 
+            {
+                "name": "Rocket League",
+                "url": "https://now.gg/play/psyonix-studios/4656/rocket-league",
+                "desc": "Sideswipe",
+            },
+            {
+                "name": "Rocket League Desktop",
+                "url": "https://play.geforcenow.com/games?game-id=9bcbf5b4-c460-4091-931c-a5a2a1fd9cc2&lang=en_US&asset-id=01_fbb8002b-3a9d-49e9-bd64-9a929c5ae55f",
+                "desc": "Desktop - GFN Account Required",
+            },
+            {
+                "name": "Fortnite",
+                "url": "https://play.geforcenow.com/games?game-id=46bfab06-d864-465d-9e56-2d9e45cdee0a&lang=en_US&asset-id=01_febf2f3d-9ba1-4d44-a777-f8261b05e498",
+                "desc": "GFN Account Required",
+            },
+            {
+                "name": "Subway Surfers",
+                "url": "https://now.gg/play/sybo-games/4875/subway-surfers",
+                "desc": "",
+            },
+            {
+                "name": "Retro Bowl",
+                "url": "https://now.gg/play/new-star/6391/retro-bowl",
+                "desc": "",
+            },
+            {
+                "name": "T$^#@ Race 3d",
+                "url": "https://html5.gamedistribution.com/rvvASMiM/ee9d0aca859145178e7bc19530b0518b/index.html",
+                "desc": "ok duud",
+            },
+            {
+                "name": "Hole.io",
+                "url": "https://hole-io.com/",
+                "desc": "",
+            },
+            {
+                "name": "Tallman Run",
+                "url": "https://html5.gamedistribution.com/rvvASMiM/7980c23fbbae4af6851e01052fce3cce/index.html?gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL2h0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tLzc5ODBjMjNmYmJhZTRhZjY4NTFlMDEwNTJmY2UzY2NlLyIsInBhcmVudERvbWFpbiI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidG9wRG9tYWluIjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJoYXNJbXByZXNzaW9uIjpmYWxzZSwibG9hZGVyRW5hYmxlZCI6dHJ1ZSwiaG9zdCI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidmVyc2lvbiI6IjEuNS4xNiJ9",
+                "desc": "",
+            },
+            {
+                "name": "Doodle God",
+                "url": "https://html5.gamedistribution.com/rvvASMiM/cd33ecc7b752408ab44036d0c8c1b91f/index.html?gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL2h0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tL2NkMzNlY2M3Yjc1MjQwOGFiNDQwMzZkMGM4YzFiOTFmLyIsInBhcmVudERvbWFpbiI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidG9wRG9tYWluIjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJoYXNJbXByZXNzaW9uIjpmYWxzZSwibG9hZGVyRW5hYmxlZCI6dHJ1ZSwiaG9zdCI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidmVyc2lvbiI6IjEuNS4xNiJ9",
+                "desc": "",
+            },
         ]
         cardArr3.sort(function(a, b) {
             const nameA = a.name.toUpperCase(); // ignore upper and lowercase
@@ -295,6 +431,5 @@ setTimeout(function(){
                 } );
     }       
     }, .0000000000000000000000000000000000000000000000000000000000000000000000000000000000000001);
-
     // End Of Cards //
 
