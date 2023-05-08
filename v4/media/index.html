@@ -166,10 +166,11 @@
                                 var newWindowDocument = newWindow.document;
 
                                 // create an iframe element in the new window
-                                var iframe = newWindowDocument.getElementsByName('video');
-
+                                var iframe = newWindowDocument.getElementById('vid');
+                                var iframe2 = newWindowDocument.getElementById('vid2');
                                 // set the src attribute of the iframe
                                 iframe.src = matchingItem.url;
+                                iframe2.src = matchingItem.url;
 
                                 });
 
