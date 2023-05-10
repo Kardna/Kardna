@@ -76,7 +76,11 @@
                 </div>
             </div>
         </div>
-        <div class="top">
+        <video id="myVideo" class="videoem" preload playsinline auto loop>
+            <source src="./imgs/This is Interstellar on 4K.mp4" type="video/mp4">
+        </video>
+        <div id="myDiv" class="top">
+
             <div class="image-container">
                 <div class="left-side">
                     <h1>Interstellar</h1>
@@ -100,6 +104,30 @@
                 </div>
             </div>
         </div>
+        <script>
+            const topDiv = document.querySelector('.top');
+            document.querySelector('.top').addEventListener("mouseover", mouseOver);
+            document.querySelector('.top').addEventListener("mouseout", mouseOut);
+            const myVideo = document.querySelector('.videoem');
+
+        function mouseOver() {
+            setTimeout(() => {
+            topDiv.classList.add("playing");
+            myVideo.classList.add("playing");
+            myVideo.style.display = "block";
+            myVideo.play();
+            }, "2500");
+        }
+            function mouseOut() {
+                setTimeout(() => {
+                    topDiv.classList.remove("playing");
+                myVideo.classList.remove("playing");
+                myVideo.style.display = "none";
+                myVideo.pause();
+            }, "5000");
+
+            }
+        </script>
         <div class="mid">
             <div class="content-area" id="trending">
                 <h2 class="content-title">TRENDING</h2>

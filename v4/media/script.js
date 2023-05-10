@@ -20,6 +20,15 @@ var cards = [
             "The animated series is not for children. In fact, its goal seems to be to offend as many as possible as it presents the adventures of Stan, Kyle, Kenny and Cartman. The show has taken on Saddam Hussein, Osama bin Laden, politicians of every stripe and self-important celebrities. Oh, and Kenny is killed in many episodes.",
             url: "",
             length: "Show"
+    },
+    {
+        background:
+            "./imgs/mario.jpg",
+        title: "Mario",
+        description:
+            "The animated series is not for children. In fact, its goal seems to be to offend as many as possible as it presents the adventures of Stan, Kyle, Kenny and Cartman. The show has taken on Saddam Hussein, Osama bin Laden, politicians of every stripe and self-important celebrities. Oh, and Kenny is killed in many episodes.",
+            url: "",
+            length: "92 minutes"
     }
 ];
 
@@ -535,8 +544,11 @@ const ToggleWatchLater = (movie = "", activate = true) => {
         modal.style.display = "none";
     }
 };
-
+var site2 = "PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIiA+CjxoZWFkPgogIDxtZXRhIGNoYXJzZXQ9IlVURi04Ij4KICA8dGl0bGU+SW50ZXJzdGVsbGVyIHwgS008L3RpdGxlPgogIDxsaW5rIHJlbD0ic3R5bGVzaGVldCIgaHJlZj0iaHR0cHM6Ly9jZG5qcy5jbG91ZGZsYXJlLmNvbS9hamF4L2xpYnMvbm9ybWFsaXplLzUuMC4wL25vcm1hbGl6ZS5taW4uY3NzIj4KPGxpbmsgcmVsPSdzdHlsZXNoZWV0JyBocmVmPSdodHRwczovL3VucGtnLmNvbS9wbHlyQDMvZGlzdC9wbHlyLmNzcyc+PGxpbmsgcmVsPSJzdHlsZXNoZWV0IiBocmVmPSIuL3BseXIuY3NzIj4KPHNjcmlwdCAgc3JjPSIuL3BscnkuanMiPjwvc2NyaXB0PgoKPC9oZWFkPgo8Ym9keT4KPCEtLSBwYXJ0aWFsOmluZGV4LnBhcnRpYWwuaHRtbCAtLT4KPGRpdiBjbGFzcz0iY29udGFpbmVyIj4KCTx2aWRlbyBpZD0idmlkIiBzcmM9IiIgY3Jvc3NvcmlnaW4gcGxheXNpbmxpbmUgcG9zdGVyPSIuL2kuanBnIj4KCQkJPHNvdXJjZSBpZD0idmlkMiIgc3JjPSIiIHR5cGU9InZpZGVvL21wNCIgc2l6ZT0iMTA4MCI+Cgk8L3ZpZGVvPgo8L2Rpdj4KPCEtLSBQbHlyIHJlc291cmNlcyBhbmQgYnJvd3NlciBwb2x5ZmlsbHMgYXJlIHNwZWNpZmllZCBpbiB0aGUgcGVuIHNldHRpbmdzIC0tPgo8IS0tIHBhcnRpYWwgLS0+CiAgPHNjcmlwdCBzcmM9J2h0dHBzOi8vY2RuLnBvbHlmaWxsLmlvL3YyL3BvbHlmaWxsLm1pbi5qcz9mZWF0dXJlcz1lczYsQXJyYXkucHJvdG90eXBlLmluY2x1ZGVzLEN1c3RvbUV2ZW50LE9iamVjdC5lbnRyaWVzLE9iamVjdC52YWx1ZXMsVVJMJz48L3NjcmlwdD4KPHNjcmlwdCBzcmM9J2h0dHBzOi8vdW5wa2cuY29tL3BseXJAMyc+PC9zY3JpcHQ+Cgo8L2JvZHk+CjwvaHRtbD4K"
+var lol = atob(site2)
 function openurl(url){
     alert(url)
-    let win = window.open("")
-}
+    let win = window.open();
+    win.document.write(lol)
+};
+
