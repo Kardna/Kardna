@@ -9,17 +9,8 @@ var cards = [
         title: "Interstellar",
         description:
             "Watch this incredible film made by some incredible people!",
-        url: "https://rinzry.asdljknasdlkmnsa.workers.dev/0:/Movies/Interstellar%20(2014)/Interstellar%20(2014)%20Bluray-1080p%208bit%20h264%20AAC%202.0.mp4",
+        url: "https://www.2embed.to/embed/imdb/movie?id=tt0816692",
         length: "2h 49m"
-    },
-    {
-        background:
-            "./imgs/s.jpg",
-        title: "South Park",
-        description:
-            "The animated series is not for children. In fact, its goal seems to be to offend as many as possible as it presents the adventures of Stan, Kyle, Kenny and Cartman. The show has taken on Saddam Hussein, Osama bin Laden, politicians of every stripe and self-important celebrities. Oh, and Kenny is killed in many episodes.",
-            url: "",
-            length: "show"
     },
     {
         background:
@@ -27,9 +18,60 @@ var cards = [
         title: "Mario",
         description:
             "The animated series is not for children. In fact, its goal seems to be to offend as many as possible as it presents the adventures of Stan, Kyle, Kenny and Cartman. The show has taken on Saddam Hussein, Osama bin Laden, politicians of every stripe and self-important celebrities. Oh, and Kenny is killed in many episodes.",
-            url: "",
+            url: "https://www.2embed.to/embed/tmdb/movie?id=502356",
             length: "92 minutes"
-    }
+    },
+    {
+        background:"./imgs/images.jpg",
+        title: "Creed III",
+        description: "",
+        url: "https://www.2embed.to/embed/tmdb/movie?id=tt11145118",
+        length: ""
+    },
+    {
+        background:"./imgs/91670229ac9f3b6fb4d242d6b5511644.jpg",
+        title: "Guardians of the Galaxy Volume 3",
+        description: "",
+        url: "https://www.2embed.to/embed/tmdb/movie?id=447365",
+        length: ""
+    },
+    {
+        background:"./imgs/",
+        title: "",
+        description: "",
+        url: "https://www.2embed.to/embed/tmdb/movie?id=",
+        length: ""
+    },
+    {
+        background:"./imgs/",
+        title: "",
+        description: "",
+        url: "https://www.2embed.to/embed/tmdb/movie?id=",
+        length: ""
+    },
+    {
+        background:"./imgs/",
+        title: "",
+        description: "",
+        url: "https://www.2embed.to/embed/tmdb/movie?id=",
+        length: ""
+    },
+    {
+        background:"./imgs/",
+        title: "",
+        description: "",
+        url: "https://www.2embed.to/embed/tmdb/movie?id=",
+        length: ""
+    },
+    {
+        background:"./imgs/",
+        title: "",
+        description: "",
+        url: "https://www.2embed.to/embed/tmdb/movie?id=",
+        length: ""
+    },
+
+    
 ];
 
 const IsMobile = () => {
@@ -219,8 +261,10 @@ const AddCards = () => {
                     win.document.write(lol)
                 }else{
                     alert(url)
-                    let win = window.open();
-                    win.document.write(lol)
+                    let win = window.open()
+                    let src = url;
+                    setTimeout(function(){let iframe = win.document.createElement('iframe'); iframe.id = "iframe"; iframe.style.position = "absolute"; iframe.style.top = "0"; iframe.style.bottom = "0"; iframe.style.left = "0"; iframe.style.right = "0"; iframe.style.width = "100%"; iframe.style.height = "100%"; iframe.style.border = "none"; iframe.style.margin = "none"; iframe.style.zIndex = "999999"; iframe.src = src; win.document.body.appendChild(iframe)}, 100); 
+            
                 }
             };
             
@@ -555,6 +599,6 @@ const ToggleWatchLater = (movie = "", activate = true) => {
         modal.style.display = "none";
     }
 };
-var site2 = "PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIiA+CjxoZWFkPgogIDxtZXRhIGNoYXJzZXQ9IlVURi04Ij4KICA8dGl0bGU+SW50ZXJzdGVsbGVyIHwgS008L3RpdGxlPgogIDxsaW5rIHJlbD0ic3R5bGVzaGVldCIgaHJlZj0iaHR0cHM6Ly9jZG5qcy5jbG91ZGZsYXJlLmNvbS9hamF4L2xpYnMvbm9ybWFsaXplLzUuMC4wL25vcm1hbGl6ZS5taW4uY3NzIj4KPGxpbmsgcmVsPSdzdHlsZXNoZWV0JyBocmVmPSdodHRwczovL3VucGtnLmNvbS9wbHlyQDMvZGlzdC9wbHlyLmNzcyc+PGxpbmsgcmVsPSJzdHlsZXNoZWV0IiBocmVmPSIuL3BseXIuY3NzIj4KPHNjcmlwdCAgc3JjPSIuL3BscnkuanMiPjwvc2NyaXB0PgoKPC9oZWFkPgo8Ym9keT4KPCEtLSBwYXJ0aWFsOmluZGV4LnBhcnRpYWwuaHRtbCAtLT4KPGRpdiBjbGFzcz0iY29udGFpbmVyIj4KCTx2aWRlbyBpZD0idmlkIiBzcmM9IiIgY3Jvc3NvcmlnaW4gcGxheXNpbmxpbmUgcG9zdGVyPSIuL2kuanBnIj4KCQkJPHNvdXJjZSBpZD0idmlkMiIgc3JjPSIiIHR5cGU9InZpZGVvL21wNCIgc2l6ZT0iMTA4MCI+Cgk8L3ZpZGVvPgo8L2Rpdj4KPCEtLSBQbHlyIHJlc291cmNlcyBhbmQgYnJvd3NlciBwb2x5ZmlsbHMgYXJlIHNwZWNpZmllZCBpbiB0aGUgcGVuIHNldHRpbmdzIC0tPgo8IS0tIHBhcnRpYWwgLS0+CiAgPHNjcmlwdCBzcmM9J2h0dHBzOi8vY2RuLnBvbHlmaWxsLmlvL3YyL3BvbHlmaWxsLm1pbi5qcz9mZWF0dXJlcz1lczYsQXJyYXkucHJvdG90eXBlLmluY2x1ZGVzLEN1c3RvbUV2ZW50LE9iamVjdC5lbnRyaWVzLE9iamVjdC52YWx1ZXMsVVJMJz48L3NjcmlwdD4KPHNjcmlwdCBzcmM9J2h0dHBzOi8vdW5wa2cuY29tL3BseXJAMyc+PC9zY3JpcHQ+Cgo8L2JvZHk+CjwvaHRtbD4K"
-var lol = atob(site2)
+
+
 

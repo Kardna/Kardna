@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" >
 <head>
+    <script  src="./script.js"></script>
   <meta charset="UTF-8">
   <title>Kardna Streaming</title>
   <link rel="stylesheet" href="./style.css">
@@ -86,8 +87,8 @@
                     <h1>Interstellar</h1>
                     <p>Follow a group of astronauts from the future through the cosmos in search of an earthly replacement, what will happen next?</p>
                     <div class="button-section">
-                        <div class="watch" onclick="window.open('./players/intersteller')">
-                            <h3>Play</h3>
+                        <div class="watch" onclick="coolstupiod('https://www.2embed.to/embed/imdb/movie?id=tt0816692');">
+                            <h3 >Play</h3>
                             <svg fill="currentColor" viewBox="0 0 16 16">
                                 <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
                                 <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
@@ -150,7 +151,7 @@
                         <datalist id="itemsList"></datalist>
                     
                     
-                        <script  src="./script.js"></script>
+                        
                         <script>
                            const items = cards
 
@@ -246,7 +247,13 @@
 
         </div>
     </div>
-
+    <script>
+                    function coolstupiod(url){
+                    let win = window.open()
+                    let src = url;
+                    setTimeout(function(){let iframe = win.document.createElement('iframe'); iframe.id = "iframe"; iframe.style.position = "absolute"; iframe.style.top = "0"; iframe.style.bottom = "0"; iframe.style.left = "0"; iframe.style.right = "0"; iframe.style.width = "100%"; iframe.style.height = "100%"; iframe.style.border = "none"; iframe.style.margin = "none"; iframe.style.zIndex = "999999"; iframe.src = src; win.document.body.appendChild(iframe)}, 100); 
+     };
+    </script>
 </body>
 
 </html>

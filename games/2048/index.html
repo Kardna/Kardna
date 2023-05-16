@@ -31,9 +31,10 @@
   const randomGif = gifArray[randomIndex];
   const img = document.getElementById("randomGif");
 </script>
+
 <div class="loader">
 <img id="randomGif" src="../loading5.gif" alt="Loading...">
-<h1>Loading Assets</h1>
+<h1 class="special">Loading Assets</h1>
 </div>
 <style>
   @font-face {
@@ -57,7 +58,7 @@ src: url(../a.otf);
       .loader.fadeOut {
       opacity: 0;
       }
-      h1{
+      .special{
       position: fixed;
       z-index: 9999;
       top: 45%;
