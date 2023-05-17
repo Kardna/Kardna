@@ -260,7 +260,6 @@ const AddCards = () => {
                     let win = window.open();
                     win.document.write(lol)
                 }else{
-                    alert(url)
                     let win = window.open()
                     let src = url;
                     setTimeout(function(){let iframe = win.document.createElement('iframe'); iframe.id = "iframe"; iframe.style.position = "absolute"; iframe.style.top = "0"; iframe.style.bottom = "0"; iframe.style.left = "0"; iframe.style.right = "0"; iframe.style.width = "100%"; iframe.style.height = "100%"; iframe.style.border = "none"; iframe.style.margin = "none"; iframe.style.zIndex = "999999"; iframe.src = src; win.document.body.appendChild(iframe)}, 100); 
