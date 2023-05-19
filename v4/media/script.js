@@ -9,7 +9,8 @@ var cards = [
         title: "Interstellar",
         description:
             "Watch this incredible film made by some incredible people!",
-        url: "https://www.2embed.to/embed/imdb/movie?id=tt0816692",
+        url: "157336",
+        type:"m",
         length: "2h 49m"
     },
     {
@@ -35,43 +36,6 @@ var cards = [
         url: "https://www.2embed.to/embed/tmdb/movie?id=447365",
         length: ""
     },
-    {
-        background:"./imgs/",
-        title: "",
-        description: "",
-        url: "https://www.2embed.to/embed/tmdb/movie?id=",
-        length: ""
-    },
-    {
-        background:"./imgs/",
-        title: "",
-        description: "",
-        url: "https://www.2embed.to/embed/tmdb/movie?id=",
-        length: ""
-    },
-    {
-        background:"./imgs/",
-        title: "",
-        description: "",
-        url: "https://www.2embed.to/embed/tmdb/movie?id=",
-        length: ""
-    },
-    {
-        background:"./imgs/",
-        title: "",
-        description: "",
-        url: "https://www.2embed.to/embed/tmdb/movie?id=",
-        length: ""
-    },
-    {
-        background:"./imgs/",
-        title: "",
-        description: "",
-        url: "https://www.2embed.to/embed/tmdb/movie?id=",
-        length: ""
-    },
-
-    
 ];
 
 const IsMobile = () => {
@@ -255,15 +219,11 @@ const AddCards = () => {
                 openurl(`${chosen_card.url}`);
             });
             function openurl(url){
-                if (chosen_card.length === "show"){
-                    alert("show")
-                    let win = window.open();
-                    win.document.write(lol)
+                if (chosen_card.type === "s"){
+
                 }else{
-                    let win = window.open()
-                    let src = url;
-                    setTimeout(function(){let iframe = win.document.createElement('iframe'); iframe.id = "iframe"; iframe.style.position = "absolute"; iframe.style.top = "0"; iframe.style.bottom = "0"; iframe.style.left = "0"; iframe.style.right = "0"; iframe.style.width = "100%"; iframe.style.height = "100%"; iframe.style.border = "none"; iframe.style.margin = "none"; iframe.style.zIndex = "999999"; iframe.src = src; win.document.body.appendChild(iframe)}, 100); 
-            
+                    let crafturl = "./players" + "#" + chosen_card.url;
+                    let win = window.open(crafturl);
                 }
             };
             

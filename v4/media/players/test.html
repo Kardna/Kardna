@@ -1,0 +1,13 @@
+<script>
+fetch('https://media.mc-kardna.cf/api/get_source/movie?id=157336')
+  .then(response => response.text())
+  .then(data => {
+    var responseText = data;
+    console.log(responseText);
+    // You can use the 'responseText' variable here or perform further operations on it
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });
+
+</script>
