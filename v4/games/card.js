@@ -64,139 +64,81 @@ setTimeout(function(){
     function newer(){
     var cardArr = [
         {
-            "name": "2048",
-            "url": "/games/2048",
-            "desc": "",
-        },            {
-            "name": "Astray",
-            "url": "/games/astray",
-            "desc": "",
-        },            {
-            "name": "Breaklock",
-            "url": "/games/breaklock",
-            "desc": "",
-        },            {
-            "name": "btd4",
-            "url": "/games/btd4",
-            "desc": "",
-        },
-        {
-            "name": "Chroma",
-            "url": "/games/chroma",
-            "desc": "",
-        },            {
-            "name": "Cookie Clicker",
-            "url": "/games/cookie",
-            "desc": "",
-        },            {
-            "name": "Cubefield",
-            "url": "/games/cubefield",
-            "desc": "",
-        },            {
-            "name": "Dinosour Game",
-            "url": "/games/dinosaur",
-            "desc": "",
-        },            {
-            "name": "Doodle Jump",
-            "url": "/games/doodle-jump",
-            "desc": "",
-        },            {
-            "name": "Ducklife",
-            "url": "/games/ducklife",
-            "desc": "",
-        },            {
-            "name": "Ducklife 2",
-            "url": "/games/ducklife2",
-            "desc": "",
-        },
-        {
-            "name": "Ducklife 3",
-            "url": "/games/ducklife3",
+            "name": "Tomb of the Mask",
+            "url": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@4487c13b114e3b97c0d1e18dd381193bf62175f5/d5fuh3d/tomb_of_the_mask.xml",
             "desc": "",
         },  
         {
-            "name": "Ducklife 4",
-            "url": "/games/ducklife4",
-            "desc": "",
-        },    {
-            "name": "2048 Flappy",
-            "url": "/games/flappy-2048",
-            "desc": "",
-        },            {
-            "name": "Flappy Bird",
-            "url": "/games/flappybird",
-            "desc": "",
-        },            {
-            "name": "Geometry Dash",
-            "url": "/games/geometry",
-            "desc": "Scratch",
-        },            {
-            "name": "Gopher Kart",
-            "url": "/games/gopher-kart",
-            "desc": "",
-        },            {
-            "name": "HexGL",
-            "url": "/games/hexgl",
-            "desc": "",
-        },            {
-            "name": "Minecraft Classic",
-            "url": "/games/mc-classic",
+            "name": "2048 Cupcakes",
+            "url": "https://0x0800.github.io/2048-CUPCAKES/",
             "desc": "",
         },
         {
-            "name": "Microft Flight Sim",
-            "url": "/games/microsoft-flight-simulator",
-            "desc": "HTML",
-        },            {
-            "name": "Pacman",
-            "url": "/games/pacman",
-            "desc": "",
-        },            {
-            "name": "Radius Raid",
-            "url": "/games/radius-raid",
-            "desc": "",
-        },            {
-            "name": "Retro Bowl",
-            "url": "/games/retro-bowl",
-            "desc": "HTML5",
-        },            {
-            "name": "Ritz",
-            "url": "/games/ritz",
-            "desc": "",
-        },            {
-            "name": "Slope",
-            "url": "/games/slope",
-            "desc": "",
-        },            {
-            "name": "SM64",
-            "url": "/games/sm64",
+            "name": "Penalty Challenge Multiplayer",
+            "url": "https://html5.gamemonetize.co/czy29ldafw7pdecjo7irqipcld83ovn1/?gd_sdk_referrer_url=https%253A%252F%252Fdoodoo.love%252Fpenalty-challenge-multiplayer-game",
             "desc": "",
         },
         {
-            "name": "Space Invaders",
-            "url": "/games/spaceinvaders",
-            "desc": "",
-        },            {
-            "name": "1v1 Soccer",
-            "url": "/games/swfs/gp.html#1on1soccer",
-            "desc": "",
-        },            {
-            "name": "Portal 2d",
-            "url": "/games/swfs/gp.html#portal2d",
-            "desc": "",
-        },            {
-            "name": "Vex3",
-            "url": "/games/vex3",
-            "desc": "",
-        },            {
-            "name": "Vex4",
-            "url": "/games/vex4",
-            "desc": "",
-        },            {
-            "name": "Vex5",
-            "url": "/games/vex5",
+            "name": "Penalty shooters 2",
+            "url": "https://html5.gamedistribution.com/571b9df027e449f78e3869ba19658754/?gd_sdk_referrer_url=https://penaltyshooters2.com",
             "desc": "",
         },
+        {
+            "name": "Papa's Freezeria",
+            "url": "https://dffve3q5is4huusnmos6kv7n9mthc3vk-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://729483016-359174802648164068.preview.editmysite.com/uploads/b/139890129-569829031530007438/files/pf.xml",
+            "desc": "",
+        },
+        {
+            "name": "Papa's Pizzeria",
+            "url": "https://0scl04omv9lhemvauk2tc5g284ba2o3p-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%252Fpapa-s-pizzeria.xml",
+            "desc": "",
+        },
+        {
+            "name": "Papa's Sushiria",
+            "url": "https://isgames.github.io/papassushiria/",
+            "desc": "",
+        },
+        {
+            "name": "Papa's Wingeria",
+            "url": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fpapa-s-wingeria.xml",
+            "desc": "",
+        },
+        {
+            "name": "Basketball Legends",
+            "url": "https://script.google.com/macros/s/AKfycbw2PBCxg0orOBJVxFwjwpJ5Nt3R6oPh4bNnujiA_dYKOMXIa7k/exec",
+            "desc": "",
+        },
+        {
+            "name": "Crossy Road",
+            "url": "https://www-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://sites.google.com/site/s011h5fk/crossy-road.xml",
+            "desc": "",
+        },
+        {
+            "name": "DuckLife 5",
+            "url": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fduck-life-5.xml",
+            "desc": "",
+        },
+        {
+            "name": "DuckLife: Treasure Hunt",
+            "url": "https://gamefilez.mofunzone.com/gamefilez/duck-life-games/ducklifetreasurehunt/index.html",
+            "desc": "",
+        },
+        {
+            "name": "DuckLife Space",
+            "url": "https://www.mathplayground.com/duck5/index.html",
+            "desc": "",
+        },
+        {
+            "name": "Duck Life: Battle",
+            "url": "https://f.kbhgames.com/2018/09/duck-life-battle/",
+            "desc": "",
+        },
+        {
+            "name": "Duck Life: Adventure",
+            "url": "https://gamefilez.mofunzone.com/gamefilez/duck_life_adventure/",
+            "desc": "",
+        },
+
         ]
         cardArr.sort(function(a, b) {
             const nameA = a.name.toUpperCase(); // ignore upper and lowercase
@@ -262,6 +204,140 @@ setTimeout(function(){
     function all(){
         var cardArr3 = [
             {
+                "name": "2048",
+                "url": "/games/2048",
+                "desc": "",
+            },            {
+                "name": "Astray",
+                "url": "/games/astray",
+                "desc": "",
+            },            {
+                "name": "Breaklock",
+                "url": "/games/breaklock",
+                "desc": "",
+            },            {
+                "name": "btd4",
+                "url": "/games/btd4",
+                "desc": "",
+            },
+            {
+                "name": "Chroma",
+                "url": "/games/chroma",
+                "desc": "",
+            },            {
+                "name": "Cookie Clicker",
+                "url": "/games/cookie",
+                "desc": "",
+            },            {
+                "name": "Cubefield",
+                "url": "/games/cubefield",
+                "desc": "",
+            },            {
+                "name": "Dinosour Game",
+                "url": "/games/dinosaur",
+                "desc": "",
+            },            {
+                "name": "Doodle Jump",
+                "url": "/games/doodle-jump",
+                "desc": "",
+            },            {
+                "name": "Ducklife",
+                "url": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@1036762f19f81e71d8caf90f96ecb17c2543ea40/hjpqx4/duck-life.xml",
+                "desc": "",
+            },            {
+                "name": "Ducklife 2",
+                "url": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@db7c558f6d366da74fcbbf98407d81120c76221e/0aynf57j/duck-life-2.xml",
+                "desc": "",
+            },
+            {
+                "name": "Ducklife 3",
+                "url": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@07697277b06353fcdb759699d0c8b5f2f9303975/lft6d3g/ducklife-3.xml",
+                "desc": "",
+            },  
+            {
+                "name": "Ducklife 4",
+                "url": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fduck-life-4.xml",
+                "desc": "",
+            },    {
+                "name": "2048 Flappy",
+                "url": "/games/flappy-2048",
+                "desc": "",
+            },            {
+                "name": "Flappy Bird",
+                "url": "/games/flappybird",
+                "desc": "",
+            },            {
+                "name": "Geometry Dash",
+                "url": "/games/geometry",
+                "desc": "Scratch",
+            },            {
+                "name": "Gopher Kart",
+                "url": "/games/gopher-kart",
+                "desc": "",
+            },            {
+                "name": "HexGL",
+                "url": "/games/hexgl",
+                "desc": "",
+            },            {
+                "name": "Minecraft Classic",
+                "url": "/games/mc-classic",
+                "desc": "",
+            },
+            {
+                "name": "Microft Flight Sim",
+                "url": "/games/microsoft-flight-simulator",
+                "desc": "HTML",
+            },            {
+                "name": "Pacman",
+                "url": "/games/pacman",
+                "desc": "",
+            },            {
+                "name": "Radius Raid",
+                "url": "/games/radius-raid",
+                "desc": "",
+            },            {
+                "name": "Retro Bowl",
+                "url": "/games/retro-bowl",
+                "desc": "HTML5",
+            },            {
+                "name": "Ritz",
+                "url": "/games/ritz",
+                "desc": "",
+            },            {
+                "name": "Slope",
+                "url": "/games/slope",
+                "desc": "",
+            },            {
+                "name": "SM64",
+                "url": "/games/sm64",
+                "desc": "",
+            },
+            {
+                "name": "Space Invaders",
+                "url": "/games/spaceinvaders",
+                "desc": "",
+            },            {
+                "name": "1v1 Soccer",
+                "url": "/games/swfs/gp.html#1on1soccer",
+                "desc": "",
+            },            {
+                "name": "Portal 2d",
+                "url": "/games/swfs/gp.html#portal2d",
+                "desc": "",
+            },            {
+                "name": "Vex3",
+                "url": "/games/vex3",
+                "desc": "",
+            },            {
+                "name": "Vex4",
+                "url": "/games/vex4",
+                "desc": "",
+            },            {
+                "name": "Vex5",
+                "url": "/games/vex5",
+                "desc": "",
+            },
+            {
                 "name": "Moto x3m",
                 "url": "https://www.coolmathgames.com/0-moto-x3m/play",
                 "desc": "Run, skate and jump through a brand new galaxy!",
@@ -285,11 +361,6 @@ setTimeout(function(){
                 "name": "Fortnite",
                 "url": "",
                 "desc": "Fortnite is a Multiplayer Online Game.",
-            },
-            {
-                "name": "Penalty Kick Online",
-                "url": "https://www.coolmathgames.com/0-penalty-kick-online/play",
-                "desc": "Hit a screamer into the top corner in Penalty Kick Online. Take your skills online, earn XP, level up, and become world champion.",
             },
             {
                 "name": "Idle Breakout",
