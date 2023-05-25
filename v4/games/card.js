@@ -138,6 +138,11 @@ setTimeout(function(){
             "url": "https://gamefilez.mofunzone.com/gamefilez/duck_life_adventure/",
             "desc": "",
         },
+        {
+            "name": "Soccer Skills Euro Cup",
+            "url": "https://html5.gamedistribution.com/899c82ac71ba4dd5a571fc9bc35f55f8/",
+            "desc": "",
+        },
 
         ]
         cardArr.sort(function(a, b) {
