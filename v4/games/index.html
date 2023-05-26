@@ -24,6 +24,7 @@ function getCurrentURL () {
 return window.location.href
 }
 </script>
+
 <script>
 
 </script>
@@ -38,7 +39,132 @@ return window.location.href
 	<label class="switch">
 		<input type="checkbox" id="mySwitch"><span class="slider round"></span>
 	</label>
-	<br>	
+	<br>
+	<div class="input-area">
+		<input type="text" id="searchInput" placeholder="Enter a game name" autocomplete="off">
+		<ul id="autocompleteList"></ul>
+		<script>
+			const games = combinedArr;
+			const autocompleteList = document.getElementById('autocompleteList');
+			// Function to search for a game by name
+			function searchGame(input) {
+				var searchQuery = input.value.toLowerCase();
+	
+				// Filter games based on search query
+				var filteredGames = games.filter(function (game) {
+					return game.name.toLowerCase().includes(searchQuery);
+				});
+	
+				// Check if any games matched the search query
+				if (filteredGames.length > 0) {
+					// Assuming you have your own launchGame function, replace the console.log with your implementation
+					launchGame(filteredGames[0]);
+				} else {
+					console.log("Game not found");
+				}
+			}
+	
+			// Function to launch a game
+			function launchGame(game) {
+				console.log("Launching game:", game.name);
+				console.log("URL:", game.url);
+				document.addEventListener("DOMContentLoaded", function() {
+				let mySwitch = document.getElementById("mySwitch");
+			if (mySwitch) {
+				mySwitch.addEventListener("change", function() {
+				if (this.checked) {
+					openinnewtab++;
+				} else {
+					openinnewtab--;
+				}
+				console.log(openinnewtab);
+				});
+			} else {
+				console.error("Could not find element with ID 'mySwitch'");
+			}
+			});
+				console.log(openinnewtab);
+				if (openinnewtab === 1){
+					verycoolfuntion4();
+				}
+				else{
+					let temp_url2 = btoa(game.url);
+						if (game.url.startsWith('http')) {
+							var src = "https://" + url + "/uv.html#" + temp_url2
+						} else {
+							var src = game.url
+						}
+					window.open(src,"_self")
+				function verycoolfuntion4(){
+					let win = window.open('./plyr/')
+					let temp_url2 = btoa(game.url);
+					if (game.url.startsWith('http')) {
+						var src = "https://" + url + "/uv.html#" + temp_url2
+					} else {
+						var src = game.url
+					}
+					setTimeout(function(){let iframe = win.document.createElement('iframe'); iframe.style.position = "absolute"; iframe.style.top = "0"; iframe.style.bottom = "0"; iframe.style.left = "0"; iframe.style.right = "0"; iframe.style.width = "100%"; iframe.style.height = "100%"; iframe.style.border = "none"; iframe.style.margin = "none"; iframe.style.zIndex = "999999"; iframe.src = src; win.document.body.appendChild(iframe)}, 100); 
+				}
+						}};
+	
+			// Function to handle key press events
+			function handleKeyPress(event) {
+				// Check if the Enter key is pressed
+				if (event.keyCode === 13) {
+					searchGame(event.target);
+				}
+			}
+	
+			// Function to handle input change events
+			function handleInputChange(event) {
+				var searchQuery = event.target.value.toLowerCase();
+	
+				// Check if the search query is empty
+				if (searchQuery === "") {
+					// Clear autocomplete suggestions
+					autocompleteList.innerHTML = "";
+					return;
+				}
+	
+				// Filter games based on search query
+				var filteredGames = games.filter(function (game) {
+					return game.name.toLowerCase().includes(searchQuery);
+				});
+	
+				// Create an array of matching game names
+				var matchingGameNames = filteredGames.map(function (game) {
+					return game.name;
+				});
+	
+				// Show autocomplete suggestions
+				showAutocompleteSuggestions(matchingGameNames);
+			}
+	
+			// Function to show autocomplete suggestions
+			function showAutocompleteSuggestions(suggestions) {
+				autocompleteList.innerHTML = ""; // Clear previous suggestions
+	
+				// Create and append suggestion elements
+				suggestions.forEach(function (suggestion) {
+					var suggestionElement = document.createElement("li");
+					suggestionElement.textContent = suggestion;
+					suggestionElement.addEventListener("click", function () {
+						searchInput.value = suggestion;
+						searchGame(searchInput);
+						autocompleteList.innerHTML = ""; // Clear suggestions after selection
+					});
+					autocompleteList.appendChild(suggestionElement);
+				});
+			}
+	
+			// Add event listeners to the input field
+			var searchInput = document.getElementById("searchInput"); // Replace "searchInput" with the ID of your input field
+			searchInput.addEventListener("keydown", handleKeyPress);
+			searchInput.addEventListener("input", handleInputChange);
+		</script>
+	
+		
+	</div>
 	<br>
 	<br>
 <div>

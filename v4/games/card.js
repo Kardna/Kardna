@@ -48,128 +48,15 @@ function gamelaunch(name){
     }
     };
 
-
-setTimeout(function(){
-    var id = document.getElementById("divbreo");
-    if (id !== null && typeof id === "object") {
-      console.log("All good");
-    } else {
-      console.log("Element is null or not an object");
-      console.log(id)
-    }
-    hot();
-    newer();
-    all();
-    //New
-    function newer(){
+  //  {
+  //      "name": "",
+  //      "url": "",
+  //      "desc": "",
+  //  }, 
     var cardArr = [
-        {
-            "name": "Tomb of the Mask",
-            "url": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@4487c13b114e3b97c0d1e18dd381193bf62175f5/d5fuh3d/tomb_of_the_mask.xml",
-            "desc": "",
-        },  
-        {
-            "name": "2048 Cupcakes",
-            "url": "https://0x0800.github.io/2048-CUPCAKES/",
-            "desc": "",
-        },
-        {
-            "name": "Penalty Challenge Multiplayer",
-            "url": "https://html5.gamemonetize.co/czy29ldafw7pdecjo7irqipcld83ovn1/?gd_sdk_referrer_url=https%253A%252F%252Fdoodoo.love%252Fpenalty-challenge-multiplayer-game",
-            "desc": "",
-        },
-        {
-            "name": "Penalty shooters 2",
-            "url": "https://html5.gamedistribution.com/571b9df027e449f78e3869ba19658754/?gd_sdk_referrer_url=https://penaltyshooters2.com",
-            "desc": "",
-        },
-        {
-            "name": "Papa's Freezeria",
-            "url": "https://dffve3q5is4huusnmos6kv7n9mthc3vk-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://729483016-359174802648164068.preview.editmysite.com/uploads/b/139890129-569829031530007438/files/pf.xml",
-            "desc": "",
-        },
-        {
-            "name": "Papa's Pizzeria",
-            "url": "https://0scl04omv9lhemvauk2tc5g284ba2o3p-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%252Fpapa-s-pizzeria.xml",
-            "desc": "",
-        },
-        {
-            "name": "Papa's Sushiria",
-            "url": "https://isgames.github.io/papassushiria/",
-            "desc": "",
-        },
-        {
-            "name": "Papa's Wingeria",
-            "url": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fpapa-s-wingeria.xml",
-            "desc": "",
-        },
-        {
-            "name": "Basketball Legends",
-            "url": "https://script.google.com/macros/s/AKfycbw2PBCxg0orOBJVxFwjwpJ5Nt3R6oPh4bNnujiA_dYKOMXIa7k/exec",
-            "desc": "",
-        },
-        {
-            "name": "Crossy Road",
-            "url": "https://www-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://sites.google.com/site/s011h5fk/crossy-road.xml",
-            "desc": "",
-        },
-        {
-            "name": "DuckLife 5",
-            "url": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fduck-life-5.xml",
-            "desc": "",
-        },
-        {
-            "name": "DuckLife: Treasure Hunt",
-            "url": "https://gamefilez.mofunzone.com/gamefilez/duck-life-games/ducklifetreasurehunt/index.html",
-            "desc": "",
-        },
-        {
-            "name": "DuckLife Space",
-            "url": "https://www.mathplayground.com/duck5/index.html",
-            "desc": "",
-        },
-        {
-            "name": "Duck Life: Battle",
-            "url": "https://f.kbhgames.com/2018/09/duck-life-battle/",
-            "desc": "",
-        },
-        {
-            "name": "Duck Life: Adventure",
-            "url": "https://gamefilez.mofunzone.com/gamefilez/duck_life_adventure/",
-            "desc": "",
-        },
-        {
-            "name": "Soccer Skills Euro Cup",
-            "url": "https://html5.gamedistribution.com/899c82ac71ba4dd5a571fc9bc35f55f8/",
-            "desc": "",
-        },
 
         ]
-        cardArr.sort(function(a, b) {
-            const nameA = a.name.toUpperCase(); // ignore upper and lowercase
-            const nameB = b.name.toUpperCase(); // ignore upper and lowercase
-              
-          // sort in an ascending order
-            if (nameA < nameB) {
-              return -1;
-            }
-            if (nameA > nameB) {
-              return 1;
-            }
-          
-            // names must be equal
-            return 0;
-          });
-          cardArr.forEach(function(arrayItem) {
-            var shhh = arrayItem.url;
-                   let link2 = arrayItem.url;
-                   let name2 = arrayItem.name;
-                   document.getElementById("new").innerHTML += `<li><div class='game-card'><div class='game-card__front'><div class='game-card__header'><div class='game-card__cover'><div class='game-card__image-placeholder two'></div><span class='game-card__cover-badge new' aria-hiddden='true'>New</span></div><div class='game-card__title'>${arrayItem.name}</div></div></div><div class='game-card__back'><div class='game-card__content'><div class='game-card__metadata'>${arrayItem.desc}</div><div class='game-card__buttons'><button onclick="var url2 = '${shhh}';gamelaunch(url2);"class='game-card__button -play'><i class='fa fa-play' aria-hidden='true'></i>Play</button></div></div></div></div></li> `;  
-                } );
-    }
-    //Hot
-    function hot(){
-    
+
         var cardArr2 = [
             {
                 "name": "Roblox",
@@ -187,26 +74,7 @@ setTimeout(function(){
                 "desc": "Play Soccer!",
             }, 
         ]
-        cardArr2.sort(function(a, b) {
-            const nameA = a.name.toUpperCase(); // ignore upper and lowercase
-            const nameB = b.name.toUpperCase(); // ignore upper and lowercase
 
-            if (nameA < nameB) {
-              return -1;
-            }
-            if (nameA > nameB) {
-              return 1;
-            }
-            return 0;
-          });
-          cardArr2.forEach(function(arrayItem) {
-            var shhh = arrayItem.url;
-                   let link2 = arrayItem.url;
-                   let name2 = arrayItem.name;
-                   document.getElementById("hot").innerHTML += `<li><div class='game-card'><div class='game-card__front'><div class='game-card__header'><div class='game-card__cover'><div class='game-card__image-placeholder two'></div><span class='game-card__cover-badge new' aria-hiddden='true'>Top 3</span></div><div class='game-card__title'>${arrayItem.name}</div></div></div><div class='game-card__back'><div class='game-card__content'><div class='game-card__metadata'>${arrayItem.desc}</div><div class='game-card__buttons'><button onclick="var url2 = '${shhh}';gamelaunch(url2);"class='game-card__button -play'><i class='fa fa-play' aria-hidden='true'></i>Play</button></div></div></div></div></li> `;  
-               } );
-    }
-    function all(){
         var cardArr3 = [
             {
                 "name": "2048",
@@ -216,7 +84,88 @@ setTimeout(function(){
                 "name": "Astray",
                 "url": "/games/astray",
                 "desc": "",
-            },            {
+            },  
+            {
+                "name": "Tomb of the Mask",
+                "url": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@4487c13b114e3b97c0d1e18dd381193bf62175f5/d5fuh3d/tomb_of_the_mask.xml",
+                "desc": "",
+            },  
+            {
+                "name": "2048 Cupcakes",
+                "url": "https://0x0800.github.io/2048-CUPCAKES/",
+                "desc": "",
+            },
+            {
+                "name": "Penalty Challenge Multiplayer",
+                "url": "https://html5.gamemonetize.co/czy29ldafw7pdecjo7irqipcld83ovn1/?gd_sdk_referrer_url=https%253A%252F%252Fdoodoo.love%252Fpenalty-challenge-multiplayer-game",
+                "desc": "",
+            },
+            {
+                "name": "Penalty shooters 2",
+                "url": "https://html5.gamedistribution.com/571b9df027e449f78e3869ba19658754/?gd_sdk_referrer_url=https://penaltyshooters2.com",
+                "desc": "",
+            },
+            {
+                "name": "Papa's Freezeria",
+                "url": "https://dffve3q5is4huusnmos6kv7n9mthc3vk-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://729483016-359174802648164068.preview.editmysite.com/uploads/b/139890129-569829031530007438/files/pf.xml",
+                "desc": "",
+            },
+            {
+                "name": "Papa's Pizzeria",
+                "url": "https://0scl04omv9lhemvauk2tc5g284ba2o3p-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%252Fpapa-s-pizzeria.xml",
+                "desc": "",
+            },
+            {
+                "name": "Papa's Sushiria",
+                "url": "https://isgames.github.io/papassushiria/",
+                "desc": "",
+            },
+            {
+                "name": "Papa's Wingeria",
+                "url": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fpapa-s-wingeria.xml",
+                "desc": "",
+            },
+            {
+                "name": "Basketball Legends",
+                "url": "https://script.google.com/macros/s/AKfycbw2PBCxg0orOBJVxFwjwpJ5Nt3R6oPh4bNnujiA_dYKOMXIa7k/exec",
+                "desc": "",
+            },
+            {
+                "name": "Crossy Road",
+                "url": "https://www-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://sites.google.com/site/s011h5fk/crossy-road.xml",
+                "desc": "",
+            },
+            {
+                "name": "DuckLife 5",
+                "url": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fduck-life-5.xml",
+                "desc": "",
+            },
+            {
+                "name": "DuckLife: Treasure Hunt",
+                "url": "https://gamefilez.mofunzone.com/gamefilez/duck-life-games/ducklifetreasurehunt/index.html",
+                "desc": "",
+            },
+            {
+                "name": "DuckLife Space",
+                "url": "https://www.mathplayground.com/duck5/index.html",
+                "desc": "",
+            },
+            {
+                "name": "Duck Life: Battle",
+                "url": "https://f.kbhgames.com/2018/09/duck-life-battle/",
+                "desc": "",
+            },
+            {
+                "name": "Duck Life: Adventure",
+                "url": "https://gamefilez.mofunzone.com/gamefilez/duck_life_adventure/",
+                "desc": "",
+            },
+            {
+                "name": "Soccer Skills Euro Cup",
+                "url": "https://html5.gamedistribution.com/899c82ac71ba4dd5a571fc9bc35f55f8/",
+                "desc": "",
+            },
+              {
                 "name": "Breaklock",
                 "url": "/games/breaklock",
                 "desc": "",
@@ -478,6 +427,68 @@ setTimeout(function(){
                 "desc": "",
             },
         ]
+
+
+
+
+setTimeout(function(){
+
+    var id = document.getElementById("divbreo");
+    if (id !== null && typeof id === "object") {
+      console.log("All good");
+    } else {
+      console.log("Element is null or not an object");
+      console.log(id)
+    }
+    hot();
+    newer();
+    all();
+    //New
+    function newer(){
+        cardArr.sort(function(a, b) {
+            const nameA = a.name.toUpperCase(); // ignore upper and lowercase
+            const nameB = b.name.toUpperCase(); // ignore upper and lowercase
+              
+          // sort in an ascending order
+            if (nameA < nameB) {
+              return -1;
+            }
+            if (nameA > nameB) {
+              return 1;
+            }
+          
+            // names must be equal
+            return 0;
+          });
+          cardArr.forEach(function(arrayItem) {
+            var shhh = arrayItem.url;
+                   let link2 = arrayItem.url;
+                   let name2 = arrayItem.name;
+                   document.getElementById("new").innerHTML += `<li><div class='game-card'><div class='game-card__front'><div class='game-card__header'><div class='game-card__cover'><div class='game-card__image-placeholder two'></div><span class='game-card__cover-badge new' aria-hiddden='true'>New</span></div><div class='game-card__title'>${arrayItem.name}</div></div></div><div class='game-card__back'><div class='game-card__content'><div class='game-card__metadata'>${arrayItem.desc}</div><div class='game-card__buttons'><button onclick="var url2 = '${shhh}';gamelaunch(url2);"class='game-card__button -play'><i class='fa fa-play' aria-hidden='true'></i>Play</button></div></div></div></div></li> `;  
+                } );
+    }
+    //Hot
+    function hot(){
+        cardArr2.sort(function(a, b) {
+            const nameA = a.name.toUpperCase(); // ignore upper and lowercase
+            const nameB = b.name.toUpperCase(); // ignore upper and lowercase
+
+            if (nameA < nameB) {
+              return -1;
+            }
+            if (nameA > nameB) {
+              return 1;
+            }
+            return 0;
+          });
+          cardArr2.forEach(function(arrayItem) {
+            var shhh = arrayItem.url;
+                   let link2 = arrayItem.url;
+                   let name2 = arrayItem.name;
+                   document.getElementById("hot").innerHTML += `<li><div class='game-card'><div class='game-card__front'><div class='game-card__header'><div class='game-card__cover'><div class='game-card__image-placeholder two'></div><span class='game-card__cover-badge new' aria-hiddden='true'>Top 3</span></div><div class='game-card__title'>${arrayItem.name}</div></div></div><div class='game-card__back'><div class='game-card__content'><div class='game-card__metadata'>${arrayItem.desc}</div><div class='game-card__buttons'><button onclick="var url2 = '${shhh}';gamelaunch(url2);"class='game-card__button -play'><i class='fa fa-play' aria-hidden='true'></i>Play</button></div></div></div></div></li> `;  
+               } );
+    }
+    function all(){
         cardArr3.sort(function(a, b) {
             const nameA = a.name.toUpperCase(); // ignore upper and lowercase
             const nameB = b.name.toUpperCase(); // ignore upper and lowercase
@@ -505,7 +516,8 @@ setTimeout(function(){
                    }
                    document.getElementById("all").innerHTML += `<li><div class='game-card'><div class='game-card__front'><div class='game-card__header'><div class='game-card__cover'><div class='game-card__image-placeholder two'></div><span class='game-card__cover-badge new' aria-hiddden='true'></span></div><div class='game-card__title'>${arrayItem.name}</div></div></div><div class='game-card__back'><div class='game-card__content'><div class='game-card__metadata'>${arrayItem.desc}</div><div class='game-card__buttons'><button onclick="var url2 = '${shhh}';gamelaunch(url2);"class='game-card__button -play'><i class='fa fa-play' aria-hidden='true'></i>Play</button></div></div></div></div></li> `;  
                 } );
-    }       
+    } 
     }, .0000000000000000000000000000000000000000000000000000000000000000000000000000000000000001);
     // End Of Cards //
-
+    var combinedArr = [].concat(cardArr, cardArr2, cardArr3);
+    
