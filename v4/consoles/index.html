@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>game</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css'><link rel="stylesheet" href="./style.css">
+<script>
+let site1 = getCurrentURL();
+var name = new URL(site1).host;
+console.log(name);
+const encodedData = "WyJrYXJkbmE0bGlmZS5jZiIsImthcmRuYTRsaWZlLmdhIiwia2FyZG5hNGxpZmUuZ3EiLCJrYXJkbmE0bGlmZS5tbCIsImthcmRuYTRsaWZlLnRrIiwia2FyZG5hLmNmIiwia2FyZG5hLm1sIiwia2FyZG5hLnh5eiIsInJpcGthcmRuYS5jZiIsInJpcGthcmRuYS5tbCIsInJpcGthcmRuYS50ayIsInJpcGthcmRuYS5ncSIsInJpcGthcmRuYS5nYSIsInJpcHJpcGthcmRuYS5nYSIsInJpcHJpcGthcmRuYS5ncSIsInJpcHJpcGthcmRuYS50ayIsInJpcHJpcGthcmRuYS5tbCIsInJpcHJpcGthcmRuYS5jZiIsInRleGFzZmVldC5nYSJd"; // Encoded data
+const decodedString = atob(encodedData); // Decode the Base64 string
+const myArray = JSON.parse(decodedString); // Convert the JSON string to an array
+const myVariable = name;
+if (myArray.includes(myVariable)) {
+	var url = 'bg.' + name;
+} else {
+	console.log("Its working!!!")
+	var url = 'bg.mc-kardna.cf';
+}
+console.log(url);
+function getCurrentURL () {
+return window.location.href
+}
+</script>
+
+<script>
+
+</script>
+<script src="app.js"></script>
+<script src="card.js"></script>
+
+</head>
+<body>
+	<h1>Welcome To Ka<vbr>rdna</vbr> Consol<wbr>es!</h1>
+	<br>
+	<br>
+	<h3>Play Games On Your Favorite Consol<wbr>es!</h3>
+	<br>
+	<br>
+<div>
+	<h1>All Consol<vbr></vbr>es</h1>
+	<ul id="hot"class="game-cards"></ul>
+</div>
+</body>
+</html>

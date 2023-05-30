@@ -29,8 +29,8 @@ function Search(){
 function Apps(){
         document.getElementById("gameframe").src="./game_flash.html";
 }
-function Cloud() {
-    document.getElementById("gameframe").src="./game.html";
+function Consoles() {
+    document.getElementById("gameframe").src="../consoles/";
 }
 function Custom(){
     

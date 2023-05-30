@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kardna | Xbox</title>
+    <script>
+        let site1 = getCurrentURL();
+        var name = new URL(site1).host;
+        let xbox = "aHR0cHM6Ly93d3cueGJveC5jb20vZW4tdXMvcGxheQ=="
+        console.log(name);
+        const encodedData = "WyJrYXJkbmE0bGlmZS5jZiIsImthcmRuYTRsaWZlLmdhIiwia2FyZG5hNGxpZmUuZ3EiLCJrYXJkbmE0bGlmZS5tbCIsImthcmRuYTRsaWZlLnRrIiwia2FyZG5hLmNmIiwia2FyZG5hLm1sIiwia2FyZG5hLnh5eiIsInJpcGthcmRuYS5jZiIsInJpcGthcmRuYS5tbCIsInJpcGthcmRuYS50ayIsInJpcGthcmRuYS5ncSIsInJpcGthcmRuYS5nYSIsInJpcHJpcGthcmRuYS5nYSIsInJpcHJpcGthcmRuYS5ncSIsInJpcHJpcGthcmRuYS50ayIsInJpcHJpcGthcmRuYS5tbCIsInJpcHJpcGthcmRuYS5jZiIsInRleGFzZmVldC5nYSJd"; // Encoded data
+        const decodedString = atob(encodedData); // Decode the Base64 string
+        const myArray = JSON.parse(decodedString); // Convert the JSON string to an array
+        const myVariable = name;
+        if (myArray.includes(myVariable)) {
+            var url = 'bg.' + name;
+        } else {
+            console.log("Its working!!!")
+            var url = 'bg.mc-kardna.cf';
+        }
+        console.log(url);
+        function getCurrentURL () {
+        return window.location.href
+        }
+        function loaded() {
+            var iframe = document.getElementById("mainframe");
+            var video = document.getElementById("mainvid");
+            iframe.src = "https://" + url + "/uv.html#" + xbox;
+            setTimeout(() => {
+                video.style.display = "none";
+                document.getElementById("iframe-container").classList.add("show");
+            }, 9000);
+        }
+        </script>
+        <link rel="stylesheet" href="./style.css">
+</head>
+<body onload="loaded();">
+    <video id="mainvid" autoplay>
+        <source src="s.mp4">
+    </video>
+    <div id="iframe-container">
+        <iframe id="mainframe" src="../../index.html"></iframe>
+    </div>
+</body>
+</html>
