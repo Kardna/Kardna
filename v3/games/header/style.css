@@ -1,7 +1,7 @@
 @charset "utf-8";
 @font-face {
   font-family: Main;
-  src: url(./a.otf);
+  src: url(a.otf);
 }
 /******* Fonts Import Start **********/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
@@ -52,6 +52,7 @@ h2 {
   font-weight: 700;
   position: relative;
   text-transform: capitalize;
+  font-family: Main;
 }
 h3 {
   margin: 0 0 10px;
@@ -125,7 +126,7 @@ h3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
 }
 .game-section .item-desc {
-  
+  font-family: Main;
   padding: 0 24px 12px;
   color: #fff;
   position: relative;
@@ -138,6 +139,7 @@ h3 {
 }
 .game-section .item-desc h3{
   font-size: 24px;
+  font-family: Main;
 }
 .game-section .item-desc button{
 border-radius: 15px;

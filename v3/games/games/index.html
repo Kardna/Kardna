@@ -30,7 +30,7 @@
   .logo-wrapper .text {
   
       font-size: 105px;
-      font-family: A;
+      font-family: Main;
       color: #FFF;
   }
   
@@ -39,6 +39,23 @@
   }
   
         </style>
+        <script>let site1 = getCurrentURL();
+          var name = new URL(site1).host;
+          console.log(name);
+          const encodedData = "WyJrYXJkbmE0bGlmZS5jZiIsImthcmRuYTRsaWZlLmdhIiwia2FyZG5hNGxpZmUuZ3EiLCJrYXJkbmE0bGlmZS5tbCIsImthcmRuYTRsaWZlLnRrIiwia2FyZG5hLmNmIiwia2FyZG5hLm1sIiwia2FyZG5hLnh5eiIsInJpcGthcmRuYS5jZiIsInJpcGthcmRuYS5tbCIsInJpcGthcmRuYS50ayIsInJpcGthcmRuYS5ncSIsInJpcGthcmRuYS5nYSIsInJpcHJpcGthcmRuYS5nYSIsInJpcHJpcGthcmRuYS5ncSIsInJpcHJpcGthcmRuYS50ayIsInJpcHJpcGthcmRuYS5tbCIsInJpcHJpcGthcmRuYS5jZiIsInRleGFzZmVldC5nYSJd"; // Encoded data
+          const decodedString = atob(encodedData); // Decode the Base64 string
+          const myArray = JSON.parse(decodedString); // Convert the JSON string to an array
+          const myVariable = name;
+          if (myArray.includes(myVariable)) {
+            var url = "https://" + 'bg.' + name;
+          } else {
+            console.log("Its working!!!")
+            var url = 'https://bg.mc-kardna.cf';
+          }
+          console.log(url);
+          function getCurrentURL () {
+          return window.location.href
+          }</script>
     </head>
     
     <body>
@@ -85,18 +102,9 @@
         <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css'>
         <link rel="stylesheet" href="./header.css">
 <section class="game-section">
-    <h2 class="line-title">trending games</h2>
+    <h2 class="line-title">trending</h2>
     <div class="owl-carousel custom-carousel owl-theme">
       <div id="f" onmouseover="mouseoverfortnite();" onmouseout="mouseoutfortnite();"class="item active" style="background-image: url(./img/fortnite.png);">
-        <!--  bg vid      
-            <div class="bg-vid">
-            <video width="320" height="240" autoplay muted loop class="gamevid">
-                <source src="./vids/fortnite.mp4#t=300" type="video/mp4">
-              </video>
-        </div>
-    -->
-                            
-       
               <div class="item-desc">
                 <h3 style="z-index:100;">Fortnite</h3>
                 <button id="Fotnite" onclick="Fortnite_Trending();">Play</button>
@@ -134,6 +142,7 @@
     </div>
     </div>
   </section>
+  <div class="game-section">
   <h2 class="game-title">All Games</h2>
   <script>
   $(".custom-carousel").owlCarousel({
@@ -163,7 +172,7 @@
                 <script src="index.js"></script>
             </div>
               
-    </div>
+        </div>
 
     <script src="../games1/scripts/index.js"></script>
     <script src="../header/script.js"></script>

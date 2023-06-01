@@ -15,7 +15,6 @@ var territorial = "aHR0cHM6Ly90ZXJyaXRvcmlhbC5pby8=";
 var google = "aHR0cHM6Ly84YTI4LTY5LTI0OC0yMjctMTMxLm5ncm9rLmlv";
 var site = getCurrentURL();
 var name = new URL(site).host;
-var url = 'bg' + '.' + name;
 
 //Other Stuff
 console.log(url);

@@ -64,14 +64,14 @@ function gamelaunch(name){
                 "desc": "An online game platform and game creation system.",
             }, 
             {
-                "name": "Minecraft",
-                "url": "https://now.gg/play/mojang/2534/minecraft-trial",
-                "desc": "Build blocks!",
+                "name": "Retro Bowl",
+                "url": "/games/retro-bowl",
+                "desc": "HTML5",
             }, 
             {
-                "name": "Fifa Mobile",
-                "url": "https://now.gg/play/electronic-arts/1353/fifa-soccer",
-                "desc": "Play Soccer!",
+                "name": "Slope",
+                "url": "/games/slope",
+                "desc": "",
             }, 
         ]
 

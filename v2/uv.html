@@ -20,6 +20,23 @@
         }
         }
         </script>
+                <script>let site1 = getCurrentURL();
+                    var name = new URL(site1).host;
+                    console.log(name);
+                    const encodedData = "WyJrYXJkbmE0bGlmZS5jZiIsImthcmRuYTRsaWZlLmdhIiwia2FyZG5hNGxpZmUuZ3EiLCJrYXJkbmE0bGlmZS5tbCIsImthcmRuYTRsaWZlLnRrIiwia2FyZG5hLmNmIiwia2FyZG5hLm1sIiwia2FyZG5hLnh5eiIsInJpcGthcmRuYS5jZiIsInJpcGthcmRuYS5tbCIsInJpcGthcmRuYS50ayIsInJpcGthcmRuYS5ncSIsInJpcGthcmRuYS5nYSIsInJpcHJpcGthcmRuYS5nYSIsInJpcHJpcGthcmRuYS5ncSIsInJpcHJpcGthcmRuYS50ayIsInJpcHJpcGthcmRuYS5tbCIsInJpcHJpcGthcmRuYS5jZiIsInRleGFzZmVldC5nYSJd"; // Encoded data
+                    const decodedString = atob(encodedData); // Decode the Base64 string
+                    const myArray = JSON.parse(decodedString); // Convert the JSON string to an array
+                    const myVariable = name;
+                    if (myArray.includes(myVariable)) {
+                      var url = "https://" + 'bg.' + name;
+                    } else {
+                      console.log("Its working!!!")
+                      var url = 'https://bg.mc-kardna.cf';
+                    }
+                    console.log(url);
+                    function getCurrentURL () {
+                    return window.location.href
+                    }</script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto&display=swap');
         body {
@@ -84,32 +101,11 @@
 
     <script>
 
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/sw.js', {
-                scope: '/'
-            }).then(() => {
-
-                let url = (
+                let theurl = (
                     decodeURIComponent(window.location.hash.slice(1))
                 );
-
-                if (!isUrl(url)) url = "" + url;
-                else if (!(url.startsWith('https://') || url.startsWith('http://'))) {
-                    url = 'http://' + url;   
-                };
-                window.location.href = __uv$config.prefix + __uv$config.encodeUrl(
-                    url
-                );
-            });
-        } else {
-            document.querySelector('.lds-dual-ring').remove();
-            document.querySelector('.info').textContent = 'Your browser appears to be in private browsing mode or is not compatabile. Try swapping or updating your browser.'
-        };
-
-        function isUrl(val = ''){
-            if (/^http(s?):\/\//.test(val) || val.includes('.') && val.substr(0, 1) !== ' ') return true;
-            return false;
-        };
+                console.log(theurl)
+                window.open(url + "uv.html" + theurl)
     </script>
 </body>
 

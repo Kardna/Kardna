@@ -27,29 +27,48 @@
         }
         }
         </script>
+        <script>let site1 = getCurrentURL();
+            var name = new URL(site1).host;
+            console.log(name);
+            const encodedData = "WyJrYXJkbmE0bGlmZS5jZiIsImthcmRuYTRsaWZlLmdhIiwia2FyZG5hNGxpZmUuZ3EiLCJrYXJkbmE0bGlmZS5tbCIsImthcmRuYTRsaWZlLnRrIiwia2FyZG5hLmNmIiwia2FyZG5hLm1sIiwia2FyZG5hLnh5eiIsInJpcGthcmRuYS5jZiIsInJpcGthcmRuYS5tbCIsInJpcGthcmRuYS50ayIsInJpcGthcmRuYS5ncSIsInJpcGthcmRuYS5nYSIsInJpcHJpcGthcmRuYS5nYSIsInJpcHJpcGthcmRuYS5ncSIsInJpcHJpcGthcmRuYS50ayIsInJpcHJpcGthcmRuYS5tbCIsInJpcHJpcGthcmRuYS5jZiIsInRleGFzZmVldC5nYSJd"; // Encoded data
+            const decodedString = atob(encodedData); // Decode the Base64 string
+            const myArray = JSON.parse(decodedString); // Convert the JSON string to an array
+            const myVariable = name;
+            if (myArray.includes(myVariable)) {
+              var url = "https://" + 'bg.' + name;
+            } else {
+              console.log("Its working!!!")
+              var url = 'https://bg.mc-kardna.cf';
+            }
+            console.log(url);
+            function getCurrentURL () {
+            return window.location.href
+            }</script>
+            <style>
+                h1{
+                    color: white;
+                    text-align: center;
+                    transform: translateY(50px);
+                }
+            </style>
 </head>
 
-    <div id="particles-js"></div>
 <body>
     <nav class="ka-boom">
         <ul class="nav">
-              <li><a href="./index.html">Home</a></li>
-              <li><a href="./choice.html">Search</a></li>
-              <li><a href="./games.html">Games</a></li>
-              <li><a href="./movies.html">Movies</a></li>
-              <li><a href="./music.html">Music</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./select/">Search</a></li>
+            <li><a href="./games/">Games</a></li>
+            <li><a href="./movies/">Movies</a></li>
+            <li><a href="./music/">Music</a></li>
               <li><a onclick="settings();" style="color: #FFF;">Settings</a></li>
         </ul>
     </nav>
-    <div" class="logo-wrapper">
-        <h1>Kardna</h1>
-    </div>
-    <form>
-        <input placeholder="Search the web">
-    </form>
-    <script src="uv/uv.bundle.js"></script>
-    <script src="uv/uv.config.js"></script>
-    <script src="./index.js"></script>
     
+    <iframe id="iframe"src="about:blank" style="position:fixed; top:72px; left:0; bottom:0; right:0; width:100%; height:93%; border:none; margin:0; padding:0; overflow:hidden; z-index:-1;"></iframe>
+    <script src="./index.js"></script>
+    <script>
+        document.getElementById("iframe").src = url
+    </script>
 </body>
 </html>

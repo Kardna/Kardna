@@ -1,6 +1,6 @@
 @font-face {
   font-family: Main;
-  src: url(a.otf);
+  src: url(AE.otf);
 }
 
 button {
@@ -22,6 +22,9 @@ html {
 background-color: #ffffff;
 -ms-overflow-style: none;  /* IE and Edge */
 
+}
+body{
+  font-family: Main;
 }
 body::-webkit-scrollbar {
   display: none;
@@ -82,6 +85,7 @@ h2 {
     margin: 7vh 14px 0px 14px;
     -webkit-text-stroke-width: 0.1px;
     -webkit-text-stroke-color: rgb(255, 255, 255);    
+    font-family: Main;
 }
 .textjs {
   font-family: Main;
@@ -295,29 +299,29 @@ input:checked + .slider:before {
 body {
   text-align: center;
 }
-img {
-  height: auto;max-height: 990px;width: 145px;border: 0;-ms-interpolation-mode: bicubic;vertical-align: middle;border-radius: 25px;max-height: 145px;max-width: 145px;
-}
+
 
 .card {
   box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
   transition: 0.3s;
   width: 158px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);transition: transform 1s;
+  text-align: center;
   
 }
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.3);
 }
-
+.card a img{
+  height: auto;max-height: 990px;width: 145px;border: 0;-ms-interpolation-mode: bicubic;vertical-align: middle;border-radius: 25px;max-height: 145px;max-width: 145px;  display: flex;
+  justify-content: center;transform: translateX(5px);
+}
 .container {
   padding: 2px 16px;
 }
 
-.card {
-  transition: transform 1s;
-}
+
 
 
 
