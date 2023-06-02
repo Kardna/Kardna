@@ -65,7 +65,7 @@ function gamelaunch(name){
             }, 
             {
                 "name": "Retro Bowl",
-                "url": "/games/retro-bowl",
+                "url": "https://vtn5c31dcjtimmb9o2lm882bk13i56hh-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://274079163-174037128449362058.preview.editmysite.com/uploads/b/139890129-899796311729593176/files/rtbl.xml&container=enterprise&view=default&lang=en&country=ALL&sanitize=0&v=47de4fda4ad4448b&libs=core&mid=88&parent=https://sites.google.com/site/unblockedgame76/retrobowl#st=e%3DAIHE3cDyozo9x%252FN9wMuEvbPFc%252B3xMKv3kcoVLA9avoMO5VQNCII429OV%252B5NB038VwhOY5Ht567auiLNC4IpAMCvNwl5%252FzBD9DbkBFDJoEkB%252BPa3E2AKFvmO0Bpvmay%252BFKwQ%252FQN6C6HRk%26c%3Denterprise&rpctoken=8154240860593526676",
                 "desc": "HTML5",
             }, 
             {
@@ -251,7 +251,7 @@ function gamelaunch(name){
                 "desc": "",
             },            {
                 "name": "Retro Bowl",
-                "url": "/games/retro-bowl",
+                "url": "https://vtn5c31dcjtimmb9o2lm882bk13i56hh-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://274079163-174037128449362058.preview.editmysite.com/uploads/b/139890129-899796311729593176/files/rtbl.xml&container=enterprise&view=default&lang=en&country=ALL&sanitize=0&v=47de4fda4ad4448b&libs=core&mid=88&parent=https://sites.google.com/site/unblockedgame76/retrobowl#st=e%3DAIHE3cDyozo9x%252FN9wMuEvbPFc%252B3xMKv3kcoVLA9avoMO5VQNCII429OV%252B5NB038VwhOY5Ht567auiLNC4IpAMCvNwl5%252FzBD9DbkBFDJoEkB%252BPa3E2AKFvmO0Bpvmay%252BFKwQ%252FQN6C6HRk%26c%3Denterprise&rpctoken=8154240860593526676",
                 "desc": "HTML5",
             },            {
                 "name": "Ritz",
@@ -402,7 +402,7 @@ function gamelaunch(name){
                 "desc": "",
             },
             {
-                "name": "Retro Bowl",
+                "name": "Retro Bowl (Mobile)",
                 "url": "https://now.gg/play/new-star/6391/retro-bowl",
                 "desc": "",
             },
