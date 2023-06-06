@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from create2048.com/game.php/?game=mr-fornoff by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 06 Jun 2023 17:14:33 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+
+<meta charset="utf-8">
+
+<script type='text/javascript'>var _sf_startpt=(new Date()).getTime()</script>
+ 
+  <base >
+ 
+  <link href="../assets/main.css" rel="stylesheet" type="text/css">
+  <link href="../ads/ads.css" rel="stylesheet" type="text/css">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <link rel="icon" href="https://create2048.com/assets/favicon.ico"> 
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+  <script src="../../ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
+  <script src="../assets/wrapper.js"></script>
+  <script src="../ads/ads.js"></script>
+  <link rel="stylesheet" href="../assets/wrapper.css">
+  <script src='../assets/jQueryRotate.js'></script>
+
+  <link href="https://create2048.com/odometer/themes/odometer-theme-train-station.css" rel='stylesheet' type='text/css' />
+  <script src="https://create2048.com/odometer/odometer.js" ></script>
+
+
+<style>
+
+  
+  .tile-text {
+    display:inline-block;
+    vertical-align: top;
+    top:-10px!important;
+    padding-top:0px!important;
+    padding-left:8px!important;
+    font-size:60%!important;
+  }
+  
+  /* lol !important */
+  
+  .tile-inner { background-position: center center !important; background-size: cover !important; background-repeat: no-repeat !important; }
+
+
+  
+  .tile-2 .tile-inner {
+      background-image: url('https://create2048.com/photobank/mO40ziPw4iyGWknpMhQe2GEd7666.JPG') !important; 
+  }
+
+  .tile-4 .tile-inner {
+      background-image: url('https://create2048.com/photobank/7OfDvhL3M0LPYyWC1495XTY73422.PNG') !important; 
+  }
+
+  .tile-8 .tile-inner {
+      background-image: url('https://create2048.com/photobank/zaYc91Tb0OlVUNYFAO3HscuU8786.JPG') !important; 
+  }
+
+  .tile-16 .tile-inner {
+      background-image: url('https://create2048.com/photobank/2hbSaO4O3C4hG5LmNUD6w2R28326.JPG') !important; 
+  }
+
+  .tile-32 .tile-inner {
+      background-image: url('https://create2048.com/photobank/1PDkKcilLut2xrP3tAhva6Ht3152.JPG') !important; 
+  }
+
+  .tile-64 .tile-inner {
+      background-image: url('https://create2048.com/photobank/3XelpPRO2E2zO96PKerv79Op6378.JPG') !important; 
+  }
+
+  .tile-128 .tile-inner {
+      background-image: url('https://create2048.com/photobank/vr2IhqHhcE4Tl9Ssp6Y6eCx40748.JPG') !important; 
+  }
+
+  .tile-256 .tile-inner {
+      background-image: url('https://create2048.com/photobank/giwd9r1emTozl2z2UA4wMOKj7432.JPG') !important; 
+  }
+
+  .tile-512 .tile-inner {
+      background-image: url('https://create2048.com/photobank/25Idrc3d62f9601yjSWAQvU48611.JPG') !important; 
+  }
+
+  .tile-1024 .tile-inner {
+      background-image: url('https://create2048.com/photobank/0S6Bu5Q6hzIQSf99gHmc3wbO3588.JPG') !important; 
+  }
+
+  .tile-2048 .tile-inner {
+      background-image: url('https://create2048.com/photobank/HusIsCGcD72BCx4RgjW9Q4Eb2939.JPG') !important; 
+  }
+div.tile-text {color:#cccccc; opacity:.70; text-shadow: 2px 2px #000;}   
+    
+  
+  .thisistext, p, a, h1 { color: #776e65; }
+  .game-container { background-color: #bbada0 }
+  
+  
+  .preload, .preload img { position: absolute; top: -100px; -left: 100px; width: 1px; height: 1px; overflow: hidden; }
+  
+  #fix { 
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%; position: fixed; z-index: -1000; 
+            
+        background-color: #faf8ef;
+      
+        }
+
+</style>
+
+<script type="text/javascript">
+  $( document ).ready(function() {
+  });
+</script>
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style type='text/css'>
+/* position top nav */
+@media screen and (max-width:959px) {
+  .nav-container {position:fixed;       top:0px; display:block; width:98%; }
+}
+.topnav { border:1px solid yellow; width:60%;  margin:0px auto!important;   }
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+#myTopnav { margin: 20px 0px;}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #f65e3b;
+    color: black;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+    background-color: #f59563;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+/* When the screen is less than 800 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 1200px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav { width:100%; z-index:2;}
+  .nav-container { z-index:1;}
+  body.create div.container { margin-top: -10px!important;}
+}
+
+
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 1200px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .topnav a {
+    font-size: 12px;
+    /*body.create div.container { margin-top: 10px!important;}*/
+  }
+
+}
+
+@media screen and (max-width: 1801px) {
+  .topnav a {
+    font-size: 19px;
+  }
+}
+
+
+</style>
+<script type='text/javascript'>
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+<meta name='keywords' content='2048, game, puzzle, 1024, threes, build your own'>
+<meta name='description' content='A build-your-own version of 2048, the addictive tile-matching game.'>
+
+
+  <link rel="image_src" href="https://create2048.com/photobank/mO40ziPw4iyGWknpMhQe2GEd7666.JPG" />
+  <meta property="og:image" content="https://create2048.com/photobank/mO40ziPw4iyGWknpMhQe2GEd7666.JPG" />
+  <meta property="og:title" content="Mr.Fornoff" />
+  <meta property="og:url"   content="https://create2048.com/?game=mr-fornoff" />
+  
+<input type='hidden' name='nameslug' value='mr-fornoff'>
+<script>
+
+var tile_image = new Array(); 
+tile_image[2] = 'https://create2048.com/photobank/mO40ziPw4iyGWknpMhQe2GEd7666.JPG';
+tile_image[4] = 'https://create2048.com/photobank/7OfDvhL3M0LPYyWC1495XTY73422.PNG';
+tile_image[8] = 'https://create2048.com/photobank/zaYc91Tb0OlVUNYFAO3HscuU8786.JPG';
+tile_image[16] = 'https://create2048.com/photobank/2hbSaO4O3C4hG5LmNUD6w2R28326.JPG';
+tile_image[32] = 'https://create2048.com/photobank/1PDkKcilLut2xrP3tAhva6Ht3152.JPG';
+tile_image[64] = 'https://create2048.com/photobank/3XelpPRO2E2zO96PKerv79Op6378.JPG';
+tile_image[128] = 'https://create2048.com/photobank/vr2IhqHhcE4Tl9Ssp6Y6eCx40748.JPG';
+tile_image[256] = 'https://create2048.com/photobank/giwd9r1emTozl2z2UA4wMOKj7432.JPG';
+tile_image[512] = 'https://create2048.com/photobank/25Idrc3d62f9601yjSWAQvU48611.JPG';
+tile_image[1024] = 'https://create2048.com/photobank/0S6Bu5Q6hzIQSf99gHmc3wbO3588.JPG';
+tile_image[2048] = 'https://create2048.com/photobank/HusIsCGcD72BCx4RgjW9Q4Eb2939.JPG';
+
+// GLOBALS, GLOBALS, BODGE ALL THE GLOBALS
+var external_score; 
+var tile_contents = ["2","4","8","16","32","64","128","256","512","1024","2048",""];
+
+var external_score; // yep, this is a bodge
+
+/*function tweet(name,slug) {
+  
+  var tweet = {};
+  tweet.message='I scored ' + external_score + " in 2048: "+name+" Edition! Can you beat me?" ;
+  tweet.url="https://create2048.com?game="+slug;
+  UVT.sharing.twitter(tweet);
+}
+
+function facebook(name,slug) {
+
+  var fbmsg = {};
+  fbmsg.title='I scored ' + external_score + " in 2048: "+name+" Edition! Can you beat me?" ;
+  fbmsg.message="Make your own versions of addictive slidey-puzzle game 2048.";
+  fbmsg.url="https://create2048.com/?game="+slug;
+  fbmsg.picture="https://create2048.com/assets/intro.jpg";
+  UVT.sharing.facebook(fbmsg);
+}*/
+
+var sizes = [];
+function resizeTextOn(whichelement) {
+
+  if (typeof sizes[whichelement] == "undefined") {
+
+    //console.log("Performing hard maths on " + whichelement);
+
+    $(whichelement + " .tile-inner").css("display", "block");
+    $(whichelement + " .tile-text").css("display", "inline-block");
+
+    $(whichelement + " .tile-text").css("fontSize", "60px");
+
+    while ($(whichelement + " .tile-text").width()+30 > $(whichelement + " .tile-inner").width()) {
+      var newSize = (parseInt($(whichelement + " .tile-text").css("fontSize")) - 1) + "px";
+      $(whichelement + " .tile-text").css("fontSize", newSize);
+    }
+
+    if (typeof newSize == "undefined") { var newSize = "60px"; }
+
+    $(whichelement + " .tile-text").css("lineHeight", newSize);
+
+    if (parseInt(newSize) > 50) {
+      $(whichelement + " .tile-text").css("position", "relative");
+      $(whichelement + " .tile-text").css("top", "5px");
+    } else {
+      $(whichelement + " .tile-text").css("position", "relative");
+      $(whichelement + " .tile-text").css("top", "0px");
+    }
+
+    $(whichelement + " .tile-inner").css("display", "table");
+    $(whichelement + " .tile-text").css("display", "table-cell");
+
+    sizes[whichelement] = newSize;
+
+  } else {
+
+    newSize = sizes[whichelement];
+
+    $(whichelement + " .tile-text").css("fontSize", newSize);
+    $(whichelement + " .tile-text").css("lineHeight", newSize);
+
+    if (parseInt(newSize) > 50) {
+      $(whichelement + " .tile-text").css("position", "relative");
+      $(whichelement + " .tile-text").css("top", "5px");
+    } else {
+      $(whichelement + " .tile-text").css("position", "relative");
+      $(whichelement + " .tile-text").css("top", "0px");
+    }
+
+    $(whichelement + " .tile-inner").css("display", "table");
+    $(whichelement + " .tile-text").css("display", "table-cell");
+
+  }
+
+  //console.log(sizes);
+
+}
+
+$(document).keypress(function(event) {
+  if ( event.which == 61 ) {
+    $(".tile-container").empty();
+    $('input[name=lastkeypressed]').val(61);
+
+    var tile = new Tile({x:0,y:0},2);
+    HTMLActuator.prototype.addTile(tile,'no_tally');
+    var tile = new Tile({x:1,y:0},4);
+    HTMLActuator.prototype.addTile(tile,'no_tally');
+    var tile = new Tile({x:2,y:0},8);
+    HTMLActuator.prototype.addTile(tile,'no_tally');
+    var tile = new Tile({x:3,y:0},16);
+    HTMLActuator.prototype.addTile(tile,'no_tally');
+    var tile = new Tile({x:0,y:1},32);
+    HTMLActuator.prototype.addTile(tile,'no_tally');
+    var tile = new Tile({x:1,y:1},64);
+    HTMLActuator.prototype.addTile(tile,'no_tally');
+    var tile = new Tile({x:2,y:1},128);
+    HTMLActuator.prototype.addTile(tile,'no_tally');
+    var tile = new Tile({x:3,y:1},256);
+    HTMLActuator.prototype.addTile(tile,'no_tally');
+    var tile = new Tile({x:0,y:2},512);
+    HTMLActuator.prototype.addTile(tile,'no_tally');
+    var tile = new Tile({x:1,y:2},1024);
+    HTMLActuator.prototype.addTile(tile,'no_tally');
+    var tile = new Tile({x:2,y:2},2048);
+    HTMLActuator.prototype.addTile(tile,'no_tally');
+  }
+
+
+  // asterisk will cause random display show
+  if ( event.which == 42 ) {
+    $(".tile-container").empty();
+    $('input[name=lastkeypressed]').val(45);
+    rando(1);
+  }  
+
+  // minus will hide or show the background image
+  if ( event.which == 45 ) {
+    if ($(".grid-container").hasClass('hide-background-image')) {
+      $(".grid-container").removeClass('hide-background-image');
+    } else {
+      $(".grid-container").addClass('hide-background-image');
+    }
+  }  
+
+  // number-sign (#) will hide or show the tile numbers
+  // if ( event.which == 35 ) {
+  //   $("div.tile-text").css('display','none'); 
+  // }  
+
+
+});
+
+
+</script>
+
+<style>
+@media (min-width: 800px) {
+  .sharer {
+         -moz-column-count: 2;
+         -moz-column-gap: 20px;
+         -webkit-column-count: 2;
+         -webkit-column-gap: 20px;
+         
+  }
+  .sharer a { color: #0000cc; }
+}
+@media (max-width: 800px) {
+  .sharer {
+    padding: 0 10px;
+  }
+  .sharer a { color: #0000cc; }
+}
+
+h1.title { line-height: 35px; }
+
+</style>
+<title>Create 2048 | Create Your Own 2048 Game</title>
+<link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@300;600;900&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="fix"></div>
+   <div class="container">
+    <div class="heading">
+      <h1 class="title thisistext">2048: <a style='text-decoration:none;' title='Click Here to Start New Game' href="indexbc2d.html?game=mr-fornoff"><em>Mr.Fornoff</em> Edition</a><br /><span style='font-size:15pt;'>by 2022-2023 Class</span></h1>
+      <!-- p style='text-align:center;'><input type='text' class='signup username' name='username' /><div class='form-message username'></div></p -->
+
+            <p  id="credit"></p>
+      
+      <div class="scores-container">
+        <div class="score-container">0</div>
+        <div class="best-container">0</div>
+      </div>
+    </div>
+
+          
+
+    <input type='hidden' name='gameID' value='1343196' />
+    <input type='hidden' name='lastkeypressed' id='lastkeypressed' value='x' />
+    <div class="game-container">
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+        <div style='display:none;'>
+          <a class="tweet">Tweet your score</a>
+          <a class="facebook">Share on Facebook</a>
+        </div>
+          <a class="retry-button" onclick='location.reload();return false;'>Try again</a>
+          
+        </div>
+<!--         <div class="sharing">
+        
+          <iframe class="twitter" allowtransparency="true" frameborder="0" scrolling="no" src="//platform.twitter.com/widgets/follow_button.html?screen_name=usvsth3m" style=" height:20px;"></iframe>
+          <iframe class="facebook" src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fusvsth3m&amp;width&amp;layout=standard&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=35&amp;appId=383984258388383" scrolling="no" frameborder="0" style="overflow:hidden; height:35px;" allowTransparency="true"></iframe>
+          
+        </div> -->
+      </div>
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+      <div class="tile-container">
+
+      </div>
+
+    </div>
+
+
+    <p class="game-explanation">
+      <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles.<br>When two identical tiles touch, they merge and become the next level of tile. Get a tile to the eleventh level ("2048") to win.
+    </p>
+
+        
+    <hr>
+     <p class="game-explanation">
+      Hit "=" to preview the tiles. Move a tile to continue.<br />Hit "-" to hide/unhide the background image.<br />Hit TAB to hide the tiles and view the full background image. Hit TAB again to show the tiles again.</p>
+    <hr>   
+
+    <p><strong>All of the  images you see have been supplied by our users. If there is a problem with anything, please report it to   <script type="text/javascript">
+//<![CDATA[
+<!--
+var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
+"=48){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return o" +
+".substr(0,ol);}f(\")99,\\\"IAKFLSr\\\\DV400\\\\700\\\\400\\\\H120\\\\010\\\\"+
+"410\\\\420\\\\320\\\\500\\\\/.40=230\\\\2+22%86:or320\\\\%>)710\\\\:%-710\\" +
+"\\f ,7b-)^Sx630\\\\g700\\\\\\\\\\\\TC_A420\\\\120\\\\nTE\\\\\\\\]d410\\\\32" +
+"0\\\\630\\\\130\\\\230\\\\230\\\\RFAI@TS sr771\\\\5nuwadpdc{}vOe~iozemo<jpo" +
+"k`m\\\\\\\\!A530\\\\730\\\\310\\\\020\\\\W720\\\\IV[430\\\\530\\\\520\\\\33" +
+"0\\\\700\\\\730\\\\330\\\\E630\\\\700\\\\r\\\\n\\\\320\\\\600\\\\310\\\\700" +
+"\\\\\\\"(f};o nruter};))++y(^)i(tAedoCrahc.x(edoCrahCmorf.gnirtS=+o;721=%y{" +
+")++i;l<i;0=i(rof;htgnel.x=l,\\\"\\\"=o,i rav{)y,x(f noitcnuf\")"             ;
+while(x=eval(x));
+//-->
+//]]>
+</script>
+</strong>.</p>
+    <p>This Build-Your-Own 2048 game is based on an original program by  <a href="https://gabrielecirulli.com/" target="_blank">Gabriele Cirulli</a>'s MIT-licensed <a href="https://gabrielecirulli.github.io/2048/">2048</a>, which was based on <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a> and conceptually similar to <a href="https://asherv.com/threes/" target="_blank">Threes by Asher Vollmer</a>.
+    </p>
+    <br />
+    <p></p>
+    </div>
+          <div id='suggestions' style='font-size:70%;margin-top:10px;padding:3px;border:1px dotted #c8c8c8; text-align:center;'>Questions? Problems? Suggestions?<br />Please give us as much detail as possible so we can help.<br />Write us at   <script type="text/javascript">
+//<![CDATA[
+<!--
+var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
+"=48){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return o" +
+".substr(0,ol);}f(\")99,\\\"IAKFLSr\\\\DV400\\\\700\\\\400\\\\H120\\\\010\\\\"+
+"410\\\\420\\\\320\\\\500\\\\/.40=230\\\\2+22%86:or320\\\\%>)710\\\\:%-710\\" +
+"\\f ,7b-)^Sx630\\\\g700\\\\\\\\\\\\TC_A420\\\\120\\\\nTE\\\\\\\\]d410\\\\32" +
+"0\\\\630\\\\130\\\\230\\\\230\\\\RFAI@TS sr771\\\\5nuwadpdc{}vOe~iozemo<jpo" +
+"k`m\\\\\\\\!A530\\\\730\\\\310\\\\020\\\\W720\\\\IV[430\\\\530\\\\520\\\\33" +
+"0\\\\700\\\\730\\\\330\\\\E630\\\\700\\\\r\\\\n\\\\320\\\\600\\\\310\\\\700" +
+"\\\\\\\"(f};o nruter};))++y(^)i(tAedoCrahc.x(edoCrahCmorf.gnirtS=+o;721=%y{" +
+")++i;l<i;0=i(rof;htgnel.x=l,\\\"\\\"=o,i rav{)y,x(f noitcnuf\")"             ;
+while(x=eval(x));
+//-->
+//]]>
+</script>
+. </div>       
+    </div>
+    <br />
+
+ <script src="../assets/glom.js"></script>
+
+ <script src="../assets/my.js"></script>
+ <script src="../assets/amazon_ad_tracking.js"></script> 
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "../../platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
+  <div class="preload">
+    <img src='https://create2048.com/photobank/mO40ziPw4iyGWknpMhQe2GEd7666.JPG' class='preload'><img src='https://create2048.com/photobank/7OfDvhL3M0LPYyWC1495XTY73422.PNG' class='preload'><img src='https://create2048.com/photobank/zaYc91Tb0OlVUNYFAO3HscuU8786.JPG' class='preload'><img src='https://create2048.com/photobank/2hbSaO4O3C4hG5LmNUD6w2R28326.JPG' class='preload'><img src='https://create2048.com/photobank/1PDkKcilLut2xrP3tAhva6Ht3152.JPG' class='preload'><img src='https://create2048.com/photobank/3XelpPRO2E2zO96PKerv79Op6378.JPG' class='preload'><img src='https://create2048.com/photobank/vr2IhqHhcE4Tl9Ssp6Y6eCx40748.JPG' class='preload'><img src='https://create2048.com/photobank/giwd9r1emTozl2z2UA4wMOKj7432.JPG' class='preload'><img src='https://create2048.com/photobank/25Idrc3d62f9601yjSWAQvU48611.JPG' class='preload'><img src='https://create2048.com/photobank/0S6Bu5Q6hzIQSf99gHmc3wbO3588.JPG' class='preload'><img src='https://create2048.com/photobank/HusIsCGcD72BCx4RgjW9Q4Eb2939.JPG' class='preload'>  </div>
+  
+<style type="text/css">
+div#widget, div.pluginButton.pluginButtonInline.pluginConnectButtonDisconnected, span#u_0_2 {
+    display: none;
+}
+#uvt_over { top: 5px!important ;}
+</style>
+<!-- 
+
+
+The MIT License (MIT)
+
+Copyright (c) 2014 Gabriele Cirulli
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+-->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','../../www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-100004898-1', 'auto');
+  ga('send', 'pageview');
+ </script>
+ </body>
+
+<!-- Mirrored from create2048.com/game.php/?game=mr-fornoff by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 06 Jun 2023 17:14:40 GMT -->
+</html>
+<!-- Served from cache, superfedition5_2048. -->
+
