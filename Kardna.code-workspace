@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Precision"
+		},
+		{
+			"path": "../Zig"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Kardna"
+	}
+}

@@ -312,11 +312,6 @@ function gamelaunch(name){
                 "desc": "Cast your line and reel in a legendary fish!",
             },
             {
-                "name": "Fortnite",
-                "url": "",
-                "desc": "Fortnite is a Multiplayer Online Game.",
-            },
-            {
                 "name": "Idle Breakout",
                 "url": "https://www.coolmathgames.com/0-idle-breakout/play",
                 "desc": "Build the ultimate brick-busting machine to destroy billions of bricks. Idle breakout combines classic brick breaking with an insanely addicting idle loop.",
