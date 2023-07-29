@@ -173,6 +173,8 @@ main > div > a:hover {
   display: none;
   opacity: 0;
   padding-bottom: 0.625rem;
+  display: table;
+  margin: 0 auto;
 }
 
 .swiper-slide-active div {
