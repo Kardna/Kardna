@@ -9,7 +9,7 @@ if (myArray.includes(myVariable)) {
 	var url = 'bg.' + name;
 } else {
 	console.log("Its working!!!")
-	var url = 'bg.mc-kardna.cf';
+	var url = 'bg.mkardna.de';
 }
 console.log(url);
 function getCurrentURL () {

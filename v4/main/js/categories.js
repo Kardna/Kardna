@@ -12,7 +12,7 @@ function Search(){
     const decodedString = atob(encodedData);
     const myArray = JSON.parse(decodedString);
     const myVariable = name;
-    const supduud = "YmcubWMta2FyZG5hLmNm"
+    const supduud = "YmcubWthcmRuYS5kZQ=="
     const okduud = atob(supduud)
     if (myArray.includes(myVariable)) {
         var url = 'bg.' + name;
