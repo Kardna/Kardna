@@ -127,7 +127,7 @@ function gamelaunch(name){
             },
             {
                 "name": "Basketball Legends",
-                "url": "https://script.google.com/macros/s/AKfycbw2PBCxg0orOBJVxFwjwpJ5Nt3R6oPh4bNnujiA_dYKOMXIa7k/exec",
+                "url": "https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if3dv@6a3aa6b5b121c4c1f7da6cc5bfd9e71b40f1262b/zm48hw/bs.xml",
                 "desc": "",
             },
             {
@@ -317,8 +317,8 @@ function gamelaunch(name){
                 "desc": "Build the ultimate brick-busting machine to destroy billions of bricks. Idle breakout combines classic brick breaking with an insanely addicting idle loop.",
             },
             {
-                "name": "8 pool",
-                "url": "https://www.coolmathgames.com/0-8-ball-pool/play",
+                "name": "8 Ball pool",
+                "url": "https://ubg98.github.io/8BallPool/",
                 "desc": "Take your skills online and sink the 8 ball!",
             },
             {
@@ -353,7 +353,7 @@ function gamelaunch(name){
             },
             {
                 "name": "basketball stars",
-                "url": "https://www-ig-opensocial.googleusercontent.com/gadgets/ifr?url=https://sites.google.com/site/basketballlegendunblocked/basketball_stars.xml",
+                "url": "https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if3dv@b60a8d7ea307865b358c0f3ba78ade795aef026f/jd70s3/bl2020.xml",
                 "desc": "",
             },
             {
