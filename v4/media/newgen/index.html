@@ -28,14 +28,19 @@
 
         var url = "https://getsuperembed.link/?video_id=" + idParam + classParam;
 
-        // Create the iframe
-        var iframe = document.createElement('iframe');
-        iframe.src = url;
-        iframe.width = '600'; // Adjust the width as needed
-        iframe.height = '400'; // Adjust the height as needed
+        fetch(url)
+        .then(response => {
+            if (!response.ok) {
+            throw new Error('Network response was not ok');
+            }
+            return response.json();  // Parse the JSON from the response
+        })
+        .then(data => {
+            const resultVar = data;  // Store the data in a variable
+            console.log('Fetched data:', resultVar);  // Log the fetched data
+        })
+        .catch(error => console.error('Fetch error:', error));  // Handle any errors
 
-        // Append the iframe to the body or any other element
-        document.body.appendChild(iframe);
     </script>
 </body>
 </html>
