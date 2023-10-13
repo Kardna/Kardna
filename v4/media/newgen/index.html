@@ -28,19 +28,24 @@
 
         var url = "https://getsuperembed.link/?video_id=" + idParam + classParam;
 
-        fetch(url)
-        .then(response => {
-            if (!response.ok) {
-            throw new Error('Network response was not ok');
-            }
-            return response.json();  // Parse the JSON from the response
-        })
-        .then(data => {
-            const resultVar = data;  // Store the data in a variable
-            console.log('Fetched data:', resultVar);  // Log the fetched data
-        })
-        .catch(error => console.error('Fetch error:', error));  // Handle any errors
+        const fetchOptions = {
+             mode: 'no-cors'  // Set the request mode to 'no-cors'
+        };
+
+        fetch(url, fetchOptions)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();  // Parse the JSON from the response
+            })
+            .then(data => {
+                const resultVar = data;  // Store the data in a variable
+                console.log('Fetched data:', resultVar);  // Log the fetched data
+            })
+            .catch(error => console.error('Fetch error:', error));  // Handle any errors
 
     </script>
+    <h1>new gen lul</h1>
 </body>
 </html>

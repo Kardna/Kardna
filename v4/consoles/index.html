@@ -13,11 +13,12 @@ const encodedData = "WyJrYXJkbmE0bGlmZS5jZiIsImthcmRuYTRsaWZlLmdhIiwia2FyZG5hNGx
 const decodedString = atob(encodedData); // Decode the Base64 string
 const myArray = JSON.parse(decodedString); // Convert the JSON string to an array
 const myVariable = name;
+var duud = atob("Ymcua2FyZG5hLXJldml2ZS5jb20=")
 if (myArray.includes(myVariable)) {
 	var url = 'bg.' + name;
 } else {
 	console.log("Its working!!!")
-	var url = 'bg.mkardna.de';
+	var url = duud;
 }
 console.log(url);
 function getCurrentURL () {
