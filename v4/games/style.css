@@ -113,6 +113,13 @@ body {
   flex-flow: column nowrap;
   transition: transform 250ms ease;
 }
+.game-card__header .game-card__cover .bgimg{
+  display: block;
+  max-height: 100%;
+  max-width: 100%;
+  margin: 0;
+  height: auto;
+}
 
 .game-card__cover {
   position: relative;
@@ -290,9 +297,18 @@ body {
 .game-card.expanded .game-card__header,
 .game-card:hover .game-card__header,
 .game-card:focus .game-card__header,
-.game-card:focus-within .game-card__header {
+.game-card:focus-within .game-card__header{
   transform: translatey(-6rem);
   transition-duration: 300ms;
+  transition-delay: 100ms;
+}
+
+.game-card.expanded .game-card__header .game-card__cover .bgimg,
+.game-card:hover .game-card__header .game-card__cover .bgimg,
+.game-card:focus .game-card__header .game-card__cover .bgimg,
+.game-card:focus-within .game-card__header .game-card__cover .bgimg{
+  transition-duration: 300ms;
+  transform: translateY(4rem);
   transition-delay: 100ms;
 }
 .game-card.expanded .game-card__cover > img,

@@ -1,0 +1,26 @@
+   <meta name="robots" content="noindex">
+<script src="https://cdn.jsdelivr.net/gh/clappr/clappr@latest/dist/clappr.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/clappr/dash-shaka-playback@latest/dist/dash-shaka-playback.js"></script>
+<div id="player"></div>
+<script>
+      var player = new Clappr.Player(
+        {
+          source: 'https://live.psports.live:443/hdstreamlive/hdembed/100.m3u8',
+          
+          height: '99.5%',
+          width: '100%',
+          autoPlay: false,
+          playInline: true,
+          plugins: [DashShakaPlayback],
+          shakaConfiguration: {
+            preferredAudioLanguage: 'pt-BR',
+            streaming: {
+              rebufferingGoal: 15
+            }
+          },
+          shakaOnBeforeLoad: function(shaka_player) {
+            // shaka_player.getNetworkingEngine().registerRequestFilter() ...
+          },
+          parentId: '#player'
+        });
+    </script>

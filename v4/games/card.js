@@ -62,16 +62,19 @@ function gamelaunch(name){
                 "name": "Roblox",
                 "url": "https://now.gg/play/roblox-corporation/5349/roblox",
                 "desc": "An online game platform and game creation system.",
+                "img": "./files/imgs/Roblox.jpg",
             }, 
             {
                 "name": "Retro Bowl",
                 "url": "/games/retro-bowl",
                 "desc": "HTML5",
+                "img": "./files/imgs/RetroBowl.jpg",
             }, 
             {
                 "name": "Slope",
                 "url": "/games/slope",
-                "desc": "",
+                "desc": "Ball Down Slope",
+                "img": "./files/imgs/Slope.jpg",
             }, 
         ]
 
@@ -80,6 +83,7 @@ function gamelaunch(name){
                 "name": "2048",
                 "url": "/games/2048",
                 "desc": "",
+                "img": "./files/imgs/2048.jpg",
             },            {
                 "name": "Astray",
                 "url": "/games/astray",
@@ -459,7 +463,7 @@ setTimeout(function(){
             var shhh = arrayItem.url;
                    let link2 = arrayItem.url;
                    let name2 = arrayItem.name;
-                   document.getElementById("new").innerHTML += `<li><div class='game-card'><div class='game-card__front'><div class='game-card__header'><div class='game-card__cover'><div class='game-card__image-placeholder two'></div><span class='game-card__cover-badge new' aria-hiddden='true'>New</span></div><div class='game-card__title'>${arrayItem.name}</div></div></div><div class='game-card__back'><div class='game-card__content'><div class='game-card__metadata'>${arrayItem.desc}</div><div class='game-card__buttons'><button onclick="var url2 = '${shhh}';gamelaunch(url2);"class='game-card__button -play'><i class='fa fa-play' aria-hidden='true'></i>Play</button></div></div></div></div></li> `;  
+                   document.getElementById("new").innerHTML += `<li><div class='game-card'><div class='game-card__front'><div class='game-card__header'><div class='game-card__cover'<div class='bgimg'><img src="${arrayItem.img}"></div><span class='game-card__cover-badge new' aria-hiddden='true'>New</span></div><div class='game-card__title'>${arrayItem.name}</div></div></div><div class='game-card__back'><div class='game-card__content'><div class='game-card__metadata'>${arrayItem.desc}</div><div class='game-card__buttons'><button onclick="var url2 = '${shhh}';gamelaunch(url2);"class='game-card__button -play'><i class='fa fa-play' aria-hidden='true'></i>Play</button></div></div></div></div></li> `;  
                 } );
     }
     //Hot
@@ -480,7 +484,7 @@ setTimeout(function(){
             var shhh = arrayItem.url;
                    let link2 = arrayItem.url;
                    let name2 = arrayItem.name;
-                   document.getElementById("hot").innerHTML += `<li><div class='game-card'><div class='game-card__front'><div class='game-card__header'><div class='game-card__cover'><div class='game-card__image-placeholder two'></div><span class='game-card__cover-badge new' aria-hiddden='true'>Top 3</span></div><div class='game-card__title'>${arrayItem.name}</div></div></div><div class='game-card__back'><div class='game-card__content'><div class='game-card__metadata'>${arrayItem.desc}</div><div class='game-card__buttons'><button onclick="var url2 = '${shhh}';gamelaunch(url2);"class='game-card__button -play'><i class='fa fa-play' aria-hidden='true'></i>Play</button></div></div></div></div></li> `;  
+                   document.getElementById("hot").innerHTML += `<li><div class='game-card'><div class='game-card__front'><div class='game-card__header'><div class='game-card__cover'><div class='bgimg'><img src="${arrayItem.img}"></div><span class='game-card__cover-badge new' aria-hiddden='true'>Top 3</span></div><div class='game-card__title'>${arrayItem.name}</div></div></div><div class='game-card__back'><div class='game-card__content'><div class='game-card__metadata'>${arrayItem.desc}</div><div class='game-card__buttons'><button onclick="var url2 = '${shhh}';gamelaunch(url2);"class='game-card__button -play'><i class='fa fa-play' aria-hidden='true'></i>Play</button></div></div></div></div></li> `;  
                } );
     }
     function all(){
@@ -509,7 +513,7 @@ setTimeout(function(){
                    else{
                     console.log(arrayItem.extra)
                    }
-                   document.getElementById("all").innerHTML += `<li><div class='game-card'><div class='game-card__front'><div class='game-card__header'><div class='game-card__cover'><div class='game-card__image-placeholder two'></div><span class='game-card__cover-badge new' aria-hiddden='true'></span></div><div class='game-card__title'>${arrayItem.name}</div></div></div><div class='game-card__back'><div class='game-card__content'><div class='game-card__metadata'>${arrayItem.desc}</div><div class='game-card__buttons'><button onclick="var url2 = '${shhh}';gamelaunch(url2);"class='game-card__button -play'><i class='fa fa-play' aria-hidden='true'></i>Play</button></div></div></div></div></li> `;  
+                   document.getElementById("all").innerHTML += `<li><div class='game-card'><div class='game-card__front'><div class='game-card__header'><div class='game-card__cover'><div class='bgimg'><img src="${arrayItem.img}"></div><span class='game-card__cover-badge new' aria-hiddden='true'></span></div><div class='game-card__title'>${arrayItem.name}</div></div></div><div class='game-card__back'><div class='game-card__content'><div class='game-card__metadata'>${arrayItem.desc}</div><div class='game-card__buttons'><button onclick="var url2 = '${shhh}';gamelaunch(url2);"class='game-card__button -play'><i class='fa fa-play' aria-hidden='true'></i>Play</button></div></div></div></div></li> `;  
                 } );
     } 
     }, .0000000000000000000000000000000000000000000000000000000000000000000000000000000000000001);
