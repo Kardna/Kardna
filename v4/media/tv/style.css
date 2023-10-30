@@ -1,0 +1,463 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:400,700);
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #3C3A46;
+  font-family: "Nunito", sans-serif;
+  height: 100vh;
+  overflow: hidden;
+}
+body .container {
+  box-shadow: 0px 28px 40px -20px rgba(0, 0, 0, 0.33);
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  top: 50%;
+  border-radius: 8px;
+  transform: translateY(-50%);
+  left: 0;
+  margin: auto;
+  right: 0;
+}
+body .container_inner {
+  border-radius: 12px;
+}
+body .container_inner__list {
+  border-radius: 8px;
+  overflow: hidden;
+}
+body .container_inner__list .list_item:nth-of-type(1) label .list_item__image, body .container_inner__list .list_item:nth-of-type(1) label .list_item__placeholder {
+  top: 15px;
+  left: 158px;
+}
+body .container_inner__list .list_item:nth-of-type(2) label .list_item__image, body .container_inner__list .list_item:nth-of-type(2) label .list_item__placeholder {
+  top: 72px;
+  left: 158px;
+}
+body .container_inner__list .list_item:nth-of-type(3) label .list_item__image, body .container_inner__list .list_item:nth-of-type(3) label .list_item__placeholder {
+  top: 129px;
+  left: 158px;
+}
+body .container_inner__list .list_item:nth-of-type(4) label .list_item__image, body .container_inner__list .list_item:nth-of-type(4) label .list_item__placeholder {
+  top: 186px;
+  left: 158px;
+}
+body .container_inner__list .list_item:nth-of-type(5) label .list_item__image, body .container_inner__list .list_item:nth-of-type(5) label .list_item__placeholder {
+  top: 243px;
+  left: 158px;
+}
+body .container_inner__list .list_item:nth-of-type(6) label .list_item__image, body .container_inner__list .list_item:nth-of-type(6) label .list_item__placeholder {
+  top: 300px;
+  left: 158px;
+}
+body .container_inner__list .list_item:nth-of-type(7) label .list_item__image, body .container_inner__list .list_item:nth-of-type(7) label .list_item__placeholder {
+  top: 357px;
+  left: 158px;
+}
+body .container_inner__list .list_item:nth-of-type(8) label .list_item__image, body .container_inner__list .list_item:nth-of-type(8) label .list_item__placeholder {
+  top: 414px;
+  left: 158px;
+}
+body .container_inner__list .list_item:nth-of-type(9) label .list_item__image, body .container_inner__list .list_item:nth-of-type(9) label .list_item__placeholder {
+  top: 471px;
+  left: 158px;
+}
+body .container_inner__list .list_item:nth-of-type(10) label .list_item__image, body .container_inner__list .list_item:nth-of-type(10) label .list_item__placeholder {
+  top: 528px;
+  left: 158px;
+}
+body .container_inner__list .list_item:nth-of-type(1) label .list_item__bg {
+  background: url("https://robertfeder.dailyherald.com/wp-content/uploads/2020/08/ABC-7.jpg");
+}
+body .container_inner__list .list_item:nth-of-type(2) label .list_item__bg {
+  background: url("https://a1.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fespn_logos%2Fespn_red.png");
+}
+body .container_inner__list .list_item:nth-of-type(3) label .list_item__bg {
+  background: url("http://images.cwtv.com/images/shows/og-image/the-flash.png");
+}
+body .container_inner__list .list_item:nth-of-type(4) label .list_item__bg {
+  background: url("http://flicksided.com/files/2015/05/lost-cast-abc.jpg");
+}
+body .container_inner__list .list_item:nth-of-type(5) label .list_item__bg {
+  background: url("http://www.guusarts.com/wp-content/uploads/2015/04/b28117ea-41bc-47fe-93ef-f82a1f31717b.jpg");
+}
+body .container_inner__list .list_item:nth-of-type(6) label .list_item__bg {
+  background: url("https://assets1.ignimgs.com/2015/06/03/poster-prison-break-season-2jpg-e3aaf9_1280w.jpg");
+}
+body .container_inner__list .list_item:nth-of-type(1) label .list_item__image {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ABC-2021-LOGO.svg/1200px-ABC-2021-LOGO.svg.png");
+}
+body .container_inner__list .list_item:nth-of-type(2) label .list_item__image {
+  background: url("https://yt3.googleusercontent.com/ytc/APkrFKb-9RvTGNDARu5R2f5sjOqoBvGQvUNV_8GMXrPUwHE=s900-c-k-c0x00ffffff-no-rj");
+}
+body .container_inner__list .list_item:nth-of-type(3) label .list_item__image {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/tf_small.png");
+}
+body .container_inner__list .list_item:nth-of-type(4) label .list_item__image {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/l_small.png");
+}
+body .container_inner__list .list_item:nth-of-type(5) label .list_item__image {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/d_small.png");
+}
+body .container_inner__list .list_item:nth-of-type(6) label .list_item__image {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/pb_small.png");
+}
+
+body .container_inner__list .list_item__image, body .container_inner__list .list_item__placeholder {
+  width: 26px;
+  height: 26px;
+  background-size: 102% !important;
+  position: absolute;
+  left: 0;
+  z-index: 2;
+  top: 0;
+  border-radius: 2px;
+  float: right;
+  transition: all 1s 0.1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+body .container_inner__list .list_item__placeholder {
+  background: #31A993;
+}
+body .container_inner__list .list_item label {
+  padding: 20px;
+  width: 200px;
+  font-weight: normal;
+  cursor: pointer;
+  color: #A5B9C7;
+  font-size: 13px;
+  display: block;
+  background: #536F84;
+  transition: all 0.2s;
+}
+body .container_inner__list .list_item label:hover {
+  background: #4C677B;
+}
+body .container_inner__list .list_item label:hover .icon {
+  opacity: 1;
+  left: 20px;
+}
+body .container_inner__list .list_item label:hover span {
+  padding-left: 20px;
+}
+body .container_inner__list .list_item input[type=radio] {
+  display: none;
+}
+body .container_inner__list .list_item input[type=radio]:checked + label .list_item__feature {
+  display: block;
+}
+body .container_inner__list .list_item input[type=radio]:checked + label .list_item__bg {
+  opacity: 0.4;
+}
+body .container_inner__list .list_item input[type=radio]:checked + label .list_item__image {
+  position: absolute;
+  top: 20px;
+  left: 220px;
+  width: 80px;
+  height: 80px;
+}
+body .container_inner__list .list_item input[type=radio]:checked + label {
+  background: linear-gradient(left, #1DB99D 0%, #32C5AB 100%);
+  color: white;
+}
+body .container_inner__list .list_item input[type=radio]:checked + label .icon {
+  opacity: 1;
+  left: 20px;
+}
+body .container_inner__list .list_item input[type=radio]:checked + label span {
+  padding-left: 20px;
+}
+body .container_inner__list .list_item input[type=radio]:checked + label .ion-android-star:nth-of-type(1) {
+  -webkit-animation: pop 0.2s 0.2s forwards;
+          animation: pop 0.2s 0.2s forwards;
+}
+body .container_inner__list .list_item input[type=radio]:checked + label .ion-android-star:nth-of-type(2) {
+  -webkit-animation: pop 0.2s 0.25s forwards;
+          animation: pop 0.2s 0.25s forwards;
+}
+body .container_inner__list .list_item input[type=radio]:checked + label .ion-android-star:nth-of-type(3) {
+  -webkit-animation: pop 0.2s 0.3s forwards;
+          animation: pop 0.2s 0.3s forwards;
+}
+body .container_inner__list .list_item input[type=radio]:checked + label .ion-android-star:nth-of-type(4) {
+  -webkit-animation: pop 0.2s 0.35s forwards;
+          animation: pop 0.2s 0.35s forwards;
+}
+body .container_inner__list .list_item input[type=radio]:checked + label .ion-android-star:nth-of-type(5) {
+  -webkit-animation: pop 0.2s 0.4s forwards;
+          animation: pop 0.2s 0.4s forwards;
+}
+body .container_inner__list .list_item input[type=radio]:checked + label .ion-android-star:nth-of-type(6) {
+  -webkit-animation: pop 0.2s 0.45s forwards;
+          animation: pop 0.2s 0.45s forwards;
+}
+body .container_inner__list .list_item input[type=radio]:checked + label .ion-android-star:nth-of-type(7) {
+  -webkit-animation: pop 0.2s 0.5s forwards;
+          animation: pop 0.2s 0.5s forwards;
+}
+body .container_inner__list .list_item input[type=radio]:checked + label .ion-android-star:nth-of-type(8) {
+  -webkit-animation: pop 0.2s 0.55s forwards;
+          animation: pop 0.2s 0.55s forwards;
+}
+body .container_inner__list .list_item input[type=radio]:checked + label .ion-android-star:nth-of-type(9) {
+  -webkit-animation: pop 0.2s 0.6s forwards;
+          animation: pop 0.2s 0.6s forwards;
+}
+body .container_inner__list .list_item input[type=radio]:checked + label .ion-android-star:nth-of-type(10) {
+  -webkit-animation: pop 0.2s 0.65s forwards;
+          animation: pop 0.2s 0.65s forwards;
+}
+body .container_inner__list .list_item input[type=radio]:checked + label h1 {
+  -webkit-animation: pop 0.2s 0.1s forwards;
+          animation: pop 0.2s 0.1s forwards;
+}
+body .container_inner__list .list_item input[type=radio]:checked + label h2 {
+  -webkit-animation: pop 0.2s 0.15s forwards;
+          animation: pop 0.2s 0.15s forwards;
+}
+body .container_inner__list .list_item input[type=radio]:checked + label p {
+  -webkit-animation: pop 0.6s 0.5s forwards;
+          animation: pop 0.6s 0.5s forwards;
+}
+body .container_inner__list .list_item input[type=radio]:checked + label .watch {
+  -webkit-animation: poptwo 0.6s 0.6s forwards;
+          animation: poptwo 0.6s 0.6s forwards;
+}
+body .container_inner__list .list_item .icon {
+  position: absolute;
+  left: 0px;
+  font-size: 14px;
+  opacity: 0;
+}
+body .container_inner__list .list_item span, body .container_inner__list .list_item .icon {
+  transition: padding 0.2s, left 0.2s, opacity 0.2s;
+}
+body .container_inner__list .list_item__feature {
+  display: none;
+  width: 400px;
+  overflow: hidden;
+  position: absolute;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  right: 0;
+  top: 0;
+  height: 100%;
+}
+body .container_inner__list .list_item__feature .gif {
+  position: absolute;
+}
+body .container_inner__list .list_item__feature .gif_overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.69);
+}
+body .container_inner__list .list_item__feature .information {
+  z-index: 2;
+  position: relative;
+  left: 120px;
+}
+body .container_inner__list .list_item__feature .information h1, body .container_inner__list .list_item__feature .information h2, body .container_inner__list .list_item__feature .information p {
+  opacity: 0;
+  position: relative;
+  top: 7px;
+}
+body .container_inner__list .list_item__feature .information h1 {
+  font-size: 16px;
+  margin: 27px 0px 0px 0px;
+}
+body .container_inner__list .list_item__feature .information h2 {
+  font-size: 12px;
+  margin: 0px 0px 10px 0px;
+}
+body .container_inner__list .list_item__feature .information .ion-android-star {
+  float: left;
+  color: #EAA739;
+  opacity: 0;
+  position: relative;
+  top: 4px;
+  margin-right: 3px;
+}
+body .container_inner__list .list_item__feature .watch {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  opacity: 0;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: all 0.2s;
+  border: 2px solid white;
+}
+body .container_inner__list .list_item__feature .watch:hover {
+  color: #536F84;
+  background: white;
+}
+body .container_inner__list .list_item__feature .watch .ion-android-star {
+  float: left;
+  margin-right: 10px;
+}
+body .container_inner__list .list_item__feature .description {
+  z-index: 2;
+  position: relative;
+  left: 20px;
+  top: 20px;
+}
+body .container_inner__list .list_item__feature .description p {
+  width: 370px;
+  opacity: 0;
+  position: relative;
+  top: 7px;
+  clear: both;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+@-webkit-keyframes pop {
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes pop {
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes poptwo {
+  100% {
+    bottom: 20px;
+    opacity: 1;
+  }
+}
+@keyframes poptwo {
+  100% {
+    bottom: 20px;
+    opacity: 1;
+  }
+}
+@media (max-width: 624px) {
+  body .container_inner__list .list_item label {
+    width: 100%;
+    padding: 12px 20px;
+  }
+
+  .container {
+    width: 100% !important;
+    padding: 20px;
+  }
+
+  body .container_inner__list .list_item__feature {
+    width: 100%;
+    top: 246px;
+    padding: 20px;
+    left: -10px;
+    right: 30px;
+    height: 138px;
+    border-radius: 0px;
+  }
+
+  body .container {
+    box-shadow: none;
+  }
+
+  body .container_inner__list {
+    border-radius: 0px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    overflow: hidden;
+  }
+
+  body .container_inner__list .list_item__feature .gif_overlay {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.69);
+  }
+
+  body .container_inner__list .list_item__feature .watch {
+    position: absolute;
+    bottom: auto;
+    top: 60px;
+    left: auto;
+    right: 20px;
+    height: 42px;
+    opacity: 0;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: all 0.2s;
+    border: 2px solid white;
+  }
+
+  .container_inner__list .list_item__feature .description p {
+    width: 100% !important;
+    display: none;
+  }
+
+  body .container_inner__list .list_item input[type=radio]:checked + label .list_item__image {
+    position: absolute;
+    top: 285px !important;
+    left: 31px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .list_item__placeholder {
+    right: 40px !important;
+    left: auto !important;
+  }
+
+  body .container_inner__list .list_item:nth-of-type(1) label .list_item__image, body .container_inner__list .list_item:nth-of-type(2) label .list_item__image, body .container_inner__list .list_item:nth-of-type(3) label .list_item__image, body .container_inner__list .list_item:nth-of-type(4) label .list_item__image, body .container_inner__list .list_item:nth-of-type(5) label .list_item__image, body .container_inner__list .list_item:nth-of-type(6) label .list_item__image {
+    right: 40px;
+    left: auto;
+  }
+
+  input[type=radio]:checked + label .icon {
+    left: 35px !important;
+  }
+
+  body .container_inner__list .list_item label:hover .icon {
+    opacity: 1;
+    left: 35px;
+  }
+
+  .list_item:nth-of-type(1) label .list_item__image, .list_item:nth-of-type(1) label .list_item__placeholder {
+    top: 32px !important;
+  }
+  .list_item:nth-of-type(2) label .list_item__image, .list_item:nth-of-type(2) label .list_item__placeholder {
+    top: 72px !important;
+  }
+  .list_item:nth-of-type(3) label .list_item__image, .list_item:nth-of-type(3) label .list_item__placeholder {
+    top: 112px !important;
+  }
+  .list_item:nth-of-type(4) label .list_item__image, .list_item:nth-of-type(4) label .list_item__placeholder {
+    top: 152px !important;
+  }
+  .list_item:nth-of-type(5) label .list_item__image, .list_item:nth-of-type(5) label .list_item__placeholder {
+    top: 192px !important;
+  }
+  .list_item:nth-of-type(6) label .list_item__image, .list_item:nth-of-type(6) label .list_item__placeholder {
+    top: 232px !important;
+  }
+  .list_item:nth-of-type(7) label .list_item__image, .list_item:nth-of-type(7) label .list_item__placeholder {
+    top: 272px !important;
+  }
+  .list_item:nth-of-type(8) label .list_item__image, .list_item:nth-of-type(8) label .list_item__placeholder {
+    top: 312px !important;
+  }
+  .list_item:nth-of-type(9) label .list_item__image, .list_item:nth-of-type(9) label .list_item__placeholder {
+    top: 352px !important;
+  }
+  .list_item:nth-of-type(10) label .list_item__image, .list_item:nth-of-type(10) label .list_item__placeholder {
+    top: 392px !important;
+  }
+}
+@media (max-width: 424px) {
+  .watch {
+    display: none;
+  }
+}
