@@ -1,0 +1,28 @@
+<iframe id="iframe" src="/landing/" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+    Your browser doesn't support iframes
+</iframe>
+
+<script>let site1 = getCurrentURL();
+    var name = new URL(site1).host;
+    console.log(name);
+    const encodedData = "WyJrYXJkbmE0bGlmZS5jZiIsImthcmRuYTRsaWZlLmdhIiwia2FyZG5hNGxpZmUuZ3EiLCJrYXJkbmE0bGlmZS5tbCIsImthcmRuYTRsaWZlLnRrIiwia2FyZG5hLmNmIiwia2FyZG5hLm1sIiwia2FyZG5hLnh5eiIsInJpcGthcmRuYS5jZiIsInJpcGthcmRuYS5tbCIsInJpcGthcmRuYS50ayIsInJpcGthcmRuYS5ncSIsInJpcGthcmRuYS5nYSIsInJpcHJpcGthcmRuYS5nYSIsInJpcHJpcGthcmRuYS5ncSIsInJpcHJpcGthcmRuYS50ayIsInJpcHJpcGthcmRuYS5tbCIsInJpcHJpcGthcmRuYS5jZiIsInRleGFzZmVldC5nYSJd"; // Encoded data
+    const decodedString = atob(encodedData); // Decode the Base64 string
+    const myArray = JSON.parse(decodedString); // Convert the JSON string to an array
+    const myVariable = name;
+    if (myArray.includes(myVariable)) {
+      var url = "https://" + 'bg.' + name;
+    } else {
+      console.log("Its working!!!")
+      var url = 'https://bg.mkardna.de';
+    }
+    console.log(url);
+    function getCurrentURL () {
+    return window.location.href
+    }</script>
+<script>
+var newsrc = url + "/uv.html#aHR0cHM6Ly9iZW11c2ljLjEudmVidG8uY29tLw==" 
+console.log(newsrc);
+document.getElementById("iframe").src = "https://bemusic.1.vebto.com/";
+
+</script>
+

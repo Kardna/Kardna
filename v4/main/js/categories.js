@@ -32,6 +32,6 @@ function Apps(){
 function Consoles() {
     document.getElementById("gameframe").src="../consoles/";
 }
-function Custom(){
-    
+function Media(){
+    document.getElementById("gameframe").src="../media_slider/";
 }
