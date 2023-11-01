@@ -1,0 +1,105 @@
+\<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "//www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<body>
+<script src="https://cdn.jsdelivr.net/npm/swarmcloud-hls@latest/dist/p2p-engine.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swarmcloud-hls@latest/dist/clappr-p2p-plugin.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/gh/clappr/clappr-level-selector-plugin@latest/dist/level-selector.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/clappr/clappr@latest/dist/clappr.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/clappr/dash-shaka-playback@latest/dist/dash-shaka-playback.js"></script>
+
+
+<div id="player" style="overflow:hidden;height:100%;width:100%"></div>
+<script type="text/javascript">
+var p2pConfig = {
+      segmentId: function (streamId, sn, url, range) {
+                        let netUrl = url.split('?')[0];
+                        if (netUrl.startsWith('http')) {
+                            netUrl = netUrl.split('://')[1];
+                        }
+                        if (range) {
+                            return `${netUrl}|${range}`
+                        }
+                        return `${netUrl}`
+                    },
+ token: '_Yiurmd7g',
+     live: true,        // set to false in VOD mode
+     announce: "https://eu.web3-lab.com:8443/v1",
+       getStats: function (totalP2PDownloaded, totalP2PUploaded, totalHTTPDownloaded) {
+           var total = totalHTTPDownloaded + totalP2PDownloaded;
+           console.log(`p2p ratio: ${Math.round(totalP2PDownloaded/total*100)}%`);
+        }
+   }
+   if (!P2pEngineHls.isMSESupported()) {
+       // use ServiceWorker based p2p engine if hls.js is not supported
+       new P2pEngineHls(p2pConfig)
+   }
+var playerElement = document.getElementById("player");
+var player = new Clappr.Player({
+height: "100%",
+width: "100%",
+autoPlay: true,
+mute: 'true',
+         plugins: [SwarmCloudClapprPlugin, LevelSelector],
+         playback: {
+         hlsjsConfig: {
+            maxBufferSize: 0,
+            maxBufferLength: 7,
+            liveSyncDurationCount: 10,
+        /* xhrSetup: function (xhr, url) {
+                xhr.withCredentials = true; // do send cookies
+                xhr.setRequestHeader('Access-Control-Allow-Headers', 'criteriasoftwares')
+        }, */
+         // Other hlsjsConfig options provided by hls.js
+         p2pConfig,
+         // Other p2pConfig options provided
+                    }
+            },
+                    mediacontrol: {
+                        seekbar: '#198754',
+                        buttons: '#198754'
+                    },
+events: {
+                    onError: function(e) {
+                        setTimeout(function() {
+                            player.configure(player.options);
+                        }, 1000);
+                    }
+                }
+         
+        });
+
+
+
+player.attachTo(playerElement);
+player.load({source: tttlrHUepg(), mimeType: 'application/vnd.apple.mpegurl'});
+player.play();
+function tttlrHUepg() {
+        return(["h","t","t","p","s",":","\/","\/","\/","\/","d","2",".","a","i","n","a","k","w","a","l","a","j","e","e","n",".","c","o","m",":","9","9","9","\/","h","l","s","\/","s","u","p","e","r","s","r","u","g","b","y",".","m","3","u","8","?","m","d","5","=","6","R","q","y","i","i","D","F","8","P","W","6","e","8","9","S","O","E","c","v","m","g","&","e","x","p","i","r","e","s","=","1","6","9","8","8","1","5","7","2","1"].join("") + tyrblUuSgeaaasnAerrri.join("") + document.getElementById("SthifeargiBautkcns").innerHTML);
+    }
+</script>
+
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4646651,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<!-- Histats.com  END  -->
+
+
+</body>
+</html> 
+
+
+
+
+								
+
+
+
+
+ 
