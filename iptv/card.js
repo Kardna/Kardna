@@ -60,18 +60,15 @@ function gamelaunch(name){
         var cardArr2 = [
             {
                 "name": "Abc News",
-                "url": "../media/",
+                "url": "../v4/media/tv/channels/america/abc/abc",
                 "desc": "",
+                "region": "USA",
             }, 
             {
-                "name": " Music",
-                "url": "./music/",
+                "name": "Espn USA",
+                "url": "../v4/media/tv/channels/america/espn",
                 "desc": "",
-            }, 
-            {
-                "name": "Televison",
-                "url": "../media/tv/",
-                "desc": "",
+                "region": "USA",
             }, 
         ]
 setTimeout(function(){
@@ -101,7 +98,7 @@ setTimeout(function(){
             var shhh = arrayItem.url;
                    let link2 = arrayItem.url;
                    let name2 = arrayItem.name;
-                   document.getElementById("hot").innerHTML += `<li><div class='game-card'><div class='game-card__front'><div class='game-card__header'><div class='game-card__cover'><div class='game-card__image-placeholder two'></div><span class='game-card__cover-badge new' aria-hiddden='true'>Top 3</span></div><div class='game-card__title'>${arrayItem.name}</div></div></div><div class='game-card__back'><div class='game-card__content'><div class='game-card__metadata'>${arrayItem.desc}</div><div class='game-card__buttons'><button onclick="var url2 = '${shhh}';gamelaunch(url2);"class='game-card__button -play'><i class='fa fa-play' aria-hidden='true'></i>Play</button></div></div></div></div></li> `;  
+                   document.getElementById("hot").innerHTML += `<li><div class='game-card'><div class='game-card__front'><div class='game-card__header'><div class='game-card__cover'><div class='game-card__image-placeholder two'></div><span class='game-card__cover-badge new' aria-hiddden='true'>${arrayItem.region}</span></div><div class='game-card__title'>${arrayItem.name}</div></div></div><div class='game-card__back'><div class='game-card__content'><div class='game-card__metadata'>${arrayItem.desc}</div><div class='game-card__buttons'><button onclick="var url2 = '${shhh}';gamelaunch(url2);"class='game-card__button -play'><i class='fa fa-play' aria-hidden='true'></i>Play</button></div></div></div></div></li> `;  
                } );
     }
     }, .0000000000000000000000000000000000000000000000000000000000000000000000000000000000000001);

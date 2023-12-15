@@ -17,12 +17,15 @@ body{
 }
 
 main {
+  opacity: 0%;
+  z-index: -9999;
+  align-items: center;
   position: relative;
-  width: calc(min(90rem, 90%));
+  width: 100%;
   margin: 0 auto;
   min-height: 100vh;
   column-gap: 3rem;
-  filter: blur(1000px);
+  filter: blur();
   padding-block: min(20vh, 3rem);
 }
 
@@ -63,13 +66,15 @@ main > div span {
   font-size: 1rem;
   color: #717171;
 }
-
+.divleft{
+  text-align: center;
+}
 main > div h1 {
+  text-align: center;
   text-transform: capitalize;
   letter-spacing: 0.8px;
   font-size: clamp(2.4375rem, 2.25rem + 0.75vw, 4rem);
-  background-color: #005baa;
-  background-image: linear-gradient(45deg, #f5f5f5, #000000);
+  background-color: #aa1a00;
   background-size: 100%;
   background-repeat: repeat;
   -webkit-background-clip: text;
@@ -79,20 +84,23 @@ main > div h1 {
 }
 
 main > div hr {
+  text-align: center;
   display: block;
   background: #ffffff;
   height: 0.25rem;
-  width: 6.25rem;
+  width: 15rem;
   border: none;
   margin: 1.125rem 0 1.875rem 0;
 }
 
 main > div p {
+  text-align: center;
   line-height: 1.6;
-  color: #fff;
+  color: #016701;
 }
 
 main a {
+  text-align: center;
   display: inline-block;
   text-decoration: none;
   text-transform: uppercase;
@@ -124,15 +132,19 @@ main > div > a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 11;
+  padding-bottom: 5px;
 }
 
 .text-cover-soon-div h1{
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 24px;
     text-align: center;
 }
 
 .swiper {
+  opacity: 0%;
+  z-index: -9999;
   width: 100%;
   padding-top: 3.125rem;
 
@@ -258,6 +270,7 @@ main > div > a:hover {
   position: absolute;
   bottom: 45vh;
   border-radius: 5px;
+  
 }
 .atextmain a{
   text-decoration: none;
@@ -266,3 +279,19 @@ main > div > a:hover {
   margin: 25px;
   font-size: 15px;
 }
+.footer{ 
+  position: fixed;     
+  text-align: center;    
+  bottom: 0px; 
+  width: 100%;
+  z-index: 99999;
+  color: white;
+} 
+.header{ 
+  position: fixed;     
+  text-align: center;    
+  top: 51%; 
+  width: 100%;
+  z-index: 99999;
+  color: rgb(151, 151, 151);
+} 
