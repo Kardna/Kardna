@@ -7,12 +7,12 @@ const decodedString = atob(encodedData); // Decode the Base64 string
 const myArray = JSON.parse(decodedString); // Convert the JSON string to an array
 const myVariable = name;
 if (myArray.includes(myVariable)) {
-    var url = 'bg.' + name;
+    var url22 = 'bg.' + name;
 } else {
     console.log("Its working!!!")
-    var url = 'bg.kardna.net';
+    var url22 = 'bg.kardna.net';
 }
-console.log(url);
+console.log(url22);
 function getCurrentURL () {
 return window.location.href
 }
@@ -95,7 +95,9 @@ cols: 4,
       { content: 'Hole.io', click: 'https://hole-io.com/' },
       { content: 'Tallman Run', click: 'https://html5.gamedistribution.com/rvvASMiM/7980c23fbbae4af6851e01052fce3cce/index.html?gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL2h0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tLzc5ODBjMjNmYmJhZTRhZjY4NTFlMDEwNTJmY2UzY2NlLyIsInBhcmVudERvbWFpbiI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidG9wRG9tYWluIjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJoYXNJbXByZXNzaW9uIjpmYWxzZSwibG9hZGVyRW5hYmxlZCI6dHJ1ZSwiaG9zdCI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidmVyc2lvbiI6IjEuNS4xNiJ9' },
       { content: 'Doodle God', click: "https://html5.gamedistribution.com/rvvASMiM/cd33ecc7b752408ab44036d0c8c1b91f/index.html?gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL2h0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tL2NkMzNlY2M3Yjc1MjQwOGFiNDQwMzZkMGM4YzFiOTFmLyIsInBhcmVudERvbWFpbiI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidG9wRG9tYWluIjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJoYXNJbXByZXNzaW9uIjpmYWxzZSwibG9hZGVyRW5hYmxlZCI6dHJ1ZSwiaG9zdCI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidmVyc2lvbiI6IjEuNS4xNiJ9"},
-  ],
+      { content: 'Poppy Playtime', click: "https://now.gg/play/mob-games-studio/1293/poppy-playtime",},
+
+    ],
 },
 {
 id: 'low-card',
@@ -123,7 +125,13 @@ itemDiv.textContent = item.content;
 
 // Add onclick event to redirect to the specified URL
 itemDiv.onclick = function () {
-window.location.href = item.click;
+    if (item.click.startsWith('/')) {
+        window.location.href = item.click
+      } else if (item.click.startsWith('http') || item.click.startsWith('www')) {
+        window.location.href = "https://" + url22 + "/uv.html#" + btoa(item.click);
+      } else {
+        window.alert("Error, Please Contact Zenfy.")
+      }
 };
 
 gridDiv.appendChild(itemDiv);
