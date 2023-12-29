@@ -40,8 +40,8 @@
   
   <div class="text-container">
     <div id="nav">
-      <a id="1" href="https://google.com">Home</a>
-      <a id="2" onclick="loadkardna();" href="#kardna">Kardna</a>
+      <a id="1" onclick="loadkardna();" href="#kardna">Kardna</a>
+      <a id="2" onclick="loadsearch();">Search</a>
       <a id="3" onclick="loadoasis();" href="#oasis">Oasis</a>
     </div>
   version 5 BETA
@@ -61,11 +61,28 @@
 }
   </style>
   <script>
+     let site1 = getCurrentURL();
+    var name = new URL(site1).host;
+    console.log(name);
+    const encodedData = "WyJrYXJkbmE0bGlmZS5jZiIsImthcmRuYTRsaWZlLmdhIiwia2FyZG5hNGxpZmUuZ3EiLCJrYXJkbmE0bGlmZS5tbCIsImthcmRuYTRsaWZlLnRrIiwia2FyZG5hLmNmIiwia2FyZG5hLm1sIiwia2FyZG5hLnh5eiIsInJpcGthcmRuYS5jZiIsInJpcGthcmRuYS5tbCIsInJpcGthcmRuYS50ayIsInJpcGthcmRuYS5ncSIsInJpcGthcmRuYS5nYSIsInJpcHJpcGthcmRuYS5nYSIsInJpcHJpcGthcmRuYS5ncSIsInJpcHJpcGthcmRuYS50ayIsInJpcHJpcGthcmRuYS5tbCIsInJpcHJpcGthcmRuYS5jZiIsInRleGFzZmVldC5nYSIsImthcmRuYS5uZXQiXQ=="; // Encoded data
+    const decodedString = atob(encodedData); // Decode the Base64 string
+    const myArray = JSON.parse(decodedString); // Convert the JSON string to an array
+    const myVariable = name;
+    if (myArray.includes(myVariable)) {
+        var url = 'bg.' + name;
+    } else {
+        console.log("Its working!!!")
+        var url = 'bg.kardna.net';
+    }
+    console.log(url);
+    function getCurrentURL () {
+    return window.location.href
+    }
     function loadkardna(){
       var iframe = document.createElement('iframe');
       document.body.appendChild(iframe);
       // iframe.src = "./kardna";
-      iframe.src = "../v4";
+      iframe.src = "./kardna/";
       document.getElementById("grimace").style.display = "block";
       document.getElementById("grimace").style.display = "none";
       document.body.style.backgroundColor = "#000";
@@ -74,12 +91,21 @@
     function loadoasis(){
       var iframe = document.createElement('iframe');
       document.body.appendChild(iframe);
-      iframe.src = "https://oasisos.pages.dev";
+      iframe.src = "../Oasis/v1";
       document.getElementById("grimace").style.display = "block";
       document.getElementById("grimace").style.display = "none";
       document.body.style.backgroundColor = "#000";
       document.getElementsByTagName("iframe")[0].className = "fullScreen";
     };
+    function loadsearch(){
+      var iframe = document.createElement('iframe');
+      document.body.appendChild(iframe);
+      iframe.src = "https://" + url;
+      document.getElementById("grimace").style.display = "block";
+      document.getElementById("grimace").style.display = "none";
+      document.body.style.backgroundColor = "#000";
+      document.getElementsByTagName("iframe")[0].className = "fullScreen";
+    }
   </script>
 </body>
 </html>
