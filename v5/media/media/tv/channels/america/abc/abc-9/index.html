@@ -1,0 +1,33 @@
+<meta name="robots" content="noindex">
+<script src="https://cdn.jsdelivr.net/gh/clappr/clappr@latest/dist/clappr.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/clappr/dash-shaka-playback@latest/dist/dash-shaka-playback.js"></script>
+<div id="player"></div>
+<script>
+      var player = new Clappr.Player(
+        {
+          source: 'https://d3qm7vzp07vxse.cloudfront.net/v1/master/77872db67918a151b697b5fbc23151e5765767dc/cmg_PROD_cmg-tv-10070_fe1f5f6c-cd0b-4993-a4a4-6db66be4f313_LE/in/cmg-wftvtv-hls-v3/live.m3u8',
+          
+          height: '99.5%',
+          width: '100%',
+          autoPlay: false,
+          playInline: true,
+          plugins: [DashShakaPlayback],
+          shakaConfiguration: {
+            preferredAudioLanguage: 'pt-BR',
+            streaming: {
+              rebufferingGoal: 15
+            }
+          },
+          shakaOnBeforeLoad: function(shaka_player) {
+            // shaka_player.getNetworkingEngine().registerRequestFilter() ...
+          },
+          parentId: '#player'
+        });
+    </script>
+
+
+<!--
+  #EXTINF:-1 tvg-id="WFTVDT1.us",ABC 9 Orlando FL (WFTV) (720p)
+https://d3qm7vzp07vxse.cloudfront.net/v1/master/77872db67918a151b697b5fbc23151e5765767dc/cmg_PROD_cmg-tv-10070_fe1f5f6c-cd0b-4993-a4a4-6db66be4f313_LE/in/cmg-wftvtv-hls-v3/live.m3u8
+
+-->

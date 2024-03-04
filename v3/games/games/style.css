@@ -296,9 +296,7 @@ input:checked + .slider:before {
 .card:hover {
   transform: scale(1.3); 
 }
-body {
-  text-align: center;
-}
+
 
 
 .card {

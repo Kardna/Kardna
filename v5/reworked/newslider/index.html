@@ -1,0 +1,143 @@
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css'>
+
+<style>
+    .game-section {
+  padding: 60px 50px;
+}
+.game-section .owl-stage {
+  margin: 15px 0;
+  display: flex;
+  display: -webkit-flex;
+}
+.game-section .item {
+  margin: 0 15px 60px;
+  width: 320px;
+  height: 400px;
+  display: flex;
+  display: -webkit-flex;
+  align-items: flex-end;
+  -webkit-align-items: flex-end;
+  background: #343434 no-repeat center center / cover;
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+.game-section .item.active {
+  width: 500px;
+  box-shadow: 12px 40px 40px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 12px 40px 40px rgba(0, 0, 0, 0.25);
+}
+.game-section .item:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+}
+.game-section .item-desc {
+  font-family: Main;
+  padding: 0 24px 12px;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transform: translateY(calc(100% - 54px));
+  -webkit-transform: translateY(calc(100% - 54px));
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+}
+.game-section .item-desc h3{
+  font-size: 24px;
+  font-family: Main;
+}
+.game-section .item-desc button{
+border-radius: 15px;
+border-color: transparent;
+width: 20%;
+font-family: Main;
+display: none;
+margin-bottom: 15px;
+}
+.game-section .item-desc button h5{
+font-size: 15px;
+text-align: center;
+line-height: 15px;
+height: 10px;
+  font-family: Main;
+  }
+.game-section .item.active .item-desc button{
+  display: block;
+}
+.game-section .item.active .item-desc {
+  transform: none;
+  -webkit-transform: none;
+}
+.game-section .item-desc p {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 0;
+  -webkit-transform: translateY(32px);
+  transform: translateY(32px);
+  transition: all 0.4s ease-in-out 0.2s;
+  -webkit-transition: all 0.4s ease-in-out 0.2s;
+}
+.game-section .item.active .item-desc p {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+.game-section .owl-theme.custom-carousel .owl-dots {
+  margin-top: -20px;
+  position: relative;
+  z-index: 5;
+}
+</style>
+
+<section class="game-section">
+    <h2 class="line-title">trending</h2>
+    <div class="owl-carousel custom-carousel owl-theme">
+      <div id="f" onmouseover="mouseoverfortnite();" onmouseout="mouseoutfortnite();"class="item active" style="background-image: url(./img/fortnite.png);">
+              <div class="item-desc">
+                <h3 style="z-index:100;">Fortnite</h3>
+                <button id="Fotnite" onclick="Fortnite_Trending();">Play</button>
+                <p>Fortnite is at heart a battle royale game, developed by Epic Games. In it, players drop into a map, either on their own or with a team, alongside 99 other players. After landing, it’s a mad dash to pick up as many weapons and items as possible, all while working your way toward the center of the map. Whoever is the last player standing wins the match.</p>
+              </div>
+            </div>
+      <div id="r" onmouseover="mouseoverroblox();" onmouseout="mouseoutroblox();" class="item" style="background-image: url(./img/roblox.png);">
+        <div class="item-desc">
+          <h3>Roblox</h3>
+          <button id="Roblox" onclick="Roblox_Trending();">Play</button>
+          <p>Roblox is a global platform where millions of people gather together every day to imagine, create, and share experiences with each other in immersive, user-generated 3D worlds. The types of gameplay on Roblox are just as limitless as the imagination of the creators themselves.</p>
+        </div>
+      </div>
+      <div id="k" onmouseover="mouseoverkrunker();" onmouseout="mouseoutkrunker();" class="item" style="background-image: url(./img/krunker.png);">
+        <div class="item-desc">
+          <h3>Krunker.io</h3>
+          <button id="Krunker" onclick="Krunker_Trending();">Play</button>
+          <p>Krunker.io is a popular first-person shooter that has various amout of gamemodes and wraps for weapons. </p>
+        </div>
+      </div>
+      <div id="b" onmouseover="mouseoverbbstars();" onmouseout="mouseoutbbstars();" class="item" style="background-image: url(./img/Basketballstars.png);">
+        <div class="item-desc">
+          <h3>BB stars</h3>
+          <button id="Basketballstars" onclick="BBStars_Trending();">Play</button>
+          <p>Basketball Stars is a 2-player basketball game created by Madpuffers. Shoot b-ball with the likes of LeBron James, James Harden, and Stephen Curry in Basketball Stars! You can play solo or with a friend as a variety of legendary basketball players.</p>
+        </div>
+      </div>
+      <div id="a" onmouseover="mouseoveramongus();" onmouseout="mouseoutamongus();" class="item"style="background-image: url(./img/Amongus.png);">
+        <div class="item-desc">
+          <h3>Among Us</h3>
+          <button id="Among US"onclick="Amongus_Trending();">Play</button>
+          <p>Among Us is a online multiplayer social deduction game developed and published by American game studio Innersloth. The game was inspired by the party game Mafia and the science fiction horror film The Thing.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>

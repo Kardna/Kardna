@@ -1,0 +1,1 @@
+combine the script.js and app.js 
