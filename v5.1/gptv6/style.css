@@ -1,0 +1,260 @@
+:root {
+  --btn-gradient: linear-gradient(135deg, #6e9ffe, #bb6cee);
+  --dark-bg: #121212;
+  --light-bg: #f5f5f5;
+  --dark-card: #1e1e1e;
+  --light-card: #ffffff;
+  --text-light: #000;
+  --text-dark: #fff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Outfit', sans-serif;
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  background: var(--dark-bg);
+  color: var(--text-dark);
+  transition: 0.3s;
+}
+
+body.light {
+  background: var(--light-bg);
+  color: var(--text-light);
+}
+
+body.light .sidebar,
+body.light .overlay-content,
+body.light .modal-content,
+body.light .fullscreen,
+body.light .mod-content {
+  background: var(--light-card);
+  color: var(--text-light);
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  padding: 20px;
+  background: var(--dark-card);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.brand-title {
+  font-size: 28px;
+  font-weight: 600;
+  background: var(--btn-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ===== Unified Buttons (slightly rounded) ===== */
+.styled-btn,
+.icon-btn,
+.favorites-buttons button,
+.modal-content .close-launcher,
+.fullscreen .close-launcher,
+.tab-btn {
+  background: var(--btn-gradient);
+  color: #fff;
+  border: none;
+  border-radius: 12px; /* slightly rounded */
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+}
+
+/* Normal text buttons */
+.styled-btn,
+.favorites-buttons button,
+.tab-btn {
+  padding: 12px 16px;
+  font-size: 14px;
+  margin: 5px;
+}
+
+/* Square icon buttons (fullscreen header) */
+.icon-btn {
+  width: 44px;
+  height: 44px;
+  font-size: 18px;
+}
+
+/* Hover */
+.styled-btn:hover,
+.icon-btn:hover,
+.favorites-buttons button:hover,
+.modal-content .close-launcher:hover,
+.fullscreen .close-launcher:hover,
+.tab-btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.3);
+}
+
+/* Optional secondary (neutral) */
+.styled-btn.secondary {
+  background: #3a3a3a;
+}
+
+/* Tabs row */
+.tabs {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin: 8px 0 16px;
+  flex-wrap: wrap;
+}
+
+.tab-btn {
+  opacity: 0.8;
+}
+.tab-btn.active {
+  opacity: 1;
+  outline: 2px solid rgba(187,108,238,0.45);
+}
+
+/* Favorites list inherits unified style */
+.favorites-buttons button {
+  margin: 5px 0;
+}
+
+/* Main area */
+.main {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.game-card {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.game-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 2px;
+  background: var(--btn-gradient);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.3s, filter 0.3s;
+}
+
+.game-card:hover::before {
+  opacity: 1;
+  filter: blur(5px);
+}
+
+.game-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.game-card h3 {
+  text-align: center;
+  margin: 10px 0;
+  font-weight: 500;
+}
+
+/* Overlays & Modals */
+.overlay, .modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.hidden { display: none !important; }
+
+.overlay-content, .modal-content, .fullscreen, .mod-content {
+  background: var(--dark-card);
+  padding: 30px;
+  border-radius: 10px;
+  position: relative;
+}
+
+/* Fullscreen Player */
+.fullscreen {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  background: #000;
+  padding: 20px;
+  z-index: 1000;
+}
+
+.fullscreen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.fullscreen-header h2 {
+  color: white;
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.button-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.iframe-container { flex: 1; }
+
+.iframe-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 8px;
+  background: #000;
+}
+
+/* Mod overlay */
+.mod-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1001;
+}
+
+.mod-content {
+  background: var(--dark-card);
+  padding: 30px;
+  border-radius: 10px;
+  color: white;
+  max-width: 500px;
+  text-align: center;
+}

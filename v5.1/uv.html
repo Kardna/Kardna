@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Proxy Launcher</title>
+  <style>
+    :root { color-scheme: dark; }
+    body { margin:0; font-family: system-ui, sans-serif; background:#0b0b0b; color:#eee; }
+    .wrap { max-width: 900px; margin: 40px auto; padding: 16px; }
+    .row { display:flex; gap:12px; flex-wrap:wrap; align-items:center; }
+    input[type="url"] { flex:1 1 520px; padding:12px 14px; border-radius:10px; border:1px solid #2a2a2a; background:#121212; color:#fff; outline:none; }
+    button { padding:12px 16px; border:1px solid #2a2a2a; background:#1a1a1a; color:#fff; border-radius:10px; cursor:pointer; }
+    button:hover { background:#232323; }
+    .hint { opacity:.7; margin-top:8px; font-size:.9rem; }
+    .iframe-wrap { margin-top:18px; height:70vh; border:1px solid #2a2a2a; border-radius:12px; overflow:hidden; }
+    iframe { width:100%; height:100%; border:0; background:#000; }
+    .bar { display:flex; justify-content:space-between; align-items:center; margin-bottom:14px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="bar">
+      <h1>Run a site through the proxy</h1>
+      <small id="swStatus">SW: registering…</small>
+    </div>
+
+    <div class="row">
+      <input id="urlInput" type="url" placeholder="https://example.com" value="https://example.com" />
+      <button id="openSame">Open (this tab)</button>
+      <button id="openNew">Open (new tab)</button>
+      <button id="openIframe">Open (iframe)</button>
+    </div>
+    <div class="hint">
+      Tip: “this tab” is most reliable. Many sites won’t allow being framed.
+    </div>
+
+    <div class="iframe-wrap" id="iframeWrap" style="display:none;">
+      <iframe id="proxyFrame" sandbox="allow-scripts allow-forms allow-same-origin"></iframe>
+    </div>
+  </div>
+
+  <!-- UV runtime + config -->
+  <script src="/uv/uv.bundle.js"></script>
+  <script src="/uv/uv.config.js"></script>
+
+  <script>
+    // 1) Register the UV service worker at the origin scope
+    (async () => {
+      const statusEl = document.getElementById('swStatus');
+      try {
+        if (!('serviceWorker' in navigator)) {
+          statusEl.textContent = 'SW: not supported';
+          return;
+        }
+        const reg = await navigator.serviceWorker.register('/uv/uv.sw.js', { scope: '/' });
+        await navigator.serviceWorker.ready;
+        statusEl.textContent = 'SW: ready';
+      } catch (err) {
+        console.error(err);
+        statusEl.textContent = 'SW: failed (HTTPS required?)';
+      }
+    })();
+
+    // 2) Small helpers
+    function normalizeUrl(input) {
+      try {
+        // If user types "google.com" add https://
+        const hasProto = /^[a-zA-Z][a-zA-Z0-9+.-]*:/.test(input);
+        return new URL(hasProto ? input : 'https://' + input).toString();
+      } catch {
+        return null;
+      }
+    }
+
+    function proxiedPath(url) {
+      // __uv$config is defined by uv.config.js
+      return (__uv$config.prefix || '/service/') + __uv$config.encodeUrl(url);
+    }
+
+    // 3) Wire up buttons
+    const urlInput = document.getElementById('urlInput');
+    const openSame = document.getElementById('openSame');
+    const openNew = document.getElementById('openNew');
+    const openIframe = document.getElementById('openIframe');
+    const iframeWrap = document.getElementById('iframeWrap');
+    const proxyFrame = document.getElementById('proxyFrame');
+
+    function getEncodedPath() {
+      const raw = urlInput.value.trim();
+      const url = normalizeUrl(raw);
+      if (!url) { alert('Enter a valid URL'); throw new Error('invalid url'); }
+      return proxiedPath(url);
+    }
+
+    openSame.addEventListener('click', () => {
+      const path = getEncodedPath();
+      // Navigate current tab through the proxy
+      window.location.href = path;
+    });
+
+    openNew.addEventListener('click', () => {
+      const path = getEncodedPath();
+      window.open(path, '_blank', 'noopener,noreferrer');
+    });
+
+    openIframe.addEventListener('click', () => {
+      const path = getEncodedPath();
+      iframeWrap.style.display = 'block';
+      proxyFrame.src = path; // may fail on some sites due to X-Frame-Options/CSP
+    });
+  </script>
+</body>
+</html>

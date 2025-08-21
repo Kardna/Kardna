@@ -1,0 +1,195 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "title": "9 Kings (Game Preview)",
+      "description": "A fast-paced roguelike kingdom builder. Grow your empire and fight massive battles against rival kings.",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/236390/header.jpg",
+      "iframe": "https://example.com",
+      "screenshots": [
+        "https://via.placeholder.com/300x200",
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": true
+    },
+    {
+      "id": 2,
+      "title": "Rain World",
+      "description": "Navigate a strange, hostile world in this atmospheric platformer.",
+      "image": "https://cdn2.steamgriddb.com/file/sgdb-cdn/thumb/699cad053fc0a9d4a29c9b0e9bfc3f3c.jpg",
+      "iframe": "https://example.com",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 3,
+      "title": "Hollow Knight",
+      "description": "Explore the vast, interconnected world of Hallownest in this critically acclaimed action-adventure game.",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/367520/header.jpg",
+      "iframe": "https://example.com",
+      "screenshots": [
+        "https://via.placeholder.com/300x200",
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": true
+    },
+    {
+      "id": 4,
+      "title": "Celeste",
+      "description": "A platformer about climbing a mountain, both literally and metaphorically.",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/504230/header.jpg",
+      "iframe": "https://example.com",
+      "screenshots": [
+        "https://via.placeholder.com/300x200",
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": true
+    },
+    {
+      "id": 5,
+      "title": "Stardew Valley",
+      "description": "A farming simulation game where you can grow crops, raise animals, and build your farm.",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/413150/header.jpg",
+      "iframe": "https://example.com",
+      "screenshots": [
+        "https://via.placeholder.com/300x200",
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": true
+    },
+    {
+      "id": 6,
+      "title": "Terraria",
+      "description": "A sandbox adventure game with crafting, building, and exploration.",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
+      "iframe": "https://example.com",
+      "screenshots": [
+        "https://via.placeholder.com/300x200",
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": true
+    },
+    {
+      "id": 7,
+      "title": "Undertale",
+      "description": "A unique RPG where you can choose to fight or befriend monsters.",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/391540/header.jpg",
+      "iframe": "https://example.com",
+      "screenshots": [
+        "https://via.placeholder.com/300x200",
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 8,
+      "title": "Hades",
+      "description": "A rogue-like dungeon crawler where you play as the son of Hades trying to escape the Underworld.",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/header.jpg",
+      "iframe": "https://example.com",
+      "screenshots": [
+        "https://via.placeholder.com/300x200",
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": true
+    },
+    {
+      "id": 9,
+      "title": "Slay the Spire",
+      "description": "A deck-building roguelike where you climb a spire filled with monsters and treasures.",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/646570/header.jpg",
+      "iframe": "https://example.com",
+      "screenshots": [
+        "https://via.placeholder.com/300x200",
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": true
+    },
+    {
+      "id": 10,
+      "title": "Dead Cells",
+      "description": "A rogue-lite, metroidvania inspired action-platformer.",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/588650/header.jpg",
+      "iframe": "https://example.com",
+      "screenshots": [
+        "https://via.placeholder.com/300x200",
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": true
+    },
+    {
+      "id": 11,
+      "title": "Cuphead",
+      "description": "A run-and-gun indie video game with a 1930s cartoon art style.",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/268910/header.jpg",
+      "iframe": "https://example.com",
+      "screenshots": [
+        "https://via.placeholder.com/300x200",
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 12,
+      "title": "Ori and the Blind Forest",
+      "description": "A visually stunning platformer with a touching story and challenging gameplay.",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/261570/header.jpg",
+      "iframe": "https://example.com",
+      "screenshots": [
+        "https://via.placeholder.com/300x200",
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 13,
+      "title": "Gris",
+      "description": "A serene and evocative platformer with a focus on art and music.",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/620980/header.jpg",
+      "iframe": "https://example.com",
+      "screenshots": [
+        "https://via.placeholder.com/300x200",
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 14,
+      "title": "A Short Hike",
+      "description": "A relaxing exploration game where you hike, climb, and soar through the peaceful mountainside landscapes.",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1054490/header.jpg",
+      "iframe": "https://example.com",
+      "screenshots": [
+        "https://via.placeholder.com/300x200",
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 15,
+      "title": "Spiritfarer",
+      "description": "A cozy management game about dying, where you play as a ferrymaster for spirits.",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/972660/header.jpg",
+      "iframe": "https://example.com",
+      "screenshots": [
+        "https://via.placeholder.com/300x200",
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 16,
+      "title": "Oxenfree",
+      "description": "A supernatural thriller about a group of friends who unwittingly open a ghostly rift.",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/388200/header.jpg",
+      "iframe": "https://example.com",
+      "screenshots": [
+        "https://via.placeholder.com/300x200",
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    }
+  ]
+}
