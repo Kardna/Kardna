@@ -6,10 +6,7 @@
       "description": "A fast-paced roguelike kingdom builder. Grow your empire and fight massive battles against rival kings.",
       "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/236390/header.jpg",
       "iframe": "https://example.com",
-      "screenshots": [
-        "https://via.placeholder.com/300x200",
-        "https://via.placeholder.com/300x200"
-      ],
+      "screenshots": ["https://via.placeholder.com/300x200","https://via.placeholder.com/300x200"],
       "modding": true
     },
     {
@@ -18,9 +15,7 @@
       "description": "Navigate a strange, hostile world in this atmospheric platformer.",
       "image": "https://cdn2.steamgriddb.com/file/sgdb-cdn/thumb/699cad053fc0a9d4a29c9b0e9bfc3f3c.jpg",
       "iframe": "https://example.com",
-      "screenshots": [
-        "https://via.placeholder.com/300x200"
-      ],
+      "screenshots": ["https://via.placeholder.com/300x200"],
       "modding": false
     },
     {
@@ -29,10 +24,7 @@
       "description": "Explore the vast, interconnected world of Hallownest in this critically acclaimed action-adventure game.",
       "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/367520/header.jpg",
       "iframe": "https://example.com",
-      "screenshots": [
-        "https://via.placeholder.com/300x200",
-        "https://via.placeholder.com/300x200"
-      ],
+      "screenshots": ["https://via.placeholder.com/300x200","https://via.placeholder.com/300x200"],
       "modding": true
     },
     {
@@ -41,10 +33,7 @@
       "description": "A platformer about climbing a mountain, both literally and metaphorically.",
       "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/504230/header.jpg",
       "iframe": "https://example.com",
-      "screenshots": [
-        "https://via.placeholder.com/300x200",
-        "https://via.placeholder.com/300x200"
-      ],
+      "screenshots": ["https://via.placeholder.com/300x200","https://via.placeholder.com/300x200"],
       "modding": true
     },
     {
@@ -53,10 +42,7 @@
       "description": "A farming simulation game where you can grow crops, raise animals, and build your farm.",
       "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/413150/header.jpg",
       "iframe": "https://example.com",
-      "screenshots": [
-        "https://via.placeholder.com/300x200",
-        "https://via.placeholder.com/300x200"
-      ],
+      "screenshots": ["https://via.placeholder.com/300x200","https://via.placeholder.com/300x200"],
       "modding": true
     },
     {
@@ -65,10 +51,7 @@
       "description": "A sandbox adventure game with crafting, building, and exploration.",
       "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
       "iframe": "https://example.com",
-      "screenshots": [
-        "https://via.placeholder.com/300x200",
-        "https://via.placeholder.com/300x200"
-      ],
+      "screenshots": ["https://via.placeholder.com/300x200","https://via.placeholder.com/300x200"],
       "modding": true
     },
     {
@@ -77,10 +60,7 @@
       "description": "A unique RPG where you can choose to fight or befriend monsters.",
       "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/391540/header.jpg",
       "iframe": "https://example.com",
-      "screenshots": [
-        "https://via.placeholder.com/300x200",
-        "https://via.placeholder.com/300x200"
-      ],
+      "screenshots": ["https://via.placeholder.com/300x200","https://via.placeholder.com/300x200"],
       "modding": false
     },
     {
@@ -89,10 +69,7 @@
       "description": "A rogue-like dungeon crawler where you play as the son of Hades trying to escape the Underworld.",
       "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/header.jpg",
       "iframe": "https://example.com",
-      "screenshots": [
-        "https://via.placeholder.com/300x200",
-        "https://via.placeholder.com/300x200"
-      ],
+      "screenshots": ["https://via.placeholder.com/300x200","https://via.placeholder.com/300x200"],
       "modding": true
     },
     {
@@ -101,10 +78,7 @@
       "description": "A deck-building roguelike where you climb a spire filled with monsters and treasures.",
       "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/646570/header.jpg",
       "iframe": "https://example.com",
-      "screenshots": [
-        "https://via.placeholder.com/300x200",
-        "https://via.placeholder.com/300x200"
-      ],
+      "screenshots": ["https://via.placeholder.com/300x200","https://via.placeholder.com/300x200"],
       "modding": true
     },
     {
@@ -113,10 +87,7 @@
       "description": "A rogue-lite, metroidvania inspired action-platformer.",
       "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/588650/header.jpg",
       "iframe": "https://example.com",
-      "screenshots": [
-        "https://via.placeholder.com/300x200",
-        "https://via.placeholder.com/300x200"
-      ],
+      "screenshots": ["https://via.placeholder.com/300x200","https://via.placeholder.com/300x200"],
       "modding": true
     },
     {
@@ -125,10 +96,7 @@
       "description": "A run-and-gun indie video game with a 1930s cartoon art style.",
       "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/268910/header.jpg",
       "iframe": "https://example.com",
-      "screenshots": [
-        "https://via.placeholder.com/300x200",
-        "https://via.placeholder.com/300x200"
-      ],
+      "screenshots": ["https://via.placeholder.com/300x200","https://via.placeholder.com/300x200"],
       "modding": false
     },
     {
@@ -137,10 +105,7 @@
       "description": "A visually stunning platformer with a touching story and challenging gameplay.",
       "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/261570/header.jpg",
       "iframe": "https://example.com",
-      "screenshots": [
-        "https://via.placeholder.com/300x200",
-        "https://via.placeholder.com/300x200"
-      ],
+      "screenshots": ["https://via.placeholder.com/300x200","https://via.placeholder.com/300x200"],
       "modding": false
     },
     {
@@ -149,10 +114,7 @@
       "description": "A serene and evocative platformer with a focus on art and music.",
       "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/620980/header.jpg",
       "iframe": "https://example.com",
-      "screenshots": [
-        "https://via.placeholder.com/300x200",
-        "https://via.placeholder.com/300x200"
-      ],
+      "screenshots": ["https://via.placeholder.com/300x200","https://via.placeholder.com/300x200"],
       "modding": false
     },
     {
@@ -161,10 +123,7 @@
       "description": "A relaxing exploration game where you hike, climb, and soar through the peaceful mountainside landscapes.",
       "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1054490/header.jpg",
       "iframe": "https://example.com",
-      "screenshots": [
-        "https://via.placeholder.com/300x200",
-        "https://via.placeholder.com/300x200"
-      ],
+      "screenshots": ["https://via.placeholder.com/300x200","https://via.placeholder.com/300x200"],
       "modding": false
     },
     {
@@ -173,10 +132,7 @@
       "description": "A cozy management game about dying, where you play as a ferrymaster for spirits.",
       "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/972660/header.jpg",
       "iframe": "https://example.com",
-      "screenshots": [
-        "https://via.placeholder.com/300x200",
-        "https://via.placeholder.com/300x200"
-      ],
+      "screenshots": ["https://via.placeholder.com/300x200","https://via.placeholder.com/300x200"],
       "modding": false
     },
     {
@@ -185,8 +141,510 @@
       "description": "A supernatural thriller about a group of friends who unwittingly open a ghostly rift.",
       "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/388200/header.jpg",
       "iframe": "https://example.com",
+      "screenshots": ["https://via.placeholder.com/300x200","https://via.placeholder.com/300x200"],
+      "modding": false
+    },
+
+    { "id": 17,  "title": "2048", "description": "Classic 2048 puzzle.", "image": "https://picsum.photos/seed/2048/600/400", "iframe": "/games/2048", "screenshots": ["https://picsum.photos/seed/2048-1/300/200"], "modding": false },
+    { "id": 18,  "title": "Astray", "description": "3D maze puzzle.", "image": "https://picsum.photos/seed/astray/600/400", "iframe": "/games/astray", "screenshots": ["https://picsum.photos/seed/astray-1/300/200"], "modding": false },
+    { "id": 19,  "title": "Tomb of the Mask", "description": "Fast arcade maze runner.", "image": "https://picsum.photos/seed/tomb-of-the-mask/600/400", "iframe": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@4487c13b114e3b97c0d1e18dd381193bf62175f5/d5fuh3d/tomb_of_the_mask.xml", "screenshots": ["https://picsum.photos/seed/totm-1/300/200"], "modding": false },
+    { "id": 20,  "title": "2048 Cupcakes", "description": "Cupcake reskin of 2048.", "image": "https://picsum.photos/seed/2048-cupcakes/600/400", "iframe": "https://0x0800.github.io/2048-CUPCAKES/", "screenshots": ["https://picsum.photos/seed/2048-cupcakes-1/300/200"], "modding": false },
+    { "id": 21,  "title": "Penalty Challenge Multiplayer", "description": "Online penalty kicks.", "image": "https://picsum.photos/seed/penalty-challenge/600/400", "iframe": "https://html5.gamemonetize.co/czy29ldafw7pdecjo7irqipcld83ovn1/?gd_sdk_referrer_url=https%253A%252F%252Fdoodoo.love%252Fpenalty-challenge-multiplayer-game", "screenshots": ["https://picsum.photos/seed/penalty-challenge-1/300/200"], "modding": false },
+    { "id": 22,  "title": "Penalty Shooters 2", "description": "Score from the spot.", "image": "https://picsum.photos/seed/penalty-shooters-2/600/400", "iframe": "https://html5.gamedistribution.com/571b9df027e449f78e3869ba19658754/?gd_sdk_referrer_url=https://penaltyshooters2.com", "screenshots": ["https://picsum.photos/seed/ps2-1/300/200"], "modding": false },
+    { "id": 23,  "title": "Papa's Freezeria", "description": "Serve frozen treats.", "image": "https://picsum.photos/seed/papas-freezeria/600/400", "iframe": "https://dffve3q5is4huusnmos6kv7n9mthc3vk-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://729483016-359174802648164068.preview.editmysite.com/uploads/b/139890129-569829031530007438/files/pf.xml", "screenshots": ["https://picsum.photos/seed/pf-1/300/200"], "modding": false },
+    { "id": 24,  "title": "Papa's Pizzeria", "description": "Bake and serve pizzas.", "image": "https://picsum.photos/seed/papas-pizzeria/600/400", "iframe": "https://0scl04omv9lhemvauk2tc5g284ba2o3p-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%252Fpapa-s-pizzeria.xml", "screenshots": ["https://picsum.photos/seed/pp-1/300/200"], "modding": false },
+    { "id": 25,  "title": "Papa's Sushiria", "description": "Roll sushi under pressure.", "image": "https://picsum.photos/seed/papas-sushiria/600/400", "iframe": "https://isgames.github.io/papassushiria/", "screenshots": ["https://picsum.photos/seed/psush-1/300/200"], "modding": false },
+    { "id": 26,  "title": "Papa's Wingeria", "description": "Fry and sauce wings.", "image": "https://picsum.photos/seed/papas-wingeria/600/400", "iframe": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fpapa-s-wingeria.xml", "screenshots": ["https://picsum.photos/seed/pw-1/300/200"], "modding": false },
+    { "id": 27,  "title": "Basketball Legends", "description": "Two-player hoops.", "image": "https://picsum.photos/seed/basketball-legends/600/400", "iframe": "https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if3dv@6a3aa6b5b121c4c1f7da6cc5bfd9e71b40f1262b/zm48hw/bs.xml", "screenshots": ["https://picsum.photos/seed/bl-1/300/200"], "modding": false },
+    { "id": 28,  "title": "Crossy Road", "description": "Dodge traffic and hop.", "image": "https://picsum.photos/seed/crossy-road/600/400", "iframe": "https://www-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://sites.google.com/site/s011h5fk/crossy-road.xml", "screenshots": ["https://picsum.photos/seed/cr-1/300/200"], "modding": false },
+    { "id": 29,  "title": "DuckLife 5", "description": "Train your duck. Again.", "image": "https://picsum.photos/seed/ducklife5/600/400", "iframe": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fduck-life-5.xml", "screenshots": ["https://picsum.photos/seed/dl5-1/300/200"], "modding": false },
+    { "id": 30,  "title": "DuckLife: Treasure Hunt", "description": "Endless runner spinoff.", "image": "https://picsum.photos/seed/ducklife-treasure/600/400", "iframe": "https://gamefilez.mofunzone.com/gamefilez/duck-life-games/ducklifetreasurehunt/index.html", "screenshots": ["https://picsum.photos/seed/dlth-1/300/200"], "modding": false },
+    { "id": 31,  "title": "DuckLife Space", "description": "Quack in space.", "image": "https://picsum.photos/seed/ducklife-space/600/400", "iframe": "https://www.mathplayground.com/duck5/index.html", "screenshots": ["https://picsum.photos/seed/dls-1/300/200"], "modding": false },
+    { "id": 32,  "title": "Duck Life: Battle", "description": "RPG duck brawls.", "image": "https://picsum.photos/seed/ducklife-battle/600/400", "iframe": "https://f.kbhgames.com/2018/09/duck-life-battle/", "screenshots": ["https://picsum.photos/seed/dlb-1/300/200"], "modding": false },
+    { "id": 33,  "title": "Duck Life: Adventure", "description": "Explore and train.", "image": "https://picsum.photos/seed/ducklife-adventure/600/400", "iframe": "https://gamefilez.mofunzone.com/gamefilez/duck_life_adventure/", "screenshots": ["https://picsum.photos/seed/dla-1/300/200"], "modding": false },
+    { "id": 34,  "title": "Soccer Skills Euro Cup", "description": "1v1 skill matches.", "image": "https://picsum.photos/seed/soccer-skills-euro/600/400", "iframe": "https://html5.gamedistribution.com/899c82ac71ba4dd5a571fc9bc35f55f8/", "screenshots": ["https://picsum.photos/seed/ssec-1/300/200"], "modding": false },
+    { "id": 35,  "title": "Breaklock", "description": "Minimalist lock puzzle.", "image": "https://picsum.photos/seed/breaklock/600/400", "iframe": "/games/breaklock", "screenshots": ["https://picsum.photos/seed/breaklock-1/300/200"], "modding": false },
+    { "id": 36,  "title": "btd4", "description": "Bloons tower defense 4.", "image": "https://picsum.photos/seed/btd4/600/400", "iframe": "/games/btd4", "screenshots": ["https://picsum.photos/seed/btd4-1/300/200"], "modding": false },
+    { "id": 37,  "title": "Chroma", "description": "Color-based puzzling.", "image": "https://picsum.photos/seed/chroma/600/400", "iframe": "/games/chroma", "screenshots": ["https://picsum.photos/seed/chroma-1/300/200"], "modding": false },
+    { "id": 38,  "title": "Cookie Clicker", "description": "Idle cookie empire.", "image": "https://picsum.photos/seed/cookie-clicker/600/400", "iframe": "/games/cookie", "screenshots": ["https://picsum.photos/seed/cc-1/300/200"], "modding": false },
+    { "id": 39,  "title": "Cubefield", "description": "Dodge cubes forever.", "image": "https://picsum.photos/seed/cubefield/600/400", "iframe": "/games/cubefield", "screenshots": ["https://picsum.photos/seed/cubefield-1/300/200"], "modding": false },
+    { "id": 40,  "title": "Dinosaur Game", "description": "Chrome’s desert runner.", "image": "https://picsum.photos/seed/dinosaur-game/600/400", "iframe": "/games/dinosaur", "screenshots": ["https://picsum.photos/seed/dino-1/300/200"], "modding": false },
+    { "id": 41,  "title": "Doodle Jump", "description": "Jump to the stars.", "image": "https://picsum.photos/seed/doodle-jump/600/400", "iframe": "/games/doodle-jump", "screenshots": ["https://picsum.photos/seed/dj-1/300/200"], "modding": false },
+    { "id": 42,  "title": "Ducklife", "description": "The original duck trainer.", "image": "https://picsum.photos/seed/ducklife/600/400", "iframe": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@1036762f19f81e71d8caf90f96ecb17c2543ea40/hjpqx4/duck-life.xml", "screenshots": ["https://picsum.photos/seed/ducklife-1/300/200"], "modding": false },
+    { "id": 43,  "title": "Ducklife 2", "description": "More duck training.", "image": "https://picsum.photos/seed/ducklife2/600/400", "iframe": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@db7c558f6d366da74fcbbf98407d81120c76221e/0aynf57j/duck-life-2.xml", "screenshots": ["https://picsum.photos/seed/ducklife2-1/300/200"], "modding": false },
+    { "id": 44,  "title": "Ducklife 3", "description": "Genetic duck races.", "image": "https://picsum.photos/seed/ducklife3/600/400", "iframe": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@07697277b06353fcdb759699d0c8b5f2f9303975/lft6d3g/ducklife-3.xml", "screenshots": ["https://picsum.photos/seed/ducklife3-1/300/200"], "modding": false },
+    { "id": 45,  "title": "Ducklife 4", "description": "Bigger duck tournaments.", "image": "https://picsum.photos/seed/ducklife4/600/400", "iframe": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fduck-life-4.xml", "screenshots": ["https://picsum.photos/seed/ducklife4-1/300/200"], "modding": false },
+    { "id": 46,  "title": "2048 Flappy", "description": "Flappy meets 2048.", "image": "https://picsum.photos/seed/flappy-2048/600/400", "iframe": "/games/flappy-2048", "screenshots": ["https://picsum.photos/seed/flappy-2048-1/300/200"], "modding": false },
+    { "id": 47,  "title": "Flappy Bird", "description": "Tap to fly.", "image": "https://picsum.photos/seed/flappy-bird/600/400", "iframe": "/games/flappybird", "screenshots": ["https://picsum.photos/seed/flappy-bird-1/300/200"], "modding": false },
+    { "id": 48,  "title": "Geometry Dash", "description": "Rhythm platforming.", "image": "https://picsum.photos/seed/geometry-dash/600/400", "iframe": "/games/geometry", "screenshots": ["https://picsum.photos/seed/gd-1/300/200"], "modding": false },
+    { "id": 49,  "title": "Gopher Kart", "description": "Kart racing with gophers.", "image": "https://picsum.photos/seed/gopher-kart/600/400", "iframe": "/games/gopher-kart", "screenshots": ["https://picsum.photos/seed/gk-1/300/200"], "modding": false },
+    { "id": 50,  "title": "HexGL", "description": "Futuristic racer.", "image": "https://picsum.photos/seed/hexgl/600/400", "iframe": "/games/hexgl", "screenshots": ["https://picsum.photos/seed/hexgl-1/300/200"], "modding": false },
+    { "id": 51,  "title": "Minecraft Classic", "description": "Classic creative mode.", "image": "https://picsum.photos/seed/minecraft-classic/600/400", "iframe": "/games/mc-classic", "screenshots": ["https://picsum.photos/seed/mc-classic-1/300/200"], "modding": false },
+    { "id": 52,  "title": "Microft Flight Sim", "description": "Browser flight sim.", "image": "https://picsum.photos/seed/microsoft-flight/600/400", "iframe": "/games/microsoft-flight-simulator", "screenshots": ["https://picsum.photos/seed/microsoft-flight-1/300/200"], "modding": false },
+    { "id": 53,  "title": "Pacman", "description": "Maze-chasing classic.", "image": "https://picsum.photos/seed/pacman/600/400", "iframe": "/games/pacman", "screenshots": ["https://picsum.photos/seed/pacman-1/300/200"], "modding": false },
+    { "id": 54,  "title": "Radius Raid", "description": "Arcade space shooter.", "image": "https://picsum.photos/seed/radius-raid/600/400", "iframe": "/games/radius-raid", "screenshots": ["https://picsum.photos/seed/rr-1/300/200"], "modding": false },
+    { "id": 55,  "title": "Retro Bowl", "description": "Retro American football.", "image": "https://picsum.photos/seed/retro-bowl/600/400", "iframe": "/games/retro-bowl", "screenshots": ["https://picsum.photos/seed/rb-1/300/200"], "modding": false },
+    { "id": 56,  "title": "Ritz", "description": "Casual mini-game.", "image": "https://picsum.photos/seed/ritz/600/400", "iframe": "/games/ritz", "screenshots": ["https://picsum.photos/seed/ritz-1/300/200"], "modding": false },
+    { "id": 57,  "title": "Slope", "description": "Hyper-fast downhill.", "image": "https://picsum.photos/seed/slope/600/400", "iframe": "/games/slope", "screenshots": ["https://picsum.photos/seed/slope-1/300/200"], "modding": false },
+    { "id": 58,  "title": "SM64", "description": "Super Mario 64 port.", "image": "https://picsum.photos/seed/sm64/600/400", "iframe": "/games/sm64", "screenshots": ["https://picsum.photos/seed/sm64-1/300/200"], "modding": false },
+    { "id": 59,  "title": "Space Invaders", "description": "Shoot the alien waves.", "image": "https://picsum.photos/seed/space-invaders/600/400", "iframe": "/games/spaceinvaders", "screenshots": ["https://picsum.photos/seed/si-1/300/200"], "modding": false },
+    { "id": 60,  "title": "1v1 Soccer", "description": "One-on-one soccer.", "image": "https://picsum.photos/seed/1v1-soccer/600/400", "iframe": "/games/swfs/gp.html#1on1soccer", "screenshots": ["https://picsum.photos/seed/1v1-1/300/200"], "modding": false },
+    { "id": 61,  "title": "Portal 2D", "description": "2D portal puzzler.", "image": "https://picsum.photos/seed/portal-2d/600/400", "iframe": "/games/swfs/gp.html#portal2d", "screenshots": ["https://picsum.photos/seed/p2d-1/300/200"], "modding": false },
+    { "id": 62,  "title": "Vex 3", "description": "Hardcore platforming.", "image": "https://picsum.photos/seed/vex3/600/400", "iframe": "/games/vex3", "screenshots": ["https://picsum.photos/seed/vex3-1/300/200"], "modding": false },
+    { "id": 63,  "title": "Vex 4", "description": "More traps, more rage.", "image": "https://picsum.photos/seed/vex4/600/400", "iframe": "/games/vex4", "screenshots": ["https://picsum.photos/seed/vex4-1/300/200"], "modding": false },
+    { "id": 64,  "title": "Vex 5", "description": "Precision platforming.", "image": "https://picsum.photos/seed/vex5/600/400", "iframe": "/games/vex5", "screenshots": ["https://picsum.photos/seed/vex5-1/300/200"], "modding": false },
+    { "id": 65,  "title": "Moto X3M", "description": "Bike stunt time trials.", "image": "https://picsum.photos/seed/moto-x3m/600/400", "iframe": "https://www.coolmathgames.com/0-moto-x3m/play", "screenshots": ["https://picsum.photos/seed/mx3m-1/300/200"], "modding": false },
+    { "id": 66,  "title": "Krunker", "description": "Fast browser FPS.", "image": "https://picsum.photos/seed/krunker/600/400", "iframe": "https://krunker.io", "screenshots": ["https://picsum.photos/seed/krunker-1/300/200"], "modding": false },
+    { "id": 67,  "title": "Run 3", "description": "Infinite running in space.", "image": "https://picsum.photos/seed/run3/600/400", "iframe": "https://www.coolmathgames.com/0-run-3/play", "screenshots": ["https://picsum.photos/seed/run3-1/300/200"], "modding": false },
+    { "id": 68,  "title": "Tiny Fishing", "description": "Chill fishing clicker.", "image": "https://picsum.photos/seed/tiny-fishing/600/400", "iframe": "https://www.coolmathgames.com/0-tiny-fishing/play;", "screenshots": ["https://picsum.photos/seed/tiny-fishing-1/300/200"], "modding": false },
+    { "id": 69,  "title": "Idle Breakout", "description": "Idle brick-breaker.", "image": "https://picsum.photos/seed/idle-breakout/600/400", "iframe": "https://www.coolmathgames.com/0-idle-breakout/play", "screenshots": ["https://picsum.photos/seed/idle-breakout-1/300/200"], "modding": false },
+    { "id": 70,  "title": "8 Ball Pool", "description": "Classic 8-ball.", "image": "https://picsum.photos/seed/8-ball-pool/600/400", "iframe": "https://ubg98.github.io/8BallPool/", "screenshots": ["https://picsum.photos/seed/8bp-1/300/200"], "modding": false },
+    { "id": 71,  "title": "Chess.com", "description": "Play chess online.", "image": "https://picsum.photos/seed/chess-com/600/400", "iframe": "https://chess.com", "screenshots": ["https://picsum.photos/seed/chess-1/300/200"], "modding": false },
+    { "id": 72,  "title": "Checkers", "description": "Classic checkers.", "image": "https://picsum.photos/seed/checkers/600/400", "iframe": "https://www.coolmathgames.com/0-checkers/play", "screenshots": ["https://picsum.photos/seed/checkers-1/300/200"], "modding": false },
+    { "id": 73,  "title": "hexanaut.io", "description": "Territory io game.", "image": "https://picsum.photos/seed/hexanaut/600/400", "iframe": "https://www.coolmathgames.com/0-hexanaut-io/play", "screenshots": ["https://picsum.photos/seed/hexanaut-1/300/200"], "modding": false },
+    { "id": 74,  "title": "Snake", "description": "Google snake arcade.", "image": "https://picsum.photos/seed/snake/600/400", "iframe": "https://www.google.com/fbx?fbx=snake_arcade", "screenshots": ["https://picsum.photos/seed/snake-1/300/200"], "modding": false },
+    { "id": 75,  "title": "Bloxorz", "description": "Block-rolling puzzles.", "image": "https://picsum.photos/seed/bloxorz/600/400", "iframe": "https://www.coolmathgames.com/0-bloxorz/play", "screenshots": ["https://picsum.photos/seed/bloxorz-1/300/200"], "modding": false },
+    { "id": 76,  "title": "Curve Ball 3D", "description": "3D pong-style game.", "image": "https://picsum.photos/seed/curve-ball-3d/600/400", "iframe": "https://www.coolmathgames.com/0-curve-ball-3d/play", "screenshots": ["https://picsum.photos/seed/cb3d-1/300/200"], "modding": false },
+    { "id": 77,  "title": "Basketball Stars", "description": "Arcade basketball.", "image": "https://picsum.photos/seed/basketball-stars/600/400", "iframe": "https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if3dv@b60a8d7ea307865b358c0f3ba78ade795aef026f/jd70s3/bl2020.xml", "screenshots": ["https://picsum.photos/seed/bstars-1/300/200"], "modding": false },
+    { "id": 78,  "title": "shellshock.io", "description": "Eggy FPS.", "image": "https://picsum.photos/seed/shellshock/600/400", "iframe": "https://shellshock.io/;", "screenshots": ["https://picsum.photos/seed/shellshock-1/300/200"], "modding": false },
+    { "id": 79,  "title": "Roblox", "description": "Cloud gaming: Roblox.", "image": "https://picsum.photos/seed/roblox/600/400", "iframe": "https://now.gg/play/roblox-corporation/5349/roblox", "screenshots": ["https://picsum.photos/seed/roblox-1/300/200"], "modding": false },
+    { "id": 80,  "title": "Minecraft (trial)", "description": "Cloud gaming: Minecraft.", "image": "https://picsum.photos/seed/minecraft-nowgg/600/400", "iframe": "https://now.gg/play/mojang/2534/minecraft-trial", "screenshots": ["https://picsum.photos/seed/minecraft-nowgg-1/300/200"], "modding": false },
+    { "id": 81,  "title": "FIFA Mobile", "description": "Cloud football.", "image": "https://picsum.photos/seed/fifa-mobile/600/400", "iframe": "https://now.gg/play/electronic-arts/1353/fifa-soccer", "screenshots": ["https://picsum.photos/seed/fifa-mobile-1/300/200"], "modding": false },
+    { "id": 82,  "title": "Rocket League (mobile)", "description": "Cloud: Rocket League.", "image": "https://picsum.photos/seed/rocket-league/600/400", "iframe": "https://now.gg/play/psyonix-studios/4656/rocket-league", "screenshots": ["https://picsum.photos/seed/rl-1/300/200"], "modding": false },
+    { "id": 83,  "title": "Rocket League (GFN)", "description": "GFN desktop version.", "image": "https://picsum.photos/seed/rocket-league-gfn/600/400", "iframe": "https://play.geforcenow.com/games?game-id=9bcbf5b4-c460-4091-931c-a5a2a1fd9cc2&lang=en_US&asset-id=01_fbb8002b-3a9d-49e9-bd64-9a929c5ae55f", "screenshots": ["https://picsum.photos/seed/rlgfn-1/300/200"], "modding": false },
+    { "id": 84,  "title": "Fortnite (GFN)", "description": "GFN Fortnite.", "image": "https://picsum.photos/seed/fortnite-gfn/600/400", "iframe": "https://play.geforcenow.com/games?game-id=46bfab06-d864-465d-9e56-2d9e45cdee0a&lang=en_US&asset-id=01_febf2f3d-9ba1-4d44-a777-f8261b05e498", "screenshots": ["https://picsum.photos/seed/fortnite-gfn-1/300/200"], "modding": false },
+    { "id": 85,  "title": "Subway Surfers", "description": "Endless runner.", "image": "https://picsum.photos/seed/subway-surfers/600/400", "iframe": "https://now.gg/play/sybo-games/4875/subway-surfers", "screenshots": ["https://picsum.photos/seed/subway-surfers-1/300/200"], "modding": false },
+    { "id": 86,  "title": "Retro Bowl (mobile)", "description": "Cloud: Retro Bowl.", "image": "https://picsum.photos/seed/retro-bowl-nowgg/600/400", "iframe": "https://now.gg/play/new-star/6391/retro-bowl", "screenshots": ["https://picsum.photos/seed/rb-now-1/300/200"], "modding": false },
+    { "id": 87,  "title": "Hole.io", "description": "Absorb the city.", "image": "https://picsum.photos/seed/hole-io/600/400", "iframe": "https://hole-io.com/", "screenshots": ["https://picsum.photos/seed/hole-io-1/300/200"], "modding": false },
+    { "id": 88,  "title": "Tallman Run", "description": "Grow and dodge.", "image": "https://picsum.photos/seed/tallman-run/600/400", "iframe": "https://html5.gamedistribution.com/rvvASMiM/7980c23fbbae4af6851e01052fce3cce/index.html?gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL2h0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tLzc5ODBjMjNmYmJhZTRhZjY4NTFlMDEwNTJmY2UzY2NlLyIsInBhcmVudERvbWFpbiI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidG9wRG9tYWluIjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJoYXNJbXByZXNzaW9uIjpmYWxzZSwibG9hZGVyRW5hYmxlZCI6dHJ1ZSwiaG9zdCI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidmVyc2lvbiI6IjEuNS4xNiJ9", "screenshots": ["https://picsum.photos/seed/tallman-run-1/300/200"], "modding": false },
+    { "id": 89,  "title": "Doodle God", "description": "Mix elements, make worlds.", "image": "https://picsum.photos/seed/doodle-god/600/400", "iframe": "https://html5.gamedistribution.com/rvvASMiM/cd33ecc7b752408ab44036d0c8c1b91f/index.html?gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL2h0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tL2NkMzNlY2M3Yjc1MjQwOGFiNDQwMzZkMGM4YzFiOTFmLyIsInBhcmVudERvbWFpbiI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidG9wRG9tYWluIjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJoYXNJbXByZXNzaW9uIjpmYWxzZSwibG9hZGVyRW5hYmxlZCI6dHJ1ZSwiaG9zdCI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidmVyc2lvbiI6IjEuNS4xNiJ9", "screenshots": ["https://picsum.photos/seed/doodle-god-1/300/200"], "modding": false },
+    { "id": 90,  "title": "Poppy Playtime", "description": "Cloud horror adventure.", "image": "https://picsum.photos/seed/poppy-playtime/600/400", "iframe": "https://now.gg/play/mob-games-studio/1293/poppy-playtime", "screenshots": ["https://picsum.photos/seed/poppy-playtime-1/300/200"], "modding": false },
+    { "id": 91,  "title": "PowerWash Simulator (GFN)", "description": "Clean all the things.", "image": "https://picsum.photos/seed/powerwash/600/400", "iframe": "https://play.geforcenow.com/games?game-id=a6a5b4a9-2eb6-4fe6-aede-4063bf32032c&lang=en_US&asset-id=01_48dca8fb-862b-4e83-af2b-c3105e9de63d", "screenshots": ["https://picsum.photos/seed/powerwash-1/300/200"], "modding": false },
+    {
+      "id": 92,
+      "title": "Cyberpunk 2077 (GFN)",
+      "description": "An open-world RPG set in the dystopian Night City.",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
+      "iframe": "https://play.geforcenow.com/games?game-id=e5fc8a96-2cda-49ef-bd13-513bdc68045b&lang=en_US&asset-id=01_742eeb39-c372-4b14-b0ff-2b2e8f02ee97",
       "screenshots": [
-        "https://via.placeholder.com/300x200",
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 94,
+      "title": "The Witcher 3: Wild Hunt (GFN)",
+      "description": "A story-driven open world RPG set in a visually stunning fantasy universe.",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg",
+      "iframe": "https://play.geforcenow.com/games?game-id=23346751-e1e5-40c6-8899-ec3fe6962e3a&lang=en_US&asset-id=01_b6fede87-dc14-444f-a3b3-120a4202adf4",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 95,
+      "title": "Apex Legends (GFN)",
+      "description": "Free-to-play hero shooter battle royale by Respawn.",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172470/header.jpg",
+      "iframe": "https://play.geforcenow.com/games?game-id=cb2b1b5f-54ba-45fd-9839-96bbfe1376cd&lang=en_US&asset-id=01_ed21e1b0-c148-4106-9e3f-7cdf4a90227a",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 96,
+      "title": "Destiny 2 (GFN)",
+      "description": "Multiplayer sci-fi FPS with raids, PvP, and expansive lore.",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1085660/header.jpg",
+      "iframe": "https://play.geforcenow.com/games?game-id=d1768dc1-b451-449a-8f7f-cf5b20f98f6f&lang=en_US&asset-id=01_48723dbd-43f1-41f2-9394-3559e7e55df5",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 99,
+      "title": "Call of Duty (GFN)",
+      "description": "Battle royale in the Call of Duty universe.",
+      "image": null,
+      "iframe": "https://play.geforcenow.com/games?game-id=8bfa0687-60fc-425e-9f10-6232693b90d7&lang=en_US&asset-id=01_32503e44-7d68-46a3-8644-301af0aac0eb",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 102,
+      "title": "Assassin's Creed Valhalla (GFN)",
+      "description": "Live the saga of a Viking raider in England.",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2208920/header.jpg",
+      "iframe": "https://play.geforcenow.com/games?game-id=af8443a4-fc41-459d-bbc6-c412adf0856b&lang=en_US&asset-id=01_41974703-7d77-42e2-8f3d-9291f4035278",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 103,
+      "title": "Far Cry 6 (GFN)",
+      "description": "Fight to free Yara from a brutal dictator.",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2369390/header.jpg",
+      "iframe": "https://play.geforcenow.com/games?game-id=f90318c0-3242-498b-8259-0f7205a1a501&lang=en_US&asset-id=01_ab16eae5-ad14-4c0d-8c8d-a69ca526b6bd",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 104,
+      "title": "Dying Light 2 Stay Human (GFN)",
+      "description": "Parkour zombie survival action RPG.",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/534380/header.jpg",
+      "iframe": "https://play.geforcenow.com/games?game-id=ebd6864c-b2d2-41d0-b364-27c37ca747f1&lang=en_US&asset-id=01_da0360c7-0c45-4f3c-a04b-38bb8112a401",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 105,
+      "title": "Resident Evil Village (GFN)",
+      "description": "Survival horror in a mysterious village.",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1196590/header.jpg",
+      "iframe": "https://play.geforcenow.com/games?game-id=58de244f-7510-4baf-86a1-172448fda8e6&lang=en_US&asset-id=01_fc3c325e-290b-49d2-8c57-d082e0d4cd4a",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 107,
+      "title": "Control (GFN)",
+      "description": "Supernatural action-adventure from Remedy.",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/870780/header.jpg",
+      "iframe": "https://play.geforcenow.com/games?game-id=df7191a4-1233-4944-9079-b9ed363008c1&lang=en_US&asset-id=01_40efc935-c613-4cd8-b72c-0500d845f915",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 119,
+      "title": "Street Fighter 6 (GFN)",
+      "description": "Latest Street Fighter with modern mechanics.",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1364780/header.jpg",
+      "iframe": "https://play.geforcenow.com/games?game-id=9e29035c-7190-44b0-a662-bb1c7edb5439&lang=en_US&asset-id=01_7215282d-4a75-4d71-b4c2-9ab1ae75721d",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 121,
+      "title": "Overwatch 2 (GFN)",
+      "description": "Hero shooter sequel to Overwatch.",
+      "image": null,
+      "iframe": "https://play.geforcenow.com/games?game-id=405b1ba5-c881-4f2b-8f7d-cc9e7cd59b74&lang=en_US&asset-id=01_368cbdef-0d31-41af-8521-8b868c1c6eae",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 123,
+      "title": "The Division 2 (GFN)",
+      "description": "Looter-shooter RPG in Washington D.C.",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2221490/header.jpg",
+      "iframe": "https://play.geforcenow.com/games?game-id=c035d87d-fff6-4869-abcd-429595c4ceba&lang=en_US&asset-id=01_c3ece075-40eb-4e4f-a3b6-d406c320b84f",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 124,
+      "title": "Rainbow Six Siege (GFN)",
+      "description": "Tactical 5v5 shooter emphasizing strategy.",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/359550/header.jpg",
+      "iframe": "https://play.geforcenow.com/games?game-id=1dd07d47-6601-42f7-80e9-e4d8db08ea1b&lang=en_US&asset-id=01_b42f4160-783c-42cb-84e4-062087b376af",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 125,
+      "title": "Diablo IV (GFN)",
+      "description": "Action RPG in the world of Sanctuary.",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2344520/header.jpg",
+      "iframe": "https://play.geforcenow.com/games?game-id=d32c9410-62cb-45cf-9c53-740bb92d4a2d&lang=en_US&asset-id=01_0083e411-14ff-4313-a3d0-a95aa8d9519a",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 136,
+      "title": "Dead by Daylight (GFN)",
+      "description": "4v1 horror multiplayer survival.",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/381210/header.jpg",
+      "iframe": "https://play.geforcenow.com/games?game-id=9cca0ab8-6f62-42ee-8ef3-46fcddc09140&lang=en_US&asset-id=01_82aad3bb-8bb4-4a38-ab8c-3c4306ef6b79",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 137,
+      "title": "Phasmophobia (GFN)",
+      "description": "Co-op ghost-hunting horror game.",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/739630/header.jpg",
+      "iframe": "https://play.geforcenow.com/games?game-id=d843cc07-0059-4d2e-8cc7-6d6cc55a9d2c&lang=en_US&asset-id=01_bc191b24-e1c8-4237-ab1c-3fd10dd94686",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 140,
+      "title": "Terraria (GFN)",
+      "description": "2D sandbox crafting adventure.",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
+      "iframe": "https://play.geforcenow.com/games?game-id=09eab075-95e9-4572-98ae-04f94bc8a58e&lang=en_US&asset-id=01_4e852d32-cbf3-4109-9446-1817bca38f43",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 141,
+      "title": "Stardew Valley (GFN)",
+      "description": "Farm life RPG with relationships and mining.",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/413150/header.jpg",
+      "iframe": "https://play.geforcenow.com/games?game-id=fd6716b9-b3d0-4642-ab7a-bd1b2122bac2&lang=en_US&asset-id=01_e9d797eb-62ca-403e-af67-690618bec7d3",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+        {
+      "id": 142,
+      "title": "Fortnie (Xbox Cloud)",
+      "description": "",
+      "image": "",
+      "iframe": "https://www.xbox.com/en-US/play/launch/fortnite/BT5P2X999VH2",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+            {
+      "id": 142,
+      "title": "Fortnie (Xbox Cloud)",
+      "description": "",
+      "image": "",
+      "iframe": "https://www.xbox.com/en-US/play/launch/fortnite/BT5P2X999VH2",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+            {
+      "id": 143,
+      "title": "Rainbow Six Siege (Xbox Cloud)",
+      "description": "",
+      "image": "",
+      "iframe": "https://www.xbox.com/en-US/play/launch/tom-clancy's-rainbow-six-siege-x---elite-edition/9PB3RHWXB9MR2",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+                {
+      "id": 143,
+      "title": "Forza Horizon 5 (Xbox Cloud)",
+      "description": "",
+      "image": "",
+      "iframe": "https://www.xbox.com/play/games/forza-horizon-5-standard-edition/9NKX70BBCDRN",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 144,
+      "title": "GTA V XB1 Edition (Xbox Cloud)",
+      "description": "",
+      "image": "",
+      "iframe": "https://www.xbox.com/play/games/grand-theft-auto-v-xbox-one/BPJ686W6S0NH",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 145,
+      "title": "Ea Sports FC 25 (Xbox Cloud)",
+      "description": "",
+      "image": "",
+      "iframe": "https://www.xbox.com/play/games/ea-sports-fc-25-xbox-series-x%7Cs/9NNPSTWT06VM",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 146,
+      "title": "Madden NFL 25 (Xbox Cloud)",
+      "description": "",
+      "image": "",
+      "iframe": "https://www.xbox.com/play/games/madden-nfl-25-xbox-series-x%7Cs/9N0FWWQ94X62",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 147,
+      "title": "Halo Infinite (Xbox Cloud)",
+      "description": "",
+      "image": "",
+      "iframe": "https://www.xbox.com/play/games/halo-infinite/9NP1P1WFS0LB",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 148,
+      "title": "Skate 3 (Xbox Cloud)",
+      "description": "",
+      "image": "",
+      "iframe": "https://www.xbox.com/play/games/skate-3/BNKDKQXMXRR2",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 149,
+      "title": "Call Of Duty Black Ops 6 (Xbox Cloud)",
+      "description": "",
+      "image": "",
+      "iframe": "https://www.xbox.com/play/games/call-of-duty-black-ops-6---cross-gen-bundle/9PF528M6CRHQ",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 150,
+      "title": "Call Of Duty Warzone (Xbox Cloud)",
+      "description": "",
+      "image": "",
+      "iframe": "https://www.xbox.com/play/games/call-of-duty-warzone/9NNFG8BQRCXL",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 151,
+      "title": "Sea Of Thieves (Xbox Cloud)",
+      "description": "",
+      "image": "",
+      "iframe": "https://www.xbox.com/play/games/sea-of-thieves-2025-edition/9P2N57MC619K",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 152,
+      "title": "Terraria (Xbox Cloud)",
+      "description": "",
+      "image": "",
+      "iframe": "https://www.xbox.com/play/games/terraria/BTNPS60N3114",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 153,
+      "title": "2K25 (Xbox Cloud)",
+      "description": "",
+      "image": "",
+      "iframe": "https://www.xbox.com/play/games/nba-2k25-for-xbox-series-x%7Cs/9NKMMS11R27Q",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 154,
+      "title": "Rust (Xbox Cloud)",
+      "description": "",
+      "image": "",
+      "iframe": "https://www.xbox.com/play/games/rust-console-edition-x%7Cs/9PJVJ4WF031H",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 155,
+      "title": "Grand Theft Auto V (Xbox Cloud)",
+      "description": "",
+      "image": "https://www.xbox.com/play/games/grand-theft-auto-v-xbox-series-x%7Cs/9NXMBTB02ZSF",
+      "iframe": "",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+        {
+      "id": 156,
+      "title": "Amoung Us (Xbox Cloud)",
+      "description": "",
+      "image": "",
+      "iframe": "https://www.xbox.com/play/games/among-us/9NG07QJNK38J",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 157,
+      "title": "High On Life (Xbox Cloud)",
+      "description": "",
+      "image": "",
+      "iframe": "https://www.xbox.com/play/games/high-on-life/9NL4714VTLRS",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 158,
+      "title": "Call Of Duty (Xbox Cloud)",
+      "description": "",
+      "image": "",
+      "iframe": "https://www.xbox.com/en-US/play/games/call-of-duty/9N201KQXS5BM",
+      "screenshots": [
+        "https://via.placeholder.com/300x200"
+      ],
+      "modding": false
+    },
+    {
+      "id": 159,
+      "title": "Dead by Daylight (Xbox Cloud)",
+      "description": "",
+      "image": "",
+      "iframe": "https://www.xbox.com/en-US/play/games/dead-by-daylight/C0N22P73QZ60",
+      "screenshots": [
         "https://via.placeholder.com/300x200"
       ],
       "modding": false
