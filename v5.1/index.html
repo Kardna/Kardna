@@ -1,80 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Kardna – Game Launcher</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kardna v5.1</title>
+  <meta name="description" content="Kardna v5.1 game launcher" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Settings -->
-  <div id="settingsOverlay" class="overlay hidden">
-    <div class="overlay-content">
-      <h2>Theme Settings</h2>
-      <button class="styled-btn" onclick="setTheme('light')">🌞 Light</button>
-      <button class="styled-btn" onclick="setTheme('dark')">🌙 Dark</button>
-      <button class="styled-btn secondary" onclick="closeSettings()">Close</button>
+  <div class="site-shell">
+    <div class="liquid-bg" aria-hidden="true">
+      <div class="gradient gradient-a"></div>
+      <div class="gradient gradient-b"></div>
+      <div class="gradient gradient-c"></div>
+      <div class="noise"></div>
+      <div class="grid-lines"></div>
     </div>
-  </div>
 
-  <!-- Fullscreen Player -->
-  <div id="game-launcher-fullscreen" class="fullscreen hidden">
-    <div class="fullscreen-header">
-      <h2 id="fullscreen-game-title"></h2>
-      <div class="button-group">
-        <button class="control-button" onclick="toggleFullscreen()">⤢</button>
-        <button id="mod-launch-btn" class="styled-btn hidden" onclick="openModPanel()">🛠</button>
-      <button class="control-button" onclick="closeGame()">✖</button>
+    <div id="droplets" class="droplets" aria-hidden="true"></div>
 
+    <header class="topbar glass">
+      <div class="brand-wrap">
+        <div class="brand-mark">K</div>
+        <div>
+          <div class="eyebrow">Version 5.1</div>
+          <h1 class="brand">Kardna</h1>
+        </div>
       </div>
-    </div>
-    <div class="iframe-container">
-      <iframe id="fullscreen-iframe" src="" frameborder="0"></iframe>
-    </div>
-    <div id="mod-panel" class="mod-overlay hidden">
-      <div class="mod-content">
-        <h2>Mod Menu</h2>
-        <p>Your custom mod UI goes here.</p>
-        <button class="styled-btn secondary" onclick="closeModPanel()">Close Mod Menu</button>
+
+      <div class="topbar-actions">
+        <button class="metal-btn small" id="favoritesQuickBtn" type="button">Favorites</button>
+        <button class="metal-btn small" id="settingsBtn" type="button">Settings</button>
       </div>
-    </div>
-  </div>
+    </header>
 
-  <!-- Sidebar -->
-  <div class="sidebar">
-    <div class="sidebar-top">
-      <h1 class="brand-title">Kardna</h1>
-      <h2>Favorites</h2>
-      <div id="favorites-list" class="favorites-buttons"></div>
-    </div>
-    <button class="styled-btn" onclick="openSettings()">⚙ Settings</button>
-  </div>
+    <main class="layout">
+      <aside class="sidebar glass">
+        <section class="sidebar-section">
+          <h2>Quick access</h2>
+          <div class="stack">
+            <button class="sidebar-action active" data-filter="all">All games</button>
+            <button class="sidebar-action" data-filter="favorites">Favorites</button>
+            <button class="sidebar-action" data-filter="local">Local</button>
+            <button class="sidebar-action" data-filter="browser">Browser</button>
+            <button class="sidebar-action" data-filter="cloud">Cloud</button>
+            <button class="sidebar-action" data-filter="gfn">GFN</button>
+            <button class="sidebar-action" data-filter="xbox">Xbox Cloud</button>
+          </div>
+        </section>
 
-  <!-- Main Content -->
-  <div class="main">
-    <h1>Game Library</h1>
-    <div id="game-container" class="game-grid"></div>
+        <section class="sidebar-section">
+          <h2>Pinned</h2>
+          <div id="favoritesList" class="favorites-list empty-state">No favorites yet</div>
+        </section>
 
-    <!-- Game Details Modal -->
-    <div id="game-details-modal" class="modal hidden">
-      <div class="modal-content">
-        <button class="close-launcher styled-btn" onclick="closeDetails()">✖</button>
-        <div class="details-header">
-          <img id="details-image" src="" alt="Game image">
-          <div class="details-info">
-            <h2 id="details-title"></h2>
-            <p id="details-description"></p>
-            <div class="details-buttons">
-              <button class="styled-btn" onclick="playGame()">▶ Play</button>
-              <button class="styled-btn secondary" id="favorite-btn" onclick="toggleFavorite()">❤️ Add</button>
-              <button class="styled-btn mod-btn hidden" id="mod-btn" onclick="openModPanel()">🛠 Mod</button>
+        <section class="sidebar-section">
+          <h2>Info</h2>
+          <p class="sidebar-note">
+            Search, pin, and launch from one place. External links still use your UV wrapping rules.
+          </p>
+        </section>
+      </aside>
+
+      <section class="content">
+        <section class="hero glass">
+          <div class="hero-copy">
+            <div class="eyebrow">Games and media for everyone</div>
+            <h2>New landing page for Kardna v5.1</h2>
+            <p>
+              Liquid background, glass droplets, rotating featured strip, faster search, and the same launcher logic underneath.
+            </p>
+
+            <div class="hero-controls">
+              <label class="search-shell">
+                <span>Search</span>
+                <input id="searchInput" type="search" placeholder="Find a game, cloud title, or local app" />
+              </label>
+
+              <div class="chip-row" id="chipRow">
+                <button class="filter-chip active" data-filter="all" type="button">Everything</button>
+                <button class="filter-chip" data-filter="favorites" type="button">Favorites</button>
+                <button class="filter-chip" data-filter="local" type="button">Local</button>
+                <button class="filter-chip" data-filter="cloud" type="button">Cloud</button>
+                <button class="filter-chip" data-filter="browser" type="button">Browser</button>
+              </div>
+
+              <div class="hero-buttons">
+                <button id="exploreBtn" class="metal-btn" type="button">Explore library</button>
+                <button id="randomBtn" class="metal-btn ghost" type="button">Random game</button>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="screenshot-gallery" id="screenshot-gallery"></div>
+
+          <div class="hero-visual">
+            <div class="carousel-shell">
+              <div class="carousel-stage" id="featuredCarousel"></div>
+            </div>
+            <div class="hero-stats">
+              <div class="stat glass-soft">
+                <span class="stat-number" id="gameCount">0</span>
+                <span class="stat-label">Games loaded</span>
+              </div>
+              <div class="stat glass-soft">
+                <span class="stat-number" id="favoriteCount">0</span>
+                <span class="stat-label">Favorites</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-head">
+          <div>
+            <div class="eyebrow">Library</div>
+            <h3 id="resultsTitle">All games</h3>
+          </div>
+          <div class="results-meta" id="resultsMeta">Loading library...</div>
+        </section>
+
+        <section id="gameGrid" class="game-grid"></section>
+      </section>
+    </main>
+  </div>
+
+  <div id="settingsOverlay" class="overlay hidden">
+    <div class="dialog glass">
+      <div class="dialog-head">
+        <h2>Theme settings</h2>
+        <button class="icon-btn" type="button" data-close-overlay="settingsOverlay">✕</button>
+      </div>
+      <div class="dialog-body settings-grid">
+        <button class="metal-btn" type="button" data-theme="dark">Dark mode</button>
+        <button class="metal-btn" type="button" data-theme="light">Light mode</button>
       </div>
     </div>
   </div>
+
+  <div id="detailsOverlay" class="overlay hidden">
+    <div class="dialog dialog-large glass">
+      <div class="dialog-head">
+        <div>
+          <div class="eyebrow">Game details</div>
+          <h2 id="detailsTitle">Title</h2>
+        </div>
+        <button class="icon-btn" type="button" data-close-overlay="detailsOverlay">✕</button>
+      </div>
+
+      <div class="details-layout">
+        <div class="details-poster-wrap">
+          <img id="detailsImage" class="details-poster" src="" alt="" />
+        </div>
+
+        <div class="details-main">
+          <p id="detailsDescription" class="details-description"></p>
+
+          <div class="details-tags" id="detailsTags"></div>
+
+          <div class="details-actions">
+            <button id="playBtn" class="metal-btn" type="button">Play now</button>
+            <button id="favoriteBtn" class="metal-btn ghost" type="button">Add favorite</button>
+          </div>
+
+          <div class="shots-head">Screenshots</div>
+          <div id="screenshots" class="screenshots"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="launcherOverlay" class="overlay hidden">
+    <div class="launcher">
+      <div class="launcher-topbar glass">
+        <div>
+          <div class="eyebrow">Now playing</div>
+          <h2 id="launcherTitle">Game</h2>
+        </div>
+        <div class="launcher-buttons">
+          <button id="launcherFullscreenBtn" class="metal-btn small" type="button">Fullscreen</button>
+          <button id="launcherCloseBtn" class="metal-btn small ghost" type="button">Close</button>
+        </div>
+      </div>
+      <iframe id="launcherFrame" title="Kardna launcher" allowfullscreen referrerpolicy="no-referrer"></iframe>
+    </div>
+  </div>
+
+  <template id="cardTemplate">
+    <article class="game-card glass-soft">
+      <button class="favorite-star" type="button" aria-label="Toggle favorite">★</button>
+      <div class="game-thumb-wrap">
+        <img class="game-thumb" alt="" />
+        <div class="game-overlay">
+          <button class="metal-btn small play-card-btn" type="button">Open</button>
+        </div>
+      </div>
+      <div class="game-copy">
+        <div class="game-badges"></div>
+        <h4 class="game-title"></h4>
+        <p class="game-description"></p>
+      </div>
+    </article>
+  </template>
 
   <script src="script.js"></script>
 </body>

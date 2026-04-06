@@ -148,7 +148,7 @@
     { "id": 17,  "title": "2048", "description": "Classic 2048 puzzle.", "image": "https://picsum.photos/seed/2048/600/400", "iframe": "/games/2048", "screenshots": ["https://picsum.photos/seed/2048-1/300/200"], "modding": false },
     { "id": 18,  "title": "Astray", "description": "3D maze puzzle.", "image": "https://picsum.photos/seed/astray/600/400", "iframe": "/games/astray", "screenshots": ["https://picsum.photos/seed/astray-1/300/200"], "modding": false },
     { "id": 19,  "title": "Tomb of the Mask", "description": "Fast arcade maze runner.", "image": "https://picsum.photos/seed/tomb-of-the-mask/600/400", "iframe": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@4487c13b114e3b97c0d1e18dd381193bf62175f5/d5fuh3d/tomb_of_the_mask.xml", "screenshots": ["https://picsum.photos/seed/totm-1/300/200"], "modding": false },
-    { "id": 20,  "title": "2048 Cupcakes", "description": "Cupcake reskin of 2048.", "image": "https://picsum.photos/seed/2048-cupcakes/600/400", "iframe": "https://0x0800.github.io/2048-CUPCAKES/", "screenshots": ["https://picsum.photos/seed/2048-cupcakes-1/300/200"], "modding": false },
+    { "id": 20,  "title": "2048 Cupcakes", "description": "Cupcake reskin of 2048.", "image": "https://0x0800.github.io/2048-CUPCAKES/icon.png", "iframe": "https://0x0800.github.io/2048-CUPCAKES/", "screenshots": ["https://picsum.photos/seed/2048-cupcakes-1/300/200"], "modding": false },
     { "id": 21,  "title": "Penalty Challenge Multiplayer", "description": "Online penalty kicks.", "image": "https://picsum.photos/seed/penalty-challenge/600/400", "iframe": "https://html5.gamemonetize.co/czy29ldafw7pdecjo7irqipcld83ovn1/?gd_sdk_referrer_url=https%253A%252F%252Fdoodoo.love%252Fpenalty-challenge-multiplayer-game", "screenshots": ["https://picsum.photos/seed/penalty-challenge-1/300/200"], "modding": false },
     { "id": 22,  "title": "Penalty Shooters 2", "description": "Score from the spot.", "image": "https://picsum.photos/seed/penalty-shooters-2/600/400", "iframe": "https://html5.gamedistribution.com/571b9df027e449f78e3869ba19658754/?gd_sdk_referrer_url=https://penaltyshooters2.com", "screenshots": ["https://picsum.photos/seed/ps2-1/300/200"], "modding": false },
     { "id": 23,  "title": "Papa's Freezeria", "description": "Serve frozen treats.", "image": "https://picsum.photos/seed/papas-freezeria/600/400", "iframe": "https://dffve3q5is4huusnmos6kv7n9mthc3vk-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://729483016-359174802648164068.preview.editmysite.com/uploads/b/139890129-569829031530007438/files/pf.xml", "screenshots": ["https://picsum.photos/seed/pf-1/300/200"], "modding": false },
@@ -429,7 +429,7 @@
       ],
       "modding": false
     },
-        {
+    {
       "id": 142,
       "title": "Fortnie (Xbox Cloud)",
       "description": "",
@@ -440,30 +440,19 @@
       ],
       "modding": false
     },
-            {
-      "id": 142,
-      "title": "Fortnie (Xbox Cloud)",
-      "description": "",
-      "image": "",
-      "iframe": "https://www.xbox.com/en-US/play/launch/fortnite/BT5P2X999VH2",
-      "screenshots": [
-        "https://via.placeholder.com/300x200"
-      ],
-      "modding": false
-    },
-            {
+    {
       "id": 143,
       "title": "Rainbow Six Siege (Xbox Cloud)",
       "description": "",
       "image": "",
-      "iframe": "https://www.xbox.com/en-US/play/launch/tom-clancy's-rainbow-six-siege-x---elite-edition/9PB3RHWXB9MR2",
+      "iframe": "https://www.xbox.com/play/games/tom-clancy's-rainbow-six-siege-x---elite-edition/9PB3RHWXB9MR2",
       "screenshots": [
         "https://via.placeholder.com/300x200"
       ],
       "modding": false
     },
-                {
-      "id": 143,
+    {
+      "id": 144,
       "title": "Forza Horizon 5 (Xbox Cloud)",
       "description": "",
       "image": "",
@@ -474,7 +463,7 @@
       "modding": false
     },
     {
-      "id": 144,
+      "id": 145,
       "title": "GTA V XB1 Edition (Xbox Cloud)",
       "description": "",
       "image": "",
@@ -485,7 +474,7 @@
       "modding": false
     },
     {
-      "id": 145,
+      "id": 146,
       "title": "Ea Sports FC 25 (Xbox Cloud)",
       "description": "",
       "image": "",
@@ -496,7 +485,7 @@
       "modding": false
     },
     {
-      "id": 146,
+      "id": 147,
       "title": "Madden NFL 25 (Xbox Cloud)",
       "description": "",
       "image": "",
@@ -507,7 +496,7 @@
       "modding": false
     },
     {
-      "id": 147,
+      "id": 148,
       "title": "Halo Infinite (Xbox Cloud)",
       "description": "",
       "image": "",
@@ -518,7 +507,7 @@
       "modding": false
     },
     {
-      "id": 148,
+      "id": 149,
       "title": "Skate 3 (Xbox Cloud)",
       "description": "",
       "image": "",
@@ -529,7 +518,7 @@
       "modding": false
     },
     {
-      "id": 149,
+      "id": 150,
       "title": "Call Of Duty Black Ops 6 (Xbox Cloud)",
       "description": "",
       "image": "",
@@ -540,7 +529,7 @@
       "modding": false
     },
     {
-      "id": 150,
+      "id": 151,
       "title": "Call Of Duty Warzone (Xbox Cloud)",
       "description": "",
       "image": "",
@@ -551,7 +540,7 @@
       "modding": false
     },
     {
-      "id": 151,
+      "id": 152,
       "title": "Sea Of Thieves (Xbox Cloud)",
       "description": "",
       "image": "",
@@ -562,7 +551,7 @@
       "modding": false
     },
     {
-      "id": 152,
+      "id": 153,
       "title": "Terraria (Xbox Cloud)",
       "description": "",
       "image": "",
@@ -573,7 +562,7 @@
       "modding": false
     },
     {
-      "id": 153,
+      "id": 154,
       "title": "2K25 (Xbox Cloud)",
       "description": "",
       "image": "",
@@ -584,7 +573,7 @@
       "modding": false
     },
     {
-      "id": 154,
+      "id": 155,
       "title": "Rust (Xbox Cloud)",
       "description": "",
       "image": "",
@@ -595,18 +584,18 @@
       "modding": false
     },
     {
-      "id": 155,
+      "id": 156,
       "title": "Grand Theft Auto V (Xbox Cloud)",
       "description": "",
-      "image": "https://www.xbox.com/play/games/grand-theft-auto-v-xbox-series-x%7Cs/9NXMBTB02ZSF",
-      "iframe": "",
+      "image": "",
+      "iframe": "https://www.xbox.com/play/games/grand-theft-auto-v-xbox-series-x%7Cs/9NXMBTB02ZSF",
       "screenshots": [
         "https://via.placeholder.com/300x200"
       ],
       "modding": false
     },
-        {
-      "id": 156,
+    {
+      "id": 157,
       "title": "Amoung Us (Xbox Cloud)",
       "description": "",
       "image": "",
@@ -617,7 +606,7 @@
       "modding": false
     },
     {
-      "id": 157,
+      "id": 158,
       "title": "High On Life (Xbox Cloud)",
       "description": "",
       "image": "",
@@ -628,7 +617,7 @@
       "modding": false
     },
     {
-      "id": 158,
+      "id": 159,
       "title": "Call Of Duty (Xbox Cloud)",
       "description": "",
       "image": "",
@@ -639,7 +628,7 @@
       "modding": false
     },
     {
-      "id": 159,
+      "id": 160,
       "title": "Dead by Daylight (Xbox Cloud)",
       "description": "",
       "image": "",

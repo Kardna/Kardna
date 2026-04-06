@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kardna – Game Launcher</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Settings -->
+  <div id="settingsOverlay" class="overlay hidden">
+    <div class="overlay-content">
+      <h2>Theme Settings</h2>
+      <button class="styled-btn" onclick="setTheme('light')">🌞 Light</button>
+      <button class="styled-btn" onclick="setTheme('dark')">🌙 Dark</button>
+      <button class="styled-btn secondary" onclick="closeSettings()">Close</button>
+    </div>
+  </div>
+
+  <!-- Fullscreen Player -->
+  <div id="game-launcher-fullscreen" class="fullscreen hidden">
+    <div class="fullscreen-header">
+      <h2 id="fullscreen-game-title"></h2>
+      <div class="button-group">
+        <button class="control-button" onclick="toggleFullscreen()">⤢</button>
+        <button id="mod-launch-btn" class="styled-btn hidden" onclick="openModPanel()">🛠</button>
+      <button class="control-button" onclick="closeGame()">✖</button>
+
+      </div>
+    </div>
+    <div class="iframe-container">
+      <iframe id="fullscreen-iframe" src="" frameborder="0"></iframe>
+    </div>
+    <div id="mod-panel" class="mod-overlay hidden">
+      <div class="mod-content">
+        <h2>Mod Menu</h2>
+        <p>Your custom mod UI goes here.</p>
+        <button class="styled-btn secondary" onclick="closeModPanel()">Close Mod Menu</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <div class="sidebar-top">
+      <h1 class="brand-title">Kardna</h1>
+      <h2>Favorites</h2>
+      <div id="favorites-list" class="favorites-buttons"></div>
+    </div>
+    <button class="styled-btn" onclick="openSettings()">⚙ Settings</button>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main">
+    <h1>Game Library</h1>
+    <div id="game-container" class="game-grid"></div>
+
+    <!-- Game Details Modal -->
+    <div id="game-details-modal" class="modal hidden">
+      <div class="modal-content">
+        <button class="close-launcher styled-btn" onclick="closeDetails()">✖</button>
+        <div class="details-header">
+          <img id="details-image" src="" alt="Game image">
+          <div class="details-info">
+            <h2 id="details-title"></h2>
+            <p id="details-description"></p>
+            <div class="details-buttons">
+              <button class="styled-btn" onclick="playGame()">▶ Play</button>
+              <button class="styled-btn secondary" id="favorite-btn" onclick="toggleFavorite()">❤️ Add</button>
+              <button class="styled-btn mod-btn hidden" id="mod-btn" onclick="openModPanel()">🛠 Mod</button>
+            </div>
+          </div>
+        </div>
+        <div class="screenshot-gallery" id="screenshot-gallery"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
