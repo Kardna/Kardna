@@ -1,0 +1,10 @@
+<!doctype html><meta charset="utf-8"><title>Kardna</title><script>
+(function(){
+  var l = window.location;
+  var isGithubProject = l.hostname.endsWith('github.io');
+  var base = isGithubProject ? '/' + l.pathname.split('/').filter(Boolean)[0] + '/' : '/';
+  var route = l.pathname.slice(base.length - 1) + l.search + l.hash;
+  sessionStorage.redirect = base.replace(/\/$/, '') + route;
+  l.replace(base);
+})();
+</script>

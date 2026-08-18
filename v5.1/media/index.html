@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kardna Media</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <div class="brand">
+        <div class="logo">K</div>
+        <div class="brand-copy">
+          <strong>Kardna Media</strong>
+          <span></span>
+        </div>
+      </div>
+
+      <nav class="nav" id="mainNav">
+        <button class="active" data-filter="all">Home</button>
+        <button data-filter="movie">Movies</button>
+        <button data-filter="tv">TV Shows</button>
+        <button data-filter="favorites">Favorites</button>
+      </nav>
+
+      <div class="header-right">
+        <label class="search-wrap" aria-label="Search titles">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M21 21L16.65 16.65M11 18C7.13401 18 4 14.866 4 11C4 7.13401 7.13401 4 11 4C14.866 4 18 7.13401 18 11C18 14.866 14.866 18 11 18Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <input id="searchInput" type="text" placeholder="Search any movie or show..." />
+        </label>
+        <div class="favorite-count" id="favoriteCount">0 favorites</div>
+      </div>
+    </header>
+
+    <div class="config-box" id="configBox">
+      <strong>Setup needed:</strong>
+      add your TMDB read token in <code>CONFIG.TMDB_BEARER_TOKEN</code>. The page uses TMDB for trending, popular, and search data.
+    </div>
+
+    <main class="main">
+      <section class="hero">
+        <div class="hero-bg" id="heroBg"></div>
+        <div class="hero-content">
+          <div class="eyebrow">Featured right now</div>
+          <h1 id="heroTitle">Loading...</h1>
+          <div class="meta-row" id="heroMeta"></div>
+          <p id="heroOverview">Pulling in live titles and show data.</p>
+          <div class="hero-actions">
+            <button class="btn primary" id="heroPlayBtn">▶ Play</button>
+            <button class="btn" id="heroInfoBtn">More info</button>
+            <button class="btn favorite" id="heroFavBtn">♡ Favorite</button>
+          </div>
+        </div>
+        <aside class="hero-side">
+          <h3>Trending now</h3>
+          <div class="mini-list" id="trendingMini"></div>
+        </aside>
+      </section>
+
+      <div class="content">
+        <section class="toolbar">
+          <div class="toolbar-left">
+            <button class="chip sort-btn active" data-sort="rank">Top ranked</button>
+            <button class="chip sort-btn" data-sort="year">Newest</button>
+            <button class="chip sort-btn" data-sort="title">A to Z</button>
+          </div>
+          <div class="toolbar-right">
+            <div class="genres" id="genreChips"></div>
+          </div>
+        </section>
+
+        <section class="section" id="statusSection">
+          <div class="loader" id="loader">Loading current movies and shows...</div>
+        </section>
+
+        <section class="section" id="topMoviesSection">
+          <div class="section-head">
+            <div>
+              <h2>Top movies right now</h2>
+              <p>Live movie data from the API.</p>
+            </div>
+          </div>
+          <div class="row-scroll" id="topMoviesRow"></div>
+        </section>
+
+        <section class="section" id="topShowsSection">
+          <div class="section-head">
+            <div>
+              <h2>Top shows right now</h2>
+              <p>Live TV rows with seasons when available.</p>
+            </div>
+          </div>
+          <div class="row-scroll" id="topShowsRow"></div>
+        </section>
+
+        <section class="section" id="trendingSection">
+          <div class="section-head">
+            <div>
+              <h2>Trending this week</h2>
+              <p>Mixed picks from what is moving the most.</p>
+            </div>
+          </div>
+          <div class="row-scroll" id="trendingRow"></div>
+        </section>
+
+        <section class="grid-section">
+          <div class="section-head">
+            <div>
+              <h2 id="libraryTitle">Browse the library</h2>
+              <p id="libraryDesc">Search anything and launch it fast.</p>
+            </div>
+          </div>
+          <div class="grid" id="libraryGrid"></div>
+          <div class="empty" id="emptyState" hidden>No titles matched that filter.</div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div>This product uses the TMDB API but is not endorsed or certified by TMDB.</div>
+      <div>Favorites are saved in your browser</div>
+    </footer>
+  </div>
+
+  <div class="modal" id="watchModal" aria-hidden="true">
+    <div class="modal-card">
+      <div class="close-row">
+        <button class="close-btn" id="closeModal" aria-label="Close viewer">✕</button>
+      </div>
+      <div class="viewer">
+        <div class="player-wrap">
+          <iframe id="playerFrame" allowfullscreen referrerpolicy="origin"></iframe>
+        </div>
+
+        <div class="viewer-details">
+          <img class="viewer-poster" id="viewerPoster" alt="Poster" />
+          <div class="viewer-copy">
+            <h2 id="viewerTitle"></h2>
+            <div class="meta-row" id="viewerMeta"></div>
+            <p id="viewerOverview"></p>
+            <div class="viewer-actions">
+              <button class="btn primary" id="viewerPlayBtn">▶ Play</button>
+              <button class="btn favorite" id="viewerFavBtn">♡ Favorite</button>
+            </div>
+            <div class="season-bar" id="seasonBar"></div>
+            <div class="episodes-grid" id="episodesGrid"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

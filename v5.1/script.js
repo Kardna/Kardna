@@ -1,12 +1,13 @@
+function getProxyOrigin() {
+  return "https://bg.kardna.net";
+}
+
 function getCurrentURL() {
   return window.location.href;
 }
 
 const currentUrl = getCurrentURL();
 const hostName = new URL(currentUrl).host;
-const encodedData = "WyJrYXJkbmEubmV0Iiwia2FyZG5hbmV0d29yay5jb20iLCJrYXJkbmEub3JnIiwia2FyZG5hLXJldml2ZS5jb20iXQ==";
-const allowedHosts = JSON.parse(atob(encodedData));
-const url22 = allowedHosts.includes(hostName) ? `bg.${hostName}` : "bg.kardna.net";
 
 const state = {
   games: [],
@@ -290,22 +291,44 @@ function isFileOrRelativePath(value) {
   return false;
 }
 
-function getUvHost() {
-  return url22 || location.host;
+function getFrontendBase() {
+  const path = window.location.pathname;
+  const match = path.match(/^(.*\/v5\.1)(?:\/|$)/);
+  return match ? match[1] : "";
+}
+
+function toFrontendPath(value) {
+  if (!value) return value;
+  const str = String(value).trim();
+
+  if (/^https?:\/\//i.test(str)) return str;
+  if (str.startsWith("/v5.1/")) return str;
+
+  if (str.startsWith("/")) {
+    return `${getFrontendBase()}${str}`;
+  }
+
+  return str;
 }
 
 function launchViaClickValue(clickValue) {
   if (!clickValue) return false;
   const value = String(clickValue).trim();
 
-  if (value.startsWith("/")) {
-    window.location.href = value;
+  closeOverlay("detailsOverlay");
+
+  if (isFileOrRelativePath(value)) {
+    els.launcherTitle.textContent = state.currentGame?.title || "Kardna";
+    els.launcherFrame.src = toFrontendPath(value);
+    els.launcherOverlay.classList.remove("hidden");
     return true;
   }
 
   if (value.startsWith("http") || value.startsWith("www")) {
     const dest = value.startsWith("http") ? value : `https://${value}`;
-    window.location.href = `https://${getUvHost()}/scram.html#${btoa(dest)}`;
+    els.launcherTitle.textContent = state.currentGame?.title || "Kardna";
+    els.launcherFrame.src = `${getProxyOrigin()}/scram.html#${btoa(dest)}`;
+    els.launcherOverlay.classList.remove("hidden");
     return true;
   }
 
@@ -326,17 +349,17 @@ function launchGame(game) {
     return;
   }
 
-  let finalSrc;
-  if (isFileOrRelativePath(game.iframe)) {
-    finalSrc = game.iframe;
-  } else {
-    const dest = game.iframe.startsWith("http") ? game.iframe : `https://${game.iframe}`;
-    finalSrc = `https://${getUvHost()}/scram.html#${btoa(dest)}`;
-  }
-
   closeOverlay("detailsOverlay");
   els.launcherTitle.textContent = game.title;
-  els.launcherFrame.src = finalSrc;
+
+  if (isFileOrRelativePath(game.iframe)) {
+    els.launcherFrame.src = toFrontendPath(game.iframe);
+    els.launcherOverlay.classList.remove("hidden");
+    return;
+  }
+
+  const dest = game.iframe.startsWith("http") ? game.iframe : `https://${game.iframe}`;
+  els.launcherFrame.src = `${getProxyOrigin()}/scram.html#${btoa(dest)}`;
   els.launcherOverlay.classList.remove("hidden");
 }
 

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+
+
+    <title>Vex 3</title>
+
+    <script>
+        window.addEventListener("load", function () {
+        var loader = document.querySelector(".loader");
+        loader.classList.add("fadeOut");
+        const content = document.querySelector(".container");
+        content.classList.add("fadeIn");
+        });
+        setTimeout(function() {
+            document.querySelector(".loader").remove();
+        }, 1200);
+        const gifArray = ["loading.gif", "loading2.gif", "loading3.gif", "loading4.gif", "loading5.gif", "loading6.gif", "loading7.gif", "loading8.gif"];
+        const randomIndex = Math.floor(Math.random() * gifArray.length);
+        const randomGif = gifArray[randomIndex];
+        const img = document.getElementById("randomGif");
+      </script>
+      <div class="loader">
+      <img id="randomGif" src="../loading5.gif" alt="Loading...">
+      <h1>Loading Assets</h1>
+      </div>
+      <style>
+        @font-face {
+      font-family: Main;
+      src: url(../a.otf);
+    }
+              .loader {
+            position: fixed;
+            z-index: 9999;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 1;
+            transition: opacity 0.3s ease-in-out;
+            }
+            .loader.fadeOut {
+            opacity: 0;
+            }
+            h1{
+            position: fixed;
+            z-index: 9999;
+            top: 45%;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 1;
+            transition: opacity 0.3s ease-in-out;
+                font-family: Main;
+            }
+      </style>
+    <link rel="stylesheet" href="assets/css/app.css" type="text/css" />
+</head>
+
+<body>
+    <div id="content"></div>
+    <div id="loader">Loading...</div>
+
+    <script type="text/javascript">
+        var gameName = 'vex-3.min.js';
+
+
+        //This all here is for cache busting;
+        function addScript(src, buster, callback) {
+            var s = document.createElement('script');
+            s.setAttribute('src', src + '?v=' + buster);
+            if (typeof callback === 'function') {
+                s.onload = callback;
+            }
+            document.body.appendChild(s);
+        }
+
+        addScript('version.js', 1, function() {
+            addScript(gameName, version, function() {
+                /**
+                 * Here we create the game
+                 */
+                new Vex3.Game();
+            })
+        })
+    </script>
+</body>
+
+</html>

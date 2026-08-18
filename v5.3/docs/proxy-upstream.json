@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-07-29T20:55:00-04:00",
+  "sources": {
+    "nebula": "https://raw.githubusercontent.com/NebulaServices/Nebula/main/package.json",
+    "ultravioletApp": "https://raw.githubusercontent.com/titaniumnetwork-dev/Ultraviolet-App/main/package.json",
+    "wispJs": "https://raw.githubusercontent.com/MercuryWorkshop/wisp-js/master/package.json"
+  },
+  "versions": {
+    "@mercuryworkshop/bare-mux": "^2.1.7",
+    "@mercuryworkshop/epoxy-transport": "^2.1.27",
+    "@mercuryworkshop/libcurl-transport": "^1.3.15",
+    "@mercuryworkshop/scramjet": "https://github.com/MercuryWorkshop/scramjet/releases/download/v1.1.0/mercuryworkshop-scramjet-1.1.0.tgz",
+    "@titaniumnetwork-dev/ultraviolet": "^3.2.10",
+    "@mercuryworkshop/wisp-js": "0.4.1",
+    "express": "^5.2.1"
+  },
+  "compatibilityPolicy": "Nebula's tested dependency matrix is used for the browser asset-path integration. Automatic updates stop at a new major version.",
+  "regressionFixes": [
+    "Disabled wisp-js 0.4.1 per-host stream limiter because it iterates connection.streams as an array and crashes Node.",
+    "Changed the default transport from Libcurl.js to Epoxy TLS; Libcurl.js remains selectable.",
+    "Corrected the wisp-js updater URL from the nonexistent main branch to master."
+  ]
+}

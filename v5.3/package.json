@@ -1,0 +1,41 @@
+{
+  "name": "kardna",
+  "private": true,
+  "version": "3.2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node server/index.mjs --dev",
+    "build": "tsc -b && vite build",
+    "start": "node server/index.mjs",
+    "preview": "node server/index.mjs",
+    "typecheck": "tsc -b --pretty",
+    "sync-games": "node scripts/sync-games.mjs",
+    "proxy:check": "node scripts/update-proxies.mjs --check",
+    "proxy:update": "node scripts/update-proxies.mjs --install",
+    "proxy:verify": "node scripts/verify-proxy.mjs",
+    "predev": "node scripts/sync-games.mjs && node scripts/verify-proxy.mjs",
+    "prebuild": "node scripts/sync-games.mjs && node scripts/verify-proxy.mjs"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.8.2",
+    "@mercuryworkshop/bare-mux": "^2.1.7",
+    "@mercuryworkshop/epoxy-transport": "^2.1.27",
+    "@mercuryworkshop/libcurl-transport": "^1.3.15",
+    "@mercuryworkshop/scramjet": "https://github.com/MercuryWorkshop/scramjet/releases/download/v1.1.0/mercuryworkshop-scramjet-1.1.0.tgz",
+    "@mercuryworkshop/wisp-js": "0.4.1",
+    "@titaniumnetwork-dev/ultraviolet": "^3.2.10",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^5.0.2",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.3"
+  },
+  "engines": {
+    "node": ">=20.19"
+  }
+}

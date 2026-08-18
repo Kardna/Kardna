@@ -1,0 +1,3219 @@
+[
+  {
+    "id": "neon-run",
+    "name": "Neon Run",
+    "image": "./games/neon-run/cover.svg",
+    "url": "./games/neon-run/index.html",
+    "type": "html",
+    "category": "Arcade",
+    "description": "Run, jump, and survive a glowing obstacle course that gets faster every few seconds.",
+    "tags": [
+      "runner",
+      "arcade",
+      "fast",
+      "keyboard"
+    ],
+    "featured": true,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "prism-pairs",
+    "name": "Prism Pairs",
+    "image": "./games/prism-pairs/cover.svg",
+    "url": "./games/prism-pairs/index.html",
+    "type": "html",
+    "category": "Puzzle",
+    "description": "Flip colorful tiles, remember their positions, and clear the board in as few moves as possible.",
+    "tags": [
+      "memory",
+      "puzzle",
+      "color",
+      "casual"
+    ],
+    "featured": true,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "turbo-tap",
+    "name": "Turbo Tap",
+    "image": "./games/turbo-tap/cover.svg",
+    "url": "./games/turbo-tap/index.html",
+    "type": "html",
+    "category": "Action",
+    "description": "Wait for the signal, then tap as quickly as you can. Jump too early and the round is blown.",
+    "tags": [
+      "reaction",
+      "speed",
+      "tap",
+      "action"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "orbit-dodge",
+    "name": "Orbit Dodge",
+    "image": "./games/orbit-dodge/cover.svg",
+    "url": "./games/orbit-dodge/index.html",
+    "type": "html",
+    "category": "Adventure",
+    "description": "Pilot a tiny ship through an increasingly crowded meteor field without losing your shields.",
+    "tags": [
+      "space",
+      "dodge",
+      "survival",
+      "arcade"
+    ],
+    "featured": true,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "goal-rush",
+    "name": "Goal Rush",
+    "image": "./games/goal-rush/cover.svg",
+    "url": "./games/goal-rush/index.html",
+    "type": "html",
+    "category": "Sports",
+    "description": "Pick a corner, read the keeper, and score as many penalties as possible in five shots.",
+    "tags": [
+      "soccer",
+      "sports",
+      "penalty",
+      "quick"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "pixel-stack",
+    "name": "Pixel Stack",
+    "image": "./games/pixel-stack/cover.svg",
+    "url": "./games/pixel-stack/index.html",
+    "type": "html",
+    "category": "Strategy",
+    "description": "Drop moving blocks with perfect timing and build the tallest clean tower you can.",
+    "tags": [
+      "stack",
+      "timing",
+      "strategy",
+      "endless"
+    ],
+    "featured": true,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "flash-color-demo",
+    "name": "Flash Color Demo",
+    "image": "./games/flash-color-demo/cover.svg",
+    "url": "./games/flash-color-demo/game.swf",
+    "type": "flash",
+    "category": "Classics",
+    "description": "A tiny bundled SWF compatibility demo that verifies Kardna\u2019s lazy-loaded Ruffle player.",
+    "tags": [
+      "flash",
+      "ruffle",
+      "classic",
+      "demo"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "webretro",
+    "name": "WebRetro",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://binbashbanana.github.io/webretro/",
+    "url": "./games/webretro/index.html",
+    "type": "html",
+    "category": "Classics",
+    "description": "A browser-ready retro console hub for jumping back into old-school favorites.",
+    "tags": [
+      "retro",
+      "emulator",
+      "classic",
+      "console"
+    ],
+    "featured": true,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "vex-5",
+    "name": "Vex 5",
+    "image": "./covers/catalog/vex-5.svg",
+    "url": "./games/vex5/index.html",
+    "type": "html",
+    "category": "Action",
+    "description": "Sprint, leap, slide, and survive precision obstacle courses packed with traps.",
+    "tags": [
+      "parkour",
+      "platformer",
+      "skill"
+    ],
+    "featured": true,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "vex-4",
+    "name": "Vex 4",
+    "image": "./covers/catalog/vex-4.svg",
+    "url": "./games/vex4/index.html",
+    "type": "html",
+    "category": "Action",
+    "description": "Master fast platforming stages where every jump and wall slide counts.",
+    "tags": [
+      "parkour",
+      "platformer",
+      "obstacle"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "vex-3",
+    "name": "Vex 3",
+    "image": "./covers/catalog/vex-3.svg",
+    "url": "./games/vex3/index.html",
+    "type": "html",
+    "category": "Action",
+    "description": "Race through deadly acts full of spikes, moving platforms, and tight timing.",
+    "tags": [
+      "parkour",
+      "platformer",
+      "classic"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "run-3",
+    "name": "Run 3",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.coolmathgames.com/0-run-3/play",
+    "url": "./games/run3/index.html",
+    "type": "html",
+    "category": "Arcade",
+    "description": "Run through rotating space tunnels and keep your footing as the path falls apart.",
+    "tags": [
+      "runner",
+      "space",
+      "endless"
+    ],
+    "featured": true,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "slope",
+    "name": "Slope",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.coolmathgames.com/0-slope/play",
+    "url": "./games/slope/index.html",
+    "type": "html",
+    "category": "Arcade",
+    "description": "Guide a speeding ball down a neon slope without flying off the edge.",
+    "tags": [
+      "ball",
+      "speed",
+      "endless",
+      "3d"
+    ],
+    "featured": true,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "sm64",
+    "name": "Super Mario 64",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://sm64web.com/",
+    "url": "./games/sm64/index.html",
+    "type": "html",
+    "category": "Adventure",
+    "description": "Explore a classic 3D platforming world directly in the browser.",
+    "tags": [
+      "platformer",
+      "3d",
+      "classic"
+    ],
+    "featured": true,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "space-invaders",
+    "name": "Space Invaders",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.space-invaders.com/",
+    "url": "./games/spaceinvaders/index.html",
+    "type": "html",
+    "category": "Classics",
+    "description": "Defend the planet from descending alien waves in this arcade staple.",
+    "tags": [
+      "shooter",
+      "retro",
+      "arcade"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "ritz",
+    "name": "Ritz",
+    "image": "./covers/catalog/ritz.svg",
+    "url": "./games/ritz/index.html",
+    "type": "html",
+    "category": "Arcade",
+    "description": "A quick browser challenge with a clean retro feel and score-chasing gameplay.",
+    "tags": [
+      "arcade",
+      "quick",
+      "retro"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "pacman",
+    "name": "Pac-Man",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://pacman.platzh1rsch.ch/",
+    "url": "./games/pacman/index.html",
+    "type": "html",
+    "category": "Classics",
+    "description": "Clear the maze, dodge ghosts, and chase a new high score.",
+    "tags": [
+      "maze",
+      "retro",
+      "arcade"
+    ],
+    "featured": true,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "plyr",
+    "name": "Plyr",
+    "image": "./covers/catalog/plyr.svg",
+    "url": "./games/plyr/index.html",
+    "type": "html",
+    "category": "Arcade",
+    "description": "A compact browser game built for quick sessions and repeat runs.",
+    "tags": [
+      "casual",
+      "arcade",
+      "quick"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "radius-raid",
+    "name": "Radius Raid",
+    "image": "./covers/catalog/radius-raid.svg",
+    "url": "./games/radius-raid/index.html",
+    "type": "html",
+    "category": "Action",
+    "description": "Blast incoming threats in a circular arena and survive the pressure.",
+    "tags": [
+      "shooter",
+      "arena",
+      "space"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "retro-bowl",
+    "name": "Retro Bowl",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://now.gg/play/new-star/6391/retro-bowl",
+    "url": "./games/retro-bowl/index.html",
+    "type": "html",
+    "category": "Sports",
+    "description": "Build a football team, call the plays, and chase a retro championship.",
+    "tags": [
+      "football",
+      "management",
+      "retro"
+    ],
+    "featured": true,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "microsoft-flight-simulator",
+    "name": "Microsoft Flight Simulator",
+    "image": "./covers/catalog/microsoft-flight-simulator.svg",
+    "url": "./games/microsoft-flight-simulator/index.html",
+    "type": "html",
+    "category": "Adventure",
+    "description": "Take to the sky in a browser-based flight simulation experience.",
+    "tags": [
+      "flight",
+      "simulator",
+      "airplane"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "hextris",
+    "name": "Hextris",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://hextris.io/",
+    "url": "./games/hextris/index.html",
+    "type": "html",
+    "category": "Puzzle",
+    "description": "Rotate a hexagon, match colored blocks, and keep the stack under control.",
+    "tags": [
+      "hexagon",
+      "matching",
+      "endless"
+    ],
+    "featured": true,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "mc-classic",
+    "name": "Minecraft Classic",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://classic.minecraft.net/",
+    "url": "./games/mc-classic/index.html",
+    "type": "html",
+    "category": "Adventure",
+    "description": "Build freely in a browser version of the blocky creative classic.",
+    "tags": [
+      "building",
+      "sandbox",
+      "blocks"
+    ],
+    "featured": true,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "hexgl",
+    "name": "HexGL",
+    "image": "./covers/catalog/hexgl.svg",
+    "url": "./games/hexgl/index.html",
+    "type": "html",
+    "category": "Racing",
+    "description": "Pilot a futuristic racer through glowing tracks at breakneck speed.",
+    "tags": [
+      "racing",
+      "3d",
+      "futuristic"
+    ],
+    "featured": true,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "gopher-kart",
+    "name": "Gopher Kart",
+    "image": "./covers/catalog/gopher-kart.svg",
+    "url": "./games/gopher-kart/index.html",
+    "type": "html",
+    "category": "Racing",
+    "description": "Take a tiny kart through colorful tracks and fight for first place.",
+    "tags": [
+      "kart",
+      "racing",
+      "casual"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "geometry",
+    "name": "Geometry",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://geometrydashlite.io/",
+    "url": "./games/geometry/index.html",
+    "type": "html",
+    "category": "Arcade",
+    "description": "Time every jump through a sharp geometric rhythm challenge.",
+    "tags": [
+      "rhythm",
+      "platformer",
+      "timing"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "fireboy-watergirl",
+    "name": "Fireboy & Watergirl",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.coolmathgames.com/0-fireboy-and-water-girl-in-the-forest-temple/play",
+    "url": "./games/fireboy-and-watergirl-forest-temple/index.html",
+    "type": "html",
+    "category": "Puzzle",
+    "description": "Guide two heroes through cooperative temple puzzles and elemental traps.",
+    "tags": [
+      "co-op",
+      "puzzle",
+      "platformer"
+    ],
+    "featured": true,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "flappy-2048",
+    "name": "Flappy 2048",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://hczhcz.github.io/Flappy-2048/",
+    "url": "./games/flappy-2048/index.html",
+    "type": "html",
+    "category": "Arcade",
+    "description": "Flap through gates while combining numbers in a strange mashup challenge.",
+    "tags": [
+      "flappy",
+      "2048",
+      "mashup"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "flappy-bird",
+    "name": "Flappy Bird",
+    "image": "./covers/catalog/flappy-bird.svg",
+    "url": "./games/flappybird/index.html",
+    "type": "html",
+    "category": "Arcade",
+    "description": "Tap through narrow pipes and see how long you can keep flying.",
+    "tags": [
+      "flappy",
+      "tap",
+      "endless"
+    ],
+    "featured": true,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "friendly-fire",
+    "name": "Friendly Fire",
+    "image": "./covers/catalog/friendly-fire.svg",
+    "url": "./games/friendlyfire/index.html",
+    "type": "html",
+    "category": "Action",
+    "description": "A fast local-style action game where positioning matters as much as aim.",
+    "tags": [
+      "action",
+      "arena",
+      "multiplayer"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "duck-life-4",
+    "name": "Duck Life 4",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fduck-life-4.xml",
+    "url": "./games/ducklife4/index.html",
+    "type": "html",
+    "category": "Adventure",
+    "description": "Train your duck across multiple skills and race toward the championship.",
+    "tags": [
+      "training",
+      "racing",
+      "duck"
+    ],
+    "featured": true,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "doodle-jump",
+    "name": "Doodle Jump",
+    "image": "./covers/catalog/doodle-jump.svg",
+    "url": "./games/doodle-jump/index.html",
+    "type": "html",
+    "category": "Arcade",
+    "description": "Bounce upward from platform to platform and avoid falling out of view.",
+    "tags": [
+      "jump",
+      "endless",
+      "platformer"
+    ],
+    "featured": true,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "drift",
+    "name": "Drift",
+    "image": "./covers/catalog/drift.svg",
+    "url": "./games/drift/index.html",
+    "type": "html",
+    "category": "Racing",
+    "description": "Link smooth drifts, hold the racing line, and push for a faster lap.",
+    "tags": [
+      "car",
+      "drifting",
+      "racing"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "duck-life",
+    "name": "Duck Life",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@1036762f19f81e71d8caf90f96ecb17c2543ea40/hjpqx4/duck-life.xml",
+    "url": "./games/ducklife/index.html",
+    "type": "html",
+    "category": "Adventure",
+    "description": "Train a determined duck and race through the original adventure.",
+    "tags": [
+      "training",
+      "racing",
+      "classic"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "duck-life-2",
+    "name": "Duck Life 2",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@db7c558f6d366da74fcbbf98407d81120c76221e/0aynf57j/duck-life-2.xml",
+    "url": "./games/ducklife2/index.html",
+    "type": "html",
+    "category": "Adventure",
+    "description": "Build new skills, enter tougher races, and become a world champion duck.",
+    "tags": [
+      "training",
+      "racing",
+      "duck"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "duck-life-3",
+    "name": "Duck Life 3",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@07697277b06353fcdb759699d0c8b5f2f9303975/lft6d3g/ducklife-3.xml",
+    "url": "./games/ducklife3/index.html",
+    "type": "html",
+    "category": "Adventure",
+    "description": "Evolve, train, and race a specialized duck across a bigger campaign.",
+    "tags": [
+      "training",
+      "racing",
+      "evolution"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "cookie-clicker",
+    "name": "Cookie Clicker",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://orteil.dashnet.org/cookieclicker/",
+    "url": "./games/cookie/index.html",
+    "type": "html",
+    "category": "Strategy",
+    "description": "Bake cookies, buy upgrades, and turn one click into an absurd empire.",
+    "tags": [
+      "idle",
+      "clicker",
+      "incremental"
+    ],
+    "featured": true,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "cubefield",
+    "name": "Cubefield",
+    "image": "./covers/catalog/cubefield.svg",
+    "url": "./games/cubefield/index.html",
+    "type": "html",
+    "category": "Arcade",
+    "description": "Weave through an endless field of cubes as the speed keeps climbing.",
+    "tags": [
+      "3d",
+      "dodge",
+      "endless"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "dinosaur",
+    "name": "Dinosaur Game",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://chromedino.com/",
+    "url": "./games/dinosaur/index.html",
+    "type": "html",
+    "category": "Classics",
+    "description": "Jump cacti and duck obstacles in the familiar offline runner.",
+    "tags": [
+      "runner",
+      "dinosaur",
+      "offline"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "btd4",
+    "name": "Bloons Tower Defense 4",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.coolmathgames.com/0-bloons-tower-defense-4/play",
+    "url": "./games/btd4/index.html",
+    "type": "html",
+    "category": "Strategy",
+    "description": "Place towers, upgrade defenses, and stop every wave of balloons.",
+    "tags": [
+      "tower defense",
+      "strategy",
+      "waves"
+    ],
+    "featured": true,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "chroma",
+    "name": "Chroma",
+    "image": "./covers/catalog/chroma.svg",
+    "url": "./games/chroma/index.html",
+    "type": "html",
+    "category": "Puzzle",
+    "description": "Solve a bright color-based puzzle with clean rules and quick rounds.",
+    "tags": [
+      "color",
+      "logic",
+      "puzzle"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "2048",
+    "name": "2048",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://play2048.co/",
+    "url": "./games/2048/index.html",
+    "type": "html",
+    "category": "Puzzle",
+    "description": "Slide matching tiles together and work your way toward 2048.",
+    "tags": [
+      "numbers",
+      "merge",
+      "logic"
+    ],
+    "featured": true,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "astray",
+    "name": "Astray",
+    "image": "./covers/catalog/astray.svg",
+    "url": "./games/astray/index.html",
+    "type": "html",
+    "category": "Puzzle",
+    "description": "Navigate a minimalist 3D maze and find the path out.",
+    "tags": [
+      "maze",
+      "3d",
+      "minimal"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "breaklock",
+    "name": "BreakLock",
+    "image": "./covers/catalog/breaklock.svg",
+    "url": "./games/breaklock/index.html",
+    "type": "html",
+    "category": "Puzzle",
+    "description": "Trace the correct lock pattern from memory before the sequence disappears.",
+    "tags": [
+      "memory",
+      "pattern",
+      "logic"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-28"
+  },
+  {
+    "id": "snake-shift",
+    "name": "Snake Shift",
+    "image": "./covers/catalog/snake-shift.svg",
+    "url": "./games/snake-shift/index.html",
+    "type": "html",
+    "category": "Classics",
+    "description": "Collect sparks, grow longer, and keep your neon snake away from the walls.",
+    "tags": [
+      "snake",
+      "retro",
+      "score"
+    ],
+    "featured": true,
+    "dateAdded": "2026-07-29"
+  },
+  {
+    "id": "brick-burst",
+    "name": "Brick Burst",
+    "image": "./covers/catalog/brick-burst.svg",
+    "url": "./games/brick-burst/index.html",
+    "type": "html",
+    "category": "Arcade",
+    "description": "Bounce the pulse ball, clear every brick, and protect the bottom edge.",
+    "tags": [
+      "breakout",
+      "bricks",
+      "arcade"
+    ],
+    "featured": true,
+    "dateAdded": "2026-07-29"
+  },
+  {
+    "id": "paddle-pulse",
+    "name": "Paddle Pulse",
+    "image": "./covers/catalog/paddle-pulse.svg",
+    "url": "./games/paddle-pulse/index.html",
+    "type": "html",
+    "category": "Sports",
+    "description": "Face a quick AI opponent in a clean first-to-seven paddle match.",
+    "tags": [
+      "pong",
+      "paddle",
+      "sports"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29"
+  },
+  {
+    "id": "minefield-mini",
+    "name": "Minefield Mini",
+    "image": "./covers/catalog/minefield-mini.svg",
+    "url": "./games/minefield-mini/index.html",
+    "type": "html",
+    "category": "Puzzle",
+    "description": "Clear a compact minefield using logic, flags, and a steady hand.",
+    "tags": [
+      "minesweeper",
+      "logic",
+      "grid"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29"
+  },
+  {
+    "id": "tic-tac-glow",
+    "name": "Tic-Tac Glow",
+    "image": "./covers/catalog/tic-tac-glow.svg",
+    "url": "./games/tic-tac-glow/index.html",
+    "type": "html",
+    "category": "Strategy",
+    "description": "Take on a sharp little AI in a glowing game of noughts and crosses.",
+    "tags": [
+      "tic tac toe",
+      "ai",
+      "board"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29"
+  },
+  {
+    "id": "connect-four",
+    "name": "Connect Four",
+    "image": "./covers/catalog/connect-four.svg",
+    "url": "./games/connect-four/index.html",
+    "type": "html",
+    "category": "Strategy",
+    "description": "Drop discs with a friend and be the first to connect four in a row.",
+    "tags": [
+      "two player",
+      "board",
+      "local"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29"
+  },
+  {
+    "id": "lights-out",
+    "name": "Lights Out",
+    "image": "./covers/catalog/lights-out.svg",
+    "url": "./games/lights-out/index.html",
+    "type": "html",
+    "category": "Puzzle",
+    "description": "Toggle the grid and shut every light off in as few moves as possible.",
+    "tags": [
+      "logic",
+      "lights",
+      "grid"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29"
+  },
+  {
+    "id": "simon-spark",
+    "name": "Simon Spark",
+    "image": "./covers/catalog/simon-spark.svg",
+    "url": "./games/simon-spark/index.html",
+    "type": "html",
+    "category": "Puzzle",
+    "description": "Watch the color sequence, repeat it, and see how long your memory holds.",
+    "tags": [
+      "memory",
+      "sequence",
+      "color"
+    ],
+    "featured": true,
+    "dateAdded": "2026-07-29"
+  },
+  {
+    "id": "typing-rush",
+    "name": "Typing Rush",
+    "image": "./covers/catalog/typing-rush.svg",
+    "url": "./games/typing-rush/index.html",
+    "type": "html",
+    "category": "Action",
+    "description": "Type a nonstop stream of words before the forty-five-second clock expires.",
+    "tags": [
+      "typing",
+      "speed",
+      "keyboard"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29"
+  },
+  {
+    "id": "bubble-pop",
+    "name": "Bubble Pop",
+    "image": "./covers/catalog/bubble-pop.svg",
+    "url": "./games/bubble-pop/index.html",
+    "type": "html",
+    "category": "Arcade",
+    "description": "Pop the bright bubbles before they fade and chain together a huge score.",
+    "tags": [
+      "click",
+      "casual",
+      "score"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29"
+  },
+  {
+    "id": "maze-sprint",
+    "name": "Maze Sprint",
+    "image": "./covers/catalog/maze-sprint.svg",
+    "url": "./games/maze-sprint/index.html",
+    "type": "html",
+    "category": "Adventure",
+    "description": "Race through a fresh maze every round using keys, swipes, or touch controls.",
+    "tags": [
+      "maze",
+      "speed",
+      "procedural"
+    ],
+    "featured": true,
+    "dateAdded": "2026-07-29"
+  },
+  {
+    "id": "tile-slide",
+    "name": "Tile Slide",
+    "image": "./covers/catalog/tile-slide.svg",
+    "url": "./games/tile-slide/index.html",
+    "type": "html",
+    "category": "Puzzle",
+    "description": "Put all fifteen tiles back in order with the fewest possible moves.",
+    "tags": [
+      "sliding puzzle",
+      "numbers",
+      "logic"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29"
+  },
+  {
+    "id": "asteroid-blaster",
+    "name": "Asteroid Blaster",
+    "image": "./covers/catalog/asteroid-blaster.svg",
+    "url": "./games/asteroid-blaster/index.html",
+    "type": "html",
+    "category": "Action",
+    "description": "Move, aim, and blast through an endless stream of incoming rocks.",
+    "tags": [
+      "shooter",
+      "space",
+      "arcade"
+    ],
+    "featured": true,
+    "dateAdded": "2026-07-29"
+  },
+  {
+    "id": "lane-drift",
+    "name": "Lane Drift",
+    "image": "./covers/catalog/lane-drift.svg",
+    "url": "./games/lane-drift/index.html",
+    "type": "html",
+    "category": "Racing",
+    "description": "Switch lanes, dodge traffic, and keep the run alive as the road accelerates.",
+    "tags": [
+      "racing",
+      "dodge",
+      "endless"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29"
+  },
+  {
+    "id": "tomb-of-the-mask",
+    "name": "Tomb of the Mask",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@4487c13b114e3b97c0d1e18dd381193bf62175f5/d5fuh3d/tomb_of_the_mask.xml",
+    "url": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@4487c13b114e3b97c0d1e18dd381193bf62175f5/d5fuh3d/tomb_of_the_mask.xml",
+    "type": "html",
+    "category": "Arcade",
+    "description": "Fast arcade maze runner.",
+    "tags": [
+      "runner",
+      "arcade",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 1,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "quick",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "2048-cupcakes",
+    "name": "2048 Cupcakes",
+    "image": "https://0x0800.github.io/2048-CUPCAKES/icon.png",
+    "url": "https://0x0800.github.io/2048-CUPCAKES/",
+    "type": "html",
+    "category": "Puzzle",
+    "description": "Cupcake reskin of 2048.",
+    "tags": [
+      "puzzle",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "quick",
+    "fullscreen": true,
+    "mobile": true,
+    "mature": false
+  },
+  {
+    "id": "penalty-challenge-multiplayer",
+    "name": "Penalty Challenge Multiplayer",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://html5.gamemonetize.co/czy29ldafw7pdecjo7irqipcld83ovn1/?gd_sdk_referrer_url=https%253A%252F%252Fdoodoo.love%252Fpenalty-challenge-multiplayer-game",
+    "url": "https://html5.gamemonetize.co/czy29ldafw7pdecjo7irqipcld83ovn1/?gd_sdk_referrer_url=https%253A%252F%252Fdoodoo.love%252Fpenalty-challenge-multiplayer-game",
+    "type": "html",
+    "category": "Other",
+    "description": "Online penalty kicks.",
+    "tags": [
+      "multiplayer",
+      "online",
+      "other",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "medium",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "penalty-shooters-2",
+    "name": "Penalty Shooters 2",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://html5.gamedistribution.com/571b9df027e449f78e3869ba19658754/?gd_sdk_referrer_url=https://penaltyshooters2.com",
+    "url": "https://html5.gamedistribution.com/571b9df027e449f78e3869ba19658754/?gd_sdk_referrer_url=https://penaltyshooters2.com",
+    "type": "html",
+    "category": "Action",
+    "description": "Score from the spot.",
+    "tags": [
+      "shooter",
+      "action",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "medium",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "papa-s-freezeria",
+    "name": "Papa's Freezeria",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://dffve3q5is4huusnmos6kv7n9mthc3vk-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://729483016-359174802648164068.preview.editmysite.com/uploads/b/139890129-569829031530007438/files/pf.xml",
+    "url": "https://dffve3q5is4huusnmos6kv7n9mthc3vk-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://729483016-359174802648164068.preview.editmysite.com/uploads/b/139890129-569829031530007438/files/pf.xml",
+    "type": "html",
+    "category": "Casual",
+    "description": "Serve frozen treats.",
+    "tags": [
+      "casual",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 1,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "quick",
+    "fullscreen": true,
+    "mobile": true,
+    "mature": false
+  },
+  {
+    "id": "papa-s-pizzeria",
+    "name": "Papa's Pizzeria",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://0scl04omv9lhemvauk2tc5g284ba2o3p-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%252Fpapa-s-pizzeria.xml",
+    "url": "https://0scl04omv9lhemvauk2tc5g284ba2o3p-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%252Fpapa-s-pizzeria.xml",
+    "type": "html",
+    "category": "Casual",
+    "description": "Bake and serve pizzas.",
+    "tags": [
+      "casual",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "quick",
+    "fullscreen": true,
+    "mobile": true,
+    "mature": false
+  },
+  {
+    "id": "papa-s-sushiria",
+    "name": "Papa's Sushiria",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://isgames.github.io/papassushiria/",
+    "url": "https://isgames.github.io/papassushiria/",
+    "type": "html",
+    "category": "Casual",
+    "description": "Roll sushi under pressure.",
+    "tags": [
+      "casual",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "quick",
+    "fullscreen": true,
+    "mobile": true,
+    "mature": false
+  },
+  {
+    "id": "papa-s-wingeria",
+    "name": "Papa's Wingeria",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fpapa-s-wingeria.xml",
+    "url": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fpapa-s-wingeria.xml",
+    "type": "html",
+    "category": "Casual",
+    "description": "Fry and sauce wings.",
+    "tags": [
+      "casual",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "quick",
+    "fullscreen": true,
+    "mobile": true,
+    "mature": false
+  },
+  {
+    "id": "basketball-legends",
+    "name": "Basketball Legends",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if3dv@6a3aa6b5b121c4c1f7da6cc5bfd9e71b40f1262b/zm48hw/bs.xml",
+    "url": "https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if3dv@6a3aa6b5b121c4c1f7da6cc5bfd9e71b40f1262b/zm48hw/bs.xml",
+    "type": "html",
+    "category": "Sports",
+    "description": "Two-player hoops.",
+    "tags": [
+      "multiplayer",
+      "basketball",
+      "sports",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "medium",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "crossy-road",
+    "name": "Crossy Road",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://sites.google.com/site/s011h5fk/crossy-road.xml",
+    "url": "https://www-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://sites.google.com/site/s011h5fk/crossy-road.xml",
+    "type": "html",
+    "category": "Arcade",
+    "description": "Dodge traffic and hop.",
+    "tags": [
+      "arcade",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 1,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "quick",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "ducklife-5",
+    "name": "DuckLife 5",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fduck-life-5.xml",
+    "url": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fduck-life-5.xml",
+    "type": "html",
+    "category": "Other",
+    "description": "Train your duck. Again.",
+    "tags": [
+      "ducklife",
+      "other",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "medium",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "ducklife-treasure-hunt",
+    "name": "DuckLife: Treasure Hunt",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://gamefilez.mofunzone.com/gamefilez/duck-life-games/ducklifetreasurehunt/index.html",
+    "url": "https://gamefilez.mofunzone.com/gamefilez/duck-life-games/ducklifetreasurehunt/index.html",
+    "type": "html",
+    "category": "Other",
+    "description": "Endless runner spinoff.",
+    "tags": [
+      "runner",
+      "ducklife",
+      "other",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 1,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "medium",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "ducklife-space",
+    "name": "DuckLife Space",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.mathplayground.com/duck5/index.html",
+    "url": "https://www.mathplayground.com/duck5/index.html",
+    "type": "html",
+    "category": "Other",
+    "description": "Quack in space.",
+    "tags": [
+      "ducklife",
+      "other",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 1,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "medium",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "duck-life-battle",
+    "name": "Duck Life: Battle",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://f.kbhgames.com/2018/09/duck-life-battle/",
+    "url": "https://f.kbhgames.com/2018/09/duck-life-battle/",
+    "type": "html",
+    "category": "Casual",
+    "description": "RPG duck brawls.",
+    "tags": [
+      "ducklife",
+      "casual",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 1,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "quick",
+    "fullscreen": true,
+    "mobile": true,
+    "mature": false
+  },
+  {
+    "id": "duck-life-adventure",
+    "name": "Duck Life: Adventure",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://gamefilez.mofunzone.com/gamefilez/duck_life_adventure/",
+    "url": "https://gamefilez.mofunzone.com/gamefilez/duck_life_adventure/",
+    "type": "html",
+    "category": "Casual",
+    "description": "Explore and train.",
+    "tags": [
+      "ducklife",
+      "casual",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 1,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "quick",
+    "fullscreen": true,
+    "mobile": true,
+    "mature": false
+  },
+  {
+    "id": "soccer-skills-euro-cup",
+    "name": "Soccer Skills Euro Cup",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://html5.gamedistribution.com/899c82ac71ba4dd5a571fc9bc35f55f8/",
+    "url": "https://html5.gamedistribution.com/899c82ac71ba4dd5a571fc9bc35f55f8/",
+    "type": "html",
+    "category": "Sports",
+    "description": "1v1 skill matches.",
+    "tags": [
+      "soccer",
+      "sports",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "medium",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "ducklife",
+    "name": "Ducklife",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@1036762f19f81e71d8caf90f96ecb17c2543ea40/hjpqx4/duck-life.xml",
+    "url": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@1036762f19f81e71d8caf90f96ecb17c2543ea40/hjpqx4/duck-life.xml",
+    "type": "html",
+    "category": "Other",
+    "description": "The original duck trainer.",
+    "tags": [
+      "ducklife",
+      "other",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 1,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "medium",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "ducklife-2",
+    "name": "Ducklife 2",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@db7c558f6d366da74fcbbf98407d81120c76221e/0aynf57j/duck-life-2.xml",
+    "url": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@db7c558f6d366da74fcbbf98407d81120c76221e/0aynf57j/duck-life-2.xml",
+    "type": "html",
+    "category": "Other",
+    "description": "More duck training.",
+    "tags": [
+      "ducklife",
+      "other",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 1,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "medium",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "ducklife-3",
+    "name": "Ducklife 3",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@07697277b06353fcdb759699d0c8b5f2f9303975/lft6d3g/ducklife-3.xml",
+    "url": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@07697277b06353fcdb759699d0c8b5f2f9303975/lft6d3g/ducklife-3.xml",
+    "type": "html",
+    "category": "Racing",
+    "description": "Genetic duck races.",
+    "tags": [
+      "racing",
+      "ducklife",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 1,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "medium",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "ducklife-4",
+    "name": "Ducklife 4",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fduck-life-4.xml",
+    "url": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fduck-life-4.xml",
+    "type": "html",
+    "category": "Other",
+    "description": "Bigger duck tournaments.",
+    "tags": [
+      "ducklife",
+      "other",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "medium",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "1v1-soccer",
+    "name": "1v1 Soccer",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.twoplayergames.org/game/1-on-1-soccer",
+    "url": "./games/swfs/gp.html#1on1soccer",
+    "type": "html",
+    "category": "Sports",
+    "description": "One-on-one soccer.",
+    "tags": [
+      "soccer",
+      "sports"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "medium",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "portal-2d",
+    "name": "Portal 2D",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.coolmathgames.com/0-portal-the-flash-version/play",
+    "url": "./games/swfs/gp.html#portal2d",
+    "type": "html",
+    "category": "Puzzle",
+    "description": "2D portal puzzler.",
+    "tags": [
+      "puzzle"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 1,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "quick",
+    "fullscreen": true,
+    "mobile": true,
+    "mature": false
+  },
+  {
+    "id": "moto-x3m",
+    "name": "Moto X3M",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.coolmathgames.com/0-moto-x3m/play",
+    "url": "https://www.coolmathgames.com/0-moto-x3m/play",
+    "type": "html",
+    "category": "Racing",
+    "description": "Bike stunt time trials.",
+    "tags": [
+      "racing",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 1,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "medium",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "krunker",
+    "name": "Krunker",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://krunker.io",
+    "url": "https://krunker.io",
+    "type": "html",
+    "category": "Action",
+    "description": "Fast browser FPS.",
+    "tags": [
+      "shooter",
+      "action",
+      "external"
+    ],
+    "featured": true,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 88,
+    "sessionLength": "medium",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "tiny-fishing",
+    "name": "Tiny Fishing",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.coolmathgames.com/0-tiny-fishing/play",
+    "url": "https://www.coolmathgames.com/0-tiny-fishing/play",
+    "type": "html",
+    "category": "Casual",
+    "description": "Chill fishing clicker.",
+    "tags": [
+      "casual",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 1,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "quick",
+    "fullscreen": true,
+    "mobile": true,
+    "mature": false
+  },
+  {
+    "id": "idle-breakout",
+    "name": "Idle Breakout",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.coolmathgames.com/0-idle-breakout/play",
+    "url": "https://www.coolmathgames.com/0-idle-breakout/play",
+    "type": "html",
+    "category": "Casual",
+    "description": "Idle brick-breaker.",
+    "tags": [
+      "idle",
+      "casual",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 1,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "quick",
+    "fullscreen": true,
+    "mobile": true,
+    "mature": false
+  },
+  {
+    "id": "8-ball-pool",
+    "name": "8 Ball Pool",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://ubg98.github.io/8BallPool/",
+    "url": "https://ubg98.github.io/8BallPool/",
+    "type": "html",
+    "category": "Sports",
+    "description": "Classic 8-ball.",
+    "tags": [
+      "classic",
+      "sports",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "medium",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "chess-com",
+    "name": "Chess.com",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://chess.com",
+    "url": "https://chess.com",
+    "type": "html",
+    "category": "Sports",
+    "description": "Play chess online.",
+    "tags": [
+      "online",
+      "sports",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "medium",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "checkers",
+    "name": "Checkers",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.coolmathgames.com/0-checkers/play",
+    "url": "https://www.coolmathgames.com/0-checkers/play",
+    "type": "html",
+    "category": "Sports",
+    "description": "Classic checkers.",
+    "tags": [
+      "classic",
+      "sports",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "medium",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "hexanaut-io",
+    "name": "Hexanaut.io",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.coolmathgames.com/0-hexanaut-io/play",
+    "url": "https://www.coolmathgames.com/0-hexanaut-io/play",
+    "type": "html",
+    "category": "Other",
+    "description": "Territory io game.",
+    "tags": [
+      "other",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "medium",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "snake",
+    "name": "Snake",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.google.com/fbx?fbx=snake_arcade",
+    "url": "https://www.google.com/fbx?fbx=snake_arcade",
+    "type": "html",
+    "category": "Other",
+    "description": "Google snake arcade.",
+    "tags": [
+      "other",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 1,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "medium",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "bloxorz",
+    "name": "Bloxorz",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.coolmathgames.com/0-bloxorz/play",
+    "url": "https://www.coolmathgames.com/0-bloxorz/play",
+    "type": "html",
+    "category": "Puzzle",
+    "description": "Block-rolling puzzles.",
+    "tags": [
+      "puzzle",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 1,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "quick",
+    "fullscreen": true,
+    "mobile": true,
+    "mature": false
+  },
+  {
+    "id": "curve-ball-3d",
+    "name": "Curve Ball 3D",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.coolmathgames.com/0-curve-ball-3d/play",
+    "url": "https://www.coolmathgames.com/0-curve-ball-3d/play",
+    "type": "html",
+    "category": "Arcade",
+    "description": "3D pong-style game.",
+    "tags": [
+      "arcade",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 1,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "quick",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "basketball-stars",
+    "name": "Basketball Stars",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if3dv@b60a8d7ea307865b358c0f3ba78ade795aef026f/jd70s3/bl2020.xml",
+    "url": "https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if3dv@b60a8d7ea307865b358c0f3ba78ade795aef026f/jd70s3/bl2020.xml",
+    "type": "html",
+    "category": "Sports",
+    "description": "Arcade basketball.",
+    "tags": [
+      "basketball",
+      "sports",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "medium",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "shell-shockers",
+    "name": "Shell Shockers",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://shellshock.io/",
+    "url": "https://shellshock.io/",
+    "type": "html",
+    "category": "Action",
+    "description": "Eggy FPS.",
+    "tags": [
+      "shooter",
+      "action",
+      "external"
+    ],
+    "featured": true,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 88,
+    "sessionLength": "medium",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "roblox",
+    "name": "Roblox",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://now.gg/play/roblox-corporation/5349/roblox",
+    "url": "https://now.gg/play/roblox-corporation/5349/roblox",
+    "type": "html",
+    "category": "Adventure",
+    "description": "Cloud gaming: Roblox.",
+    "tags": [
+      "cloud",
+      "adventure",
+      "external"
+    ],
+    "featured": true,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 88,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": true,
+    "mature": false
+  },
+  {
+    "id": "minecraft-trial",
+    "name": "Minecraft (trial)",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://now.gg/play/mojang/2534/minecraft-trial",
+    "url": "https://now.gg/play/mojang/2534/minecraft-trial",
+    "type": "html",
+    "category": "Adventure",
+    "description": "Cloud gaming: Minecraft.",
+    "tags": [
+      "cloud",
+      "adventure",
+      "external"
+    ],
+    "featured": true,
+    "dateAdded": "2026-07-29",
+    "players": 1,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 88,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": true,
+    "mature": false
+  },
+  {
+    "id": "fifa-mobile",
+    "name": "FIFA Mobile",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://now.gg/play/electronic-arts/1353/fifa-soccer",
+    "url": "https://now.gg/play/electronic-arts/1353/fifa-soccer",
+    "type": "html",
+    "category": "Sports",
+    "description": "Cloud football.",
+    "tags": [
+      "cloud",
+      "soccer",
+      "football",
+      "sports",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 1,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": true,
+    "mature": false
+  },
+  {
+    "id": "rocket-league-mobile",
+    "name": "Rocket League (mobile)",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://now.gg/play/psyonix-studios/4656/rocket-league",
+    "url": "https://now.gg/play/psyonix-studios/4656/rocket-league",
+    "type": "html",
+    "category": "Other",
+    "description": "Cloud: Rocket League.",
+    "tags": [
+      "cloud",
+      "other",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": true,
+    "mature": false
+  },
+  {
+    "id": "rocket-league-gfn",
+    "name": "Rocket League (GFN)",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://play.geforcenow.com/games?game-id=9bcbf5b4-c460-4091-931c-a5a2a1fd9cc2&lang=en_US&asset-id=01_fbb8002b-3a9d-49e9-bd64-9a929c5ae55f",
+    "url": "https://play.geforcenow.com/games?game-id=9bcbf5b4-c460-4091-931c-a5a2a1fd9cc2&lang=en_US&asset-id=01_fbb8002b-3a9d-49e9-bd64-9a929c5ae55f",
+    "type": "html",
+    "category": "Other",
+    "description": "GFN desktop version.",
+    "tags": [
+      "cloud",
+      "other",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "fortnite-gfn",
+    "name": "Fortnite (GFN)",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://play.geforcenow.com/games?game-id=46bfab06-d864-465d-9e56-2d9e45cdee0a&lang=en_US&asset-id=01_febf2f3d-9ba1-4d44-a777-f8261b05e498",
+    "url": "https://play.geforcenow.com/games?game-id=46bfab06-d864-465d-9e56-2d9e45cdee0a&lang=en_US&asset-id=01_febf2f3d-9ba1-4d44-a777-f8261b05e498",
+    "type": "html",
+    "category": "Other",
+    "description": "GFN Fortnite.",
+    "tags": [
+      "cloud",
+      "other",
+      "external"
+    ],
+    "featured": true,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 88,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "subway-surfers",
+    "name": "Subway Surfers",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://now.gg/play/sybo-games/4875/subway-surfers",
+    "url": "https://now.gg/play/sybo-games/4875/subway-surfers",
+    "type": "html",
+    "category": "Other",
+    "description": "Endless runner.",
+    "tags": [
+      "cloud",
+      "runner",
+      "other",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 1,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": true,
+    "mature": false
+  },
+  {
+    "id": "retro-bowl-mobile",
+    "name": "Retro Bowl (mobile)",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://now.gg/play/new-star/6391/retro-bowl",
+    "url": "https://now.gg/play/new-star/6391/retro-bowl",
+    "type": "html",
+    "category": "Other",
+    "description": "Cloud: Retro Bowl.",
+    "tags": [
+      "cloud",
+      "retro",
+      "other",
+      "external"
+    ],
+    "featured": true,
+    "dateAdded": "2026-07-29",
+    "players": 1,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 88,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": true,
+    "mature": false
+  },
+  {
+    "id": "hole-io",
+    "name": "Hole.io",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://hole-io.com/",
+    "url": "https://hole-io.com/",
+    "type": "html",
+    "category": "Other",
+    "description": "Absorb the city.",
+    "tags": [
+      "other",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "medium",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "tallman-run",
+    "name": "Tallman Run",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://html5.gamedistribution.com/rvvASMiM/7980c23fbbae4af6851e01052fce3cce/index.html?gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL2h0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tLzc5ODBjMjNmYmJhZTRhZjY4NTFlMDEwNTJmY2UzY2NlLyIsInBhcmVudERvbWFpbiI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidG9wRG9tYWluIjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJoYXNJbXByZXNzaW9uIjpmYWxzZSwibG9hZGVyRW5hYmxlZCI6dHJ1ZSwiaG9zdCI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidmVyc2lvbiI6IjEuNS4xNiJ9",
+    "url": "https://html5.gamedistribution.com/rvvASMiM/7980c23fbbae4af6851e01052fce3cce/index.html?gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL2h0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tLzc5ODBjMjNmYmJhZTRhZjY4NTFlMDEwNTJmY2UzY2NlLyIsInBhcmVudERvbWFpbiI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidG9wRG9tYWluIjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJoYXNJbXByZXNzaW9uIjpmYWxzZSwibG9hZGVyRW5hYmxlZCI6dHJ1ZSwiaG9zdCI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidmVyc2lvbiI6IjEuNS4xNiJ9",
+    "type": "html",
+    "category": "Other",
+    "description": "Grow and dodge.",
+    "tags": [
+      "other",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "medium",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "doodle-god",
+    "name": "Doodle God",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://html5.gamedistribution.com/rvvASMiM/cd33ecc7b752408ab44036d0c8c1b91f/index.html?gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL2h0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tL2NkMzNlY2M3Yjc1MjQwOGFiNDQwMzZkMGM4YzFiOTFmLyIsInBhcmVudERvbWFpbiI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidG9wRG9tYWluIjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJoYXNJbXByZXNzaW9uIjpmYWxzZSwibG9hZGVyRW5hYmxlZCI6dHJ1ZSwiaG9zdCI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidmVyc2lvbiI6IjEuNS4xNiJ9",
+    "url": "https://html5.gamedistribution.com/rvvASMiM/cd33ecc7b752408ab44036d0c8c1b91f/index.html?gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL2h0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tL2NkMzNlY2M3Yjc1MjQwOGFiNDQwMzZkMGM4YzFiOTFmLyIsInBhcmVudERvbWFpbiI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidG9wRG9tYWluIjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJoYXNJbXByZXNzaW9uIjpmYWxzZSwibG9hZGVyRW5hYmxlZCI6dHJ1ZSwiaG9zdCI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidmVyc2lvbiI6IjEuNS4xNiJ9",
+    "type": "html",
+    "category": "Puzzle",
+    "description": "Mix elements, make worlds.",
+    "tags": [
+      "puzzle",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse"
+    ],
+    "popularity": 58,
+    "sessionLength": "quick",
+    "fullscreen": true,
+    "mobile": true,
+    "mature": false
+  },
+  {
+    "id": "poppy-playtime",
+    "name": "Poppy Playtime",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://now.gg/play/mob-games-studio/1293/poppy-playtime",
+    "url": "https://now.gg/play/mob-games-studio/1293/poppy-playtime",
+    "type": "html",
+    "category": "Horror",
+    "description": "Cloud horror adventure.",
+    "tags": [
+      "cloud",
+      "horror",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": true,
+    "mature": true
+  },
+  {
+    "id": "powerwash-simulator-gfn",
+    "name": "PowerWash Simulator (GFN)",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://play.geforcenow.com/games?game-id=a6a5b4a9-2eb6-4fe6-aede-4063bf32032c&lang=en_US&asset-id=01_48dca8fb-862b-4e83-af2b-c3105e9de63d",
+    "url": "https://play.geforcenow.com/games?game-id=a6a5b4a9-2eb6-4fe6-aede-4063bf32032c&lang=en_US&asset-id=01_48dca8fb-862b-4e83-af2b-c3105e9de63d",
+    "type": "html",
+    "category": "Other",
+    "description": "Clean all the things.",
+    "tags": [
+      "cloud",
+      "other",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "cyberpunk-2077-gfn",
+    "name": "Cyberpunk 2077 (GFN)",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
+    "url": "https://play.geforcenow.com/games?game-id=e5fc8a96-2cda-49ef-bd13-513bdc68045b&lang=en_US&asset-id=01_742eeb39-c372-4b14-b0ff-2b2e8f02ee97",
+    "type": "html",
+    "category": "Adventure",
+    "description": "An open-world RPG set in the dystopian Night City.",
+    "tags": [
+      "cloud",
+      "adventure",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "the-witcher-3-wild-hunt-gfn",
+    "name": "The Witcher 3: Wild Hunt (GFN)",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg",
+    "url": "https://play.geforcenow.com/games?game-id=23346751-e1e5-40c6-8899-ec3fe6962e3a&lang=en_US&asset-id=01_b6fede87-dc14-444f-a3b3-120a4202adf4",
+    "type": "html",
+    "category": "Adventure",
+    "description": "A story-driven open world RPG set in a visually stunning fantasy universe.",
+    "tags": [
+      "cloud",
+      "adventure",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "apex-legends-gfn",
+    "name": "Apex Legends (GFN)",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172470/header.jpg",
+    "url": "https://play.geforcenow.com/games?game-id=cb2b1b5f-54ba-45fd-9839-96bbfe1376cd&lang=en_US&asset-id=01_ed21e1b0-c148-4106-9e3f-7cdf4a90227a",
+    "type": "html",
+    "category": "Action",
+    "description": "Free-to-play hero shooter battle royale by Respawn.",
+    "tags": [
+      "cloud",
+      "shooter",
+      "action",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "destiny-2-gfn",
+    "name": "Destiny 2 (GFN)",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1085660/header.jpg",
+    "url": "https://play.geforcenow.com/games?game-id=d1768dc1-b451-449a-8f7f-cf5b20f98f6f&lang=en_US&asset-id=01_48723dbd-43f1-41f2-9394-3559e7e55df5",
+    "type": "html",
+    "category": "Action",
+    "description": "Multiplayer sci-fi FPS with raids, PvP, and expansive lore.",
+    "tags": [
+      "multiplayer",
+      "cloud",
+      "shooter",
+      "action",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "call-of-duty-gfn",
+    "name": "Call of Duty (GFN)",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://play.geforcenow.com/games?game-id=8bfa0687-60fc-425e-9f10-6232693b90d7&lang=en_US&asset-id=01_32503e44-7d68-46a3-8644-301af0aac0eb",
+    "url": "https://play.geforcenow.com/games?game-id=8bfa0687-60fc-425e-9f10-6232693b90d7&lang=en_US&asset-id=01_32503e44-7d68-46a3-8644-301af0aac0eb",
+    "type": "html",
+    "category": "Action",
+    "description": "Battle royale in the Call of Duty universe.",
+    "tags": [
+      "cloud",
+      "action",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "assassin-s-creed-valhalla-gfn",
+    "name": "Assassin's Creed Valhalla (GFN)",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2208920/header.jpg",
+    "url": "https://play.geforcenow.com/games?game-id=af8443a4-fc41-459d-bbc6-c412adf0856b&lang=en_US&asset-id=01_41974703-7d77-42e2-8f3d-9291f4035278",
+    "type": "html",
+    "category": "Adventure",
+    "description": "Live the saga of a Viking raider in England.",
+    "tags": [
+      "cloud",
+      "adventure",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "far-cry-6-gfn",
+    "name": "Far Cry 6 (GFN)",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2369390/header.jpg",
+    "url": "https://play.geforcenow.com/games?game-id=f90318c0-3242-498b-8259-0f7205a1a501&lang=en_US&asset-id=01_ab16eae5-ad14-4c0d-8c8d-a69ca526b6bd",
+    "type": "html",
+    "category": "Adventure",
+    "description": "Fight to free Yara from a brutal dictator.",
+    "tags": [
+      "cloud",
+      "adventure",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "dying-light-2-stay-human-gfn",
+    "name": "Dying Light 2 Stay Human (GFN)",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/534380/header.jpg",
+    "url": "https://play.geforcenow.com/games?game-id=ebd6864c-b2d2-41d0-b364-27c37ca747f1&lang=en_US&asset-id=01_da0360c7-0c45-4f3c-a04b-38bb8112a401",
+    "type": "html",
+    "category": "Horror",
+    "description": "Parkour zombie survival action RPG.",
+    "tags": [
+      "cloud",
+      "horror",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": true
+  },
+  {
+    "id": "resident-evil-village-gfn",
+    "name": "Resident Evil Village (GFN)",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1196590/header.jpg",
+    "url": "https://play.geforcenow.com/games?game-id=58de244f-7510-4baf-86a1-172448fda8e6&lang=en_US&asset-id=01_fc3c325e-290b-49d2-8c57-d082e0d4cd4a",
+    "type": "html",
+    "category": "Horror",
+    "description": "Survival horror in a mysterious village.",
+    "tags": [
+      "cloud",
+      "horror",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": true
+  },
+  {
+    "id": "control-gfn",
+    "name": "Control (GFN)",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/870780/header.jpg",
+    "url": "https://play.geforcenow.com/games?game-id=df7191a4-1233-4944-9079-b9ed363008c1&lang=en_US&asset-id=01_40efc935-c613-4cd8-b72c-0500d845f915",
+    "type": "html",
+    "category": "Other",
+    "description": "Supernatural action-adventure from Remedy.",
+    "tags": [
+      "cloud",
+      "other",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "street-fighter-6-gfn",
+    "name": "Street Fighter 6 (GFN)",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1364780/header.jpg",
+    "url": "https://play.geforcenow.com/games?game-id=9e29035c-7190-44b0-a662-bb1c7edb5439&lang=en_US&asset-id=01_7215282d-4a75-4d71-b4c2-9ab1ae75721d",
+    "type": "html",
+    "category": "Sports",
+    "description": "Latest Street Fighter with modern mechanics.",
+    "tags": [
+      "cloud",
+      "sports",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "overwatch-2-gfn",
+    "name": "Overwatch 2 (GFN)",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://play.geforcenow.com/games?game-id=405b1ba5-c881-4f2b-8f7d-cc9e7cd59b74&lang=en_US&asset-id=01_368cbdef-0d31-41af-8521-8b868c1c6eae",
+    "url": "https://play.geforcenow.com/games?game-id=405b1ba5-c881-4f2b-8f7d-cc9e7cd59b74&lang=en_US&asset-id=01_368cbdef-0d31-41af-8521-8b868c1c6eae",
+    "type": "html",
+    "category": "Action",
+    "description": "Hero shooter sequel to Overwatch.",
+    "tags": [
+      "cloud",
+      "shooter",
+      "action",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "the-division-2-gfn",
+    "name": "The Division 2 (GFN)",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2221490/header.jpg",
+    "url": "https://play.geforcenow.com/games?game-id=c035d87d-fff6-4869-abcd-429595c4ceba&lang=en_US&asset-id=01_c3ece075-40eb-4e4f-a3b6-d406c320b84f",
+    "type": "html",
+    "category": "Action",
+    "description": "Looter-shooter RPG in Washington D.C.",
+    "tags": [
+      "cloud",
+      "shooter",
+      "action",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "rainbow-six-siege-gfn",
+    "name": "Rainbow Six Siege (GFN)",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/359550/header.jpg",
+    "url": "https://play.geforcenow.com/games?game-id=1dd07d47-6601-42f7-80e9-e4d8db08ea1b&lang=en_US&asset-id=01_b42f4160-783c-42cb-84e4-062087b376af",
+    "type": "html",
+    "category": "Action",
+    "description": "Tactical 5v5 shooter emphasizing strategy.",
+    "tags": [
+      "cloud",
+      "shooter",
+      "action",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "diablo-iv-gfn",
+    "name": "Diablo IV (GFN)",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2344520/header.jpg",
+    "url": "https://play.geforcenow.com/games?game-id=d32c9410-62cb-45cf-9c53-740bb92d4a2d&lang=en_US&asset-id=01_0083e411-14ff-4313-a3d0-a95aa8d9519a",
+    "type": "html",
+    "category": "Adventure",
+    "description": "Action RPG in the world of Sanctuary.",
+    "tags": [
+      "cloud",
+      "adventure",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "dead-by-daylight-gfn",
+    "name": "Dead by Daylight (GFN)",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/381210/header.jpg",
+    "url": "https://play.geforcenow.com/games?game-id=9cca0ab8-6f62-42ee-8ef3-46fcddc09140&lang=en_US&asset-id=01_82aad3bb-8bb4-4a38-ab8c-3c4306ef6b79",
+    "type": "html",
+    "category": "Horror",
+    "description": "4v1 horror multiplayer survival.",
+    "tags": [
+      "multiplayer",
+      "cloud",
+      "horror",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": true
+  },
+  {
+    "id": "phasmophobia-gfn",
+    "name": "Phasmophobia (GFN)",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/739630/header.jpg",
+    "url": "https://play.geforcenow.com/games?game-id=d843cc07-0059-4d2e-8cc7-6d6cc55a9d2c&lang=en_US&asset-id=01_bc191b24-e1c8-4237-ab1c-3fd10dd94686",
+    "type": "html",
+    "category": "Horror",
+    "description": "Co-op ghost-hunting horror game.",
+    "tags": [
+      "cloud",
+      "horror",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": true
+  },
+  {
+    "id": "terraria-gfn",
+    "name": "Terraria (GFN)",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
+    "url": "https://play.geforcenow.com/games?game-id=09eab075-95e9-4572-98ae-04f94bc8a58e&lang=en_US&asset-id=01_4e852d32-cbf3-4109-9446-1817bca38f43",
+    "type": "html",
+    "category": "Adventure",
+    "description": "2D sandbox crafting adventure.",
+    "tags": [
+      "cloud",
+      "adventure",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "stardew-valley-gfn",
+    "name": "Stardew Valley (GFN)",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/413150/header.jpg",
+    "url": "https://play.geforcenow.com/games?game-id=fd6716b9-b3d0-4642-ab7a-bd1b2122bac2&lang=en_US&asset-id=01_e9d797eb-62ca-403e-af67-690618bec7d3",
+    "type": "html",
+    "category": "Adventure",
+    "description": "Farm life RPG with relationships and mining.",
+    "tags": [
+      "cloud",
+      "adventure",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "fortnite-xbox-cloud",
+    "name": "Fortnite (Xbox Cloud)",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://play.geforcenow.com/games?game-id=46bfab06-d864-465d-9e56-2d9e45cdee0a&lang=en_US&asset-id=01_febf2f3d-9ba1-4d44-a777-f8261b05e498",
+    "url": "https://www.xbox.com/en-US/play/launch/fortnite/BT5P2X999VH2",
+    "type": "html",
+    "category": "Other",
+    "description": "Launch Fortnite (Xbox Cloud) from Kardna.",
+    "tags": [
+      "cloud",
+      "other",
+      "external"
+    ],
+    "featured": true,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 88,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "rainbow-six-siege-xbox-cloud",
+    "name": "Rainbow Six Siege (Xbox Cloud)",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.xbox.com/play/games/tom-clancy's-rainbow-six-siege-x---elite-edition/9PB3RHWXB9MR2",
+    "url": "https://www.xbox.com/play/games/tom-clancy's-rainbow-six-siege-x---elite-edition/9PB3RHWXB9MR2",
+    "type": "html",
+    "category": "Action",
+    "description": "Launch Rainbow Six Siege (Xbox Cloud) from Kardna.",
+    "tags": [
+      "cloud",
+      "action",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "forza-horizon-5-xbox-cloud",
+    "name": "Forza Horizon 5 (Xbox Cloud)",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.xbox.com/play/games/forza-horizon-5-standard-edition/9NKX70BBCDRN",
+    "url": "https://www.xbox.com/play/games/forza-horizon-5-standard-edition/9NKX70BBCDRN",
+    "type": "html",
+    "category": "Racing",
+    "description": "Launch Forza Horizon 5 (Xbox Cloud) from Kardna.",
+    "tags": [
+      "cloud",
+      "racing",
+      "external"
+    ],
+    "featured": true,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 88,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "gta-v-xb1-edition-xbox-cloud",
+    "name": "GTA V XB1 Edition (Xbox Cloud)",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.xbox.com/play/games/grand-theft-auto-v-xbox-one/BPJ686W6S0NH",
+    "url": "https://www.xbox.com/play/games/grand-theft-auto-v-xbox-one/BPJ686W6S0NH",
+    "type": "html",
+    "category": "Adventure",
+    "description": "Launch GTA V XB1 Edition (Xbox Cloud) from Kardna.",
+    "tags": [
+      "cloud",
+      "adventure",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "ea-sports-fc-25-xbox-cloud",
+    "name": "Ea Sports FC 25 (Xbox Cloud)",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.xbox.com/play/games/ea-sports-fc-25-xbox-series-x%7Cs/9NNPSTWT06VM",
+    "url": "https://www.xbox.com/play/games/ea-sports-fc-25-xbox-series-x%7Cs/9NNPSTWT06VM",
+    "type": "html",
+    "category": "Sports",
+    "description": "Launch Ea Sports FC 25 (Xbox Cloud) from Kardna.",
+    "tags": [
+      "cloud",
+      "sports",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "madden-nfl-25-xbox-cloud",
+    "name": "Madden NFL 25 (Xbox Cloud)",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.xbox.com/play/games/madden-nfl-25-xbox-series-x%7Cs/9N0FWWQ94X62",
+    "url": "https://www.xbox.com/play/games/madden-nfl-25-xbox-series-x%7Cs/9N0FWWQ94X62",
+    "type": "html",
+    "category": "Sports",
+    "description": "Launch Madden NFL 25 (Xbox Cloud) from Kardna.",
+    "tags": [
+      "cloud",
+      "sports",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "halo-infinite-xbox-cloud",
+    "name": "Halo Infinite (Xbox Cloud)",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.xbox.com/play/games/halo-infinite/9NP1P1WFS0LB",
+    "url": "https://www.xbox.com/play/games/halo-infinite/9NP1P1WFS0LB",
+    "type": "html",
+    "category": "Action",
+    "description": "Launch Halo Infinite (Xbox Cloud) from Kardna.",
+    "tags": [
+      "cloud",
+      "action",
+      "external"
+    ],
+    "featured": true,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 88,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "skate-3-xbox-cloud",
+    "name": "Skate 3 (Xbox Cloud)",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.xbox.com/play/games/skate-3/BNKDKQXMXRR2",
+    "url": "https://www.xbox.com/play/games/skate-3/BNKDKQXMXRR2",
+    "type": "html",
+    "category": "Other",
+    "description": "Launch Skate 3 (Xbox Cloud) from Kardna.",
+    "tags": [
+      "cloud",
+      "other",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "call-of-duty-black-ops-6-xbox-cloud",
+    "name": "Call Of Duty Black Ops 6 (Xbox Cloud)",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.xbox.com/play/games/call-of-duty-black-ops-6---cross-gen-bundle/9PF528M6CRHQ",
+    "url": "https://www.xbox.com/play/games/call-of-duty-black-ops-6---cross-gen-bundle/9PF528M6CRHQ",
+    "type": "html",
+    "category": "Action",
+    "description": "Launch Call Of Duty Black Ops 6 (Xbox Cloud) from Kardna.",
+    "tags": [
+      "cloud",
+      "action",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "call-of-duty-warzone-xbox-cloud",
+    "name": "Call Of Duty Warzone (Xbox Cloud)",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.xbox.com/play/games/call-of-duty-warzone/9NNFG8BQRCXL",
+    "url": "https://www.xbox.com/play/games/call-of-duty-warzone/9NNFG8BQRCXL",
+    "type": "html",
+    "category": "Action",
+    "description": "Launch Call Of Duty Warzone (Xbox Cloud) from Kardna.",
+    "tags": [
+      "cloud",
+      "action",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "sea-of-thieves-xbox-cloud",
+    "name": "Sea Of Thieves (Xbox Cloud)",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.xbox.com/play/games/sea-of-thieves-2025-edition/9P2N57MC619K",
+    "url": "https://www.xbox.com/play/games/sea-of-thieves-2025-edition/9P2N57MC619K",
+    "type": "html",
+    "category": "Adventure",
+    "description": "Launch Sea Of Thieves (Xbox Cloud) from Kardna.",
+    "tags": [
+      "cloud",
+      "adventure",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "terraria-xbox-cloud",
+    "name": "Terraria (Xbox Cloud)",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.xbox.com/play/games/terraria/BTNPS60N3114",
+    "url": "https://www.xbox.com/play/games/terraria/BTNPS60N3114",
+    "type": "html",
+    "category": "Adventure",
+    "description": "Launch Terraria (Xbox Cloud) from Kardna.",
+    "tags": [
+      "cloud",
+      "adventure",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "nba-2k25-xbox-cloud",
+    "name": "NBA 2K25 (Xbox Cloud)",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.xbox.com/play/games/nba-2k25-for-xbox-series-x%7Cs/9NKMMS11R27Q",
+    "url": "https://www.xbox.com/play/games/nba-2k25-for-xbox-series-x%7Cs/9NKMMS11R27Q",
+    "type": "html",
+    "category": "Sports",
+    "description": "Launch NBA 2K25 (Xbox Cloud) from Kardna.",
+    "tags": [
+      "cloud",
+      "sports",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "rust-xbox-cloud",
+    "name": "Rust (Xbox Cloud)",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.xbox.com/play/games/rust-console-edition-x%7Cs/9PJVJ4WF031H",
+    "url": "https://www.xbox.com/play/games/rust-console-edition-x%7Cs/9PJVJ4WF031H",
+    "type": "html",
+    "category": "Other",
+    "description": "Launch Rust (Xbox Cloud) from Kardna.",
+    "tags": [
+      "cloud",
+      "other",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "grand-theft-auto-v-xbox-cloud",
+    "name": "Grand Theft Auto V (Xbox Cloud)",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.xbox.com/play/games/grand-theft-auto-v-xbox-series-x%7Cs/9NXMBTB02ZSF",
+    "url": "https://www.xbox.com/play/games/grand-theft-auto-v-xbox-series-x%7Cs/9NXMBTB02ZSF",
+    "type": "html",
+    "category": "Adventure",
+    "description": "Launch Grand Theft Auto V (Xbox Cloud) from Kardna.",
+    "tags": [
+      "cloud",
+      "adventure",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "among-us-xbox-cloud",
+    "name": "Among Us (Xbox Cloud)",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.xbox.com/play/games/among-us/9NG07QJNK38J",
+    "url": "https://www.xbox.com/play/games/among-us/9NG07QJNK38J",
+    "type": "html",
+    "category": "Other",
+    "description": "Launch Among Us (Xbox Cloud) from Kardna.",
+    "tags": [
+      "cloud",
+      "other",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "high-on-life-xbox-cloud",
+    "name": "High On Life (Xbox Cloud)",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.xbox.com/play/games/high-on-life/9NL4714VTLRS",
+    "url": "https://www.xbox.com/play/games/high-on-life/9NL4714VTLRS",
+    "type": "html",
+    "category": "Adventure",
+    "description": "Launch High On Life (Xbox Cloud) from Kardna.",
+    "tags": [
+      "cloud",
+      "adventure",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "call-of-duty-xbox-cloud",
+    "name": "Call Of Duty (Xbox Cloud)",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.xbox.com/en-US/play/games/call-of-duty/9N201KQXS5BM",
+    "url": "https://www.xbox.com/en-US/play/games/call-of-duty/9N201KQXS5BM",
+    "type": "html",
+    "category": "Action",
+    "description": "Launch Call Of Duty (Xbox Cloud) from Kardna.",
+    "tags": [
+      "cloud",
+      "action",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": false
+  },
+  {
+    "id": "dead-by-daylight-xbox-cloud",
+    "name": "Dead by Daylight (Xbox Cloud)",
+    "image": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.xbox.com/en-US/play/games/dead-by-daylight/C0N22P73QZ60",
+    "url": "https://www.xbox.com/en-US/play/games/dead-by-daylight/C0N22P73QZ60",
+    "type": "html",
+    "category": "Horror",
+    "description": "Launch Dead by Daylight (Xbox Cloud) from Kardna.",
+    "tags": [
+      "cloud",
+      "horror",
+      "external"
+    ],
+    "featured": false,
+    "dateAdded": "2026-07-29",
+    "players": 2,
+    "controls": [
+      "Keyboard",
+      "Mouse",
+      "Controller"
+    ],
+    "popularity": 72,
+    "sessionLength": "long",
+    "fullscreen": true,
+    "mobile": false,
+    "mature": true
+  }
+]
